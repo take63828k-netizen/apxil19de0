@@ -1,0 +1,287 @@
+import { DEFAULT_SETTINGS, SETTING_FIELDS, STICKERS, PRAISES, RATING_LABEL } from './config.js';
+import * as db from './db.js';
+import { studyDay } from './dates.js';
+import { rateCard } from './fsrs.js';
+import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
+import { gradeChoice, displayOptions } from './grading.js';
+import { computeStreak } from './streak.js';
+import { syncCards } from './sync.js';
+import { serializeBackup, parseBackup } from './backup.js';
+import { pop, stamp, playSound, setSoundEnabled } from './effects.js';
+
+const $ = (id) => document.getElementById(id);
+const S = { settings: { ...DEFAULT_SETTINGS }, cards: new Map(), states: new Map(), logs: [], session: null, mode: 'normal', busy: false, syncError: null, flash: null };
+
+async function loadAll() {
+  S.settings = { ...DEFAULT_SETTINGS, ...((await db.getKV('settings')) ?? {}) };
+  setSoundEnabled(S.settings.sound);
+  S.cards = new Map((await db.getAllCards()).map((c) => [c.card_id, c]));
+  S.states = new Map((await db.getAllStates()).map((s) => [s.card_id, s]));
+  S.logs = await db.getAllLogs();
+}
+const today = () => studyDay(new Date(), S.settings.dayStartHour);
+const lists = (now = new Date()) => ({ due: dueCardIds({ cards: S.cards, states: S.states, now }), unseen: unseenCardIds({ cards: S.cards, states: S.states }) });
+
+async function getPlan(recalc = false) {
+  const day = today();
+  let plan = await db.getKV('dailyPlan');
+  if (!plan || plan.day !== day) { plan = { day, introduced: 0, quota: 0 }; recalc = true; }
+  if (recalc) {
+    const { due, unseen } = lists();
+    plan.quota = plan.introduced + newCardQuota({ unseenCount: unseen.length, today: day, examDate: S.settings.examDate, bufferDays: S.settings.bufferDays, dueCount: due.length, backlogLimit: S.settings.backlogLimit });
+    await db.setKV('dailyPlan', plan);
+  }
+  return plan;
+}
+
+function show(name) {
+  for (const s of document.querySelectorAll('.screen')) s.hidden = s.id !== `screen-${name}`;
+  window.scrollTo(0, 0);
+}
+
+// iPhone ではホーム画面のアプリと Safari のタブとで保存場所が別々のため、どちらで開いたかを見分ける
+function isStandalone() {
+  return window.matchMedia?.('(display-mode: standalone)').matches || navigator.standalone === true;
+}
+
+function addNotice(text) {
+  const p = document.createElement('p'); p.className = 'notice'; p.textContent = text; $('notices').append(p);
+}
+
+async function renderHome() {
+  const plan = await getPlan();
+  const day = plan.day;
+  $('today-count').textContent = S.logs.filter((l) => l.day === day && !l.repeat).length;
+  const studied = new Set(S.logs.map((l) => l.day));
+  $('streak').textContent = `🔥 ${computeStreak(studied, day, { graceWindow: S.settings.graceWindow })} 日連続学習中！`;
+  const { due, unseen } = lists();
+  const fresh = Math.min(Math.max(0, plan.quota - plan.introduced), unseen.length);
+  $('remain').textContent = `のこり ${due.length + fresh} 問`;
+  $('btn-start').textContent = `${S.settings.sessionSize}問スタート`;
+  $('btn-weak').textContent = `苦手特訓（${S.settings.weakCount}問）`;
+  $('notices').replaceChildren();
+  if (!isStandalone()) addNotice('📱 ホーム画面のアイコンから開いてね。Safari で開くと、学習記録がアプリとは別の場所に保存されます。');
+  if (S.flash) { addNotice(S.flash); S.flash = null; }
+  if (S.cards.size === 0) addNotice('カードがまだありません。電波のある所でアプリを開いてね。');
+  if (!S.settings.examDate) addNotice('「せってい」で入試日を入れると、新しいカードが出るようになります。');
+  if (S.syncError) addNotice(`カードの更新を確認できませんでした（${S.syncError}）。いまのカードで続けられます。`);
+  const last = await db.getKV('lastBackup');
+  const remind = S.settings.backupRemindDays * 86400000;
+  if (S.logs.length > 0 && (!last || Date.now() - last > remind)) addNotice(`学習記録のバックアップから${S.settings.backupRemindDays}日以上たちました。「せってい」から書き出してね。`);
+  await renderCalendar(day);
+}
+
+async function renderCalendar(day) {
+  const [y, m] = day.split('-').map(Number);
+  const first = new Date(y, m - 1, 1);
+  const count = new Date(y, m, 0).getDate();
+  const stickers = new Map((await db.getAllStickers()).map((s) => [s.day, s.emojis]));
+  const cal = $('calendar'); cal.replaceChildren();
+  for (const w of ['日', '月', '火', '水', '木', '金', '土']) { const h = document.createElement('div'); h.className = 'head'; h.textContent = w; cal.append(h); }
+  for (let i = 0; i < first.getDay(); i++) cal.append(document.createElement('div'));
+  for (let d = 1; d <= count; d++) {
+    const key = `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+    const cell = document.createElement('div'); cell.className = 'cell' + (key === day ? ' today' : ''); cell.dataset.day = key;
+    const em = stickers.get(key);
+    const st = document.createElement('span'); st.className = 'st'; st.textContent = em ? em[em.length - 1] : '';
+    const num = document.createElement('span'); num.textContent = d;
+    cell.append(st, num); cal.append(cell);
+  }
+}
+
+async function startSession(mode) {
+  const now = new Date();
+  let ids;
+  if (mode === 'weak') {
+    ids = pickWeakIds({ cards: S.cards, states: S.states, logs: S.logs, now, count: S.settings.weakCount, lapseDays: S.settings.lapseDays });
+  } else {
+    const plan = await getPlan();
+    const { due, unseen } = lists(now);
+    ids = [...due, ...unseen.slice(0, Math.max(0, plan.quota - plan.introduced))].slice(0, S.settings.sessionSize);
+  }
+  if (ids.length === 0) {
+    S.flash = mode === 'weak' ? 'まだ苦手カードはありません。まずは通常の問題をやってみよう！' : '今日の分はぜんぶクリア！🎉 苦手特訓もできるよ。';
+    await renderHome(); return;
+  }
+  S.mode = mode;
+  S.session = createSession(ids, { reinsertGap: S.settings.reinsertGap });
+  show('study'); renderCard();
+}
+
+function renderCard() {
+  const t0 = performance.now();
+  const item = S.session.current();
+  const card = S.cards.get(item.id);
+  const { done, total } = S.session.progress();
+  $('progress-bar').style.width = `${(done / total) * 100}%`;
+  $('progress-text').textContent = `${done} / ${total}${item.repeat ? '（もう一度）' : ''}`;
+  $('card-type').textContent = `${card.subject}・${card.card_type}`;
+  $('question').textContent = card.question;
+  const img = $('card-image');
+  if (card.image) { img.src = `./data/img/${card.image}`; img.hidden = false; } else { img.removeAttribute('src'); img.hidden = true; }
+  $('hint').textContent = card.hint ?? ''; $('hint').hidden = true; $('btn-hint').hidden = !card.hint;
+  $('options').replaceChildren(); $('options').hidden = true;
+  $('btn-options').hidden = !card.options;
+  $('btn-reveal').hidden = !!card.options;
+  $('back').hidden = true; $('ratings').hidden = true;
+  S.busy = false;
+  S.lastRenderMs = performance.now() - t0;
+}
+
+function showOptions() {
+  const card = S.cards.get(S.session.current().id);
+  $('options').replaceChildren(...displayOptions(card).map((o) => {
+    const b = document.createElement('button'); b.className = 'option'; b.textContent = o;
+    b.addEventListener('click', () => onChoice(card, o, b)); return b;
+  }));
+  $('options').hidden = false; $('btn-options').hidden = true;
+}
+
+function onChoice(card, selected, btn) {
+  for (const b of $('options').children) { b.disabled = true; if (b.textContent === card.answer) b.classList.add('correct'); }
+  if (gradeChoice(selected, card.answer) === 'again') {
+    btn.classList.add('wrong'); playSound('miss'); showBack(card); renderRatings(['again'], { again: 'つぎへ（もう一度）' });
+  } else {
+    pop(btn); playSound('ok'); showBack(card); renderRatings(['hard', 'good', 'easy']);
+  }
+}
+
+function showBack(card) {
+  $('answer').textContent = card.answer;
+  const tl = $('timeline');
+  if (card.subject === '歴史' && (card.era_time || card.prev_event || card.next_event)) {
+    const part = (text, cls) => { const s = document.createElement('span'); s.className = cls; s.textContent = text; return s; };
+    tl.replaceChildren(part(card.prev_event ?? '—', 'side'), part('→', ''), part(`${card.era_time ?? ''} ${card.answer}`.trim(), 'now'), part('→', ''), part(card.next_event ?? '—', 'side'));
+    tl.hidden = false;
+  } else tl.hidden = true;
+  $('mnemonic').textContent = card.mnemonic ? `🎵 ${card.mnemonic}` : ''; $('mnemonic').hidden = !card.mnemonic;
+  $('explanation').textContent = card.explanation;
+  $('back').hidden = false; $('btn-reveal').hidden = true;
+}
+
+function renderRatings(keys, labels = {}) {
+  $('ratings').replaceChildren(...keys.map((k) => {
+    const b = document.createElement('button'); b.className = `rate rate-${k}`; b.textContent = labels[k] ?? RATING_LABEL[k];
+    b.addEventListener('click', () => onRate(k)); return b;
+  }));
+  $('ratings').hidden = false;
+}
+
+async function onRate(rating) {
+  if (S.busy) return;
+  S.busy = true;
+  const item = S.session.current();
+  const now = new Date();
+  const prev = S.states.get(item.id);
+  const next = rateCard(item.id, prev, rating, now);
+  S.states.set(item.id, next);
+  await db.putState(next);
+  const log = { card_id: item.id, rating, at: now.getTime(), day: today(), repeat: item.repeat, mode: S.mode };
+  S.logs.push(log);
+  await db.addLog(log);
+  if (!prev && S.mode === 'normal' && !item.repeat) { const plan = await getPlan(); plan.introduced++; await db.setKV('dailyPlan', plan); }
+  playSound(rating === 'again' ? 'miss' : 'tap');
+  S.session.answer(rating);
+  if (S.session.isDone()) showDone(); else renderCard();
+}
+
+function showDone() {
+  $('praise').textContent = PRAISES[Math.floor(Math.random() * PRAISES.length)];
+  $('done-count').textContent = `${S.session.progress().total} 問クリア！`;
+  $('stickers').replaceChildren(...STICKERS.map((e) => {
+    const b = document.createElement('button'); b.textContent = e;
+    b.addEventListener('click', async () => {
+      const day = today();
+      await db.addSticker(day, e); playSound('sticker');
+      show('home'); await renderHome();
+      stamp(document.querySelector(`.cell[data-day="${day}"] .st`));
+    }, { once: true });
+    return b;
+  }));
+  show('done'); playSound('fanfare');
+}
+
+function renderSettings() {
+  const form = $('settings-form'); form.replaceChildren();
+  for (const f of SETTING_FIELDS) {
+    const label = document.createElement('label'); label.textContent = f.label;
+    const input = document.createElement('input'); input.type = f.type; input.name = f.key;
+    if (f.type === 'checkbox') input.checked = !!S.settings[f.key];
+    else { input.value = S.settings[f.key] ?? ''; if (f.min !== undefined) { input.min = f.min; input.max = f.max; } }
+    input.addEventListener('change', saveSettings);
+    label.append(input); form.append(label);
+  }
+  $('card-info').textContent = `カード ${[...S.cards.values()].filter((c) => !c.retired).length} 枚`;
+}
+
+async function saveSettings() {
+  const next = { ...S.settings };
+  for (const f of SETTING_FIELDS) {
+    const input = $('settings-form').elements[f.key];
+    if (f.type === 'checkbox') next[f.key] = input.checked;
+    else if (f.type === 'date') next[f.key] = input.value || null;
+    else {
+      const n = Number(input.value);
+      next[f.key] = Number.isFinite(n) && input.value !== '' ? Math.min(f.max, Math.max(f.min, Math.round(n))) : S.settings[f.key];
+      input.value = next[f.key];
+    }
+  }
+  S.settings = next; setSoundEnabled(next.sound);
+  await db.setKV('settings', next);
+  await getPlan(true);
+}
+
+async function exportBackup() {
+  const text = serializeBackup({ states: [...S.states.values()], logs: S.logs, stickers: await db.getAllStickers(), settings: S.settings, exportedAt: new Date() });
+  const name = `shakai-anki-backup-${today()}.json`;
+  const file = new File([text], name, { type: 'application/json' });
+  try {
+    if (navigator.canShare?.({ files: [file] })) await navigator.share({ files: [file] });
+    else { const a = document.createElement('a'); a.href = URL.createObjectURL(file); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 10000); }
+    await db.setKV('lastBackup', Date.now());
+    alert('書き出しました。「ファイル」アプリに保存してね。');
+  } catch (e) {
+    if (e.name !== 'AbortError') alert(`書き出せませんでした：${e.message}`);
+  }
+}
+
+async function importBackup(file) {
+  try {
+    const data = parseBackup(await file.text());
+    if (!confirm(`${data.exportedAt.toLocaleString('ja-JP')} に書き出した記録で置きかえます。いまの記録は消えます。よいですか？`)) return;
+    await db.replaceAllProgress(data);
+    await loadAll(); await getPlan(true);
+    S.flash = '学習記録を読み戻しました。';
+    show('home'); await renderHome();
+  } catch (e) {
+    alert(`読み戻せませんでした：${e.message}`);
+  }
+}
+
+function bind() {
+  document.addEventListener('pointerdown', (e) => { const b = e.target.closest('button, .btn'); if (b) pop(b); });
+  $('btn-start').addEventListener('click', () => startSession('normal'));
+  $('btn-weak').addEventListener('click', () => startSession('weak'));
+  $('btn-settings').addEventListener('click', () => { renderSettings(); show('settings'); });
+  $('btn-back').addEventListener('click', async () => { show('home'); await renderHome(); });
+  $('btn-quit').addEventListener('click', async () => { show('home'); await renderHome(); });
+  $('btn-hint').addEventListener('click', () => { $('hint').hidden = false; $('btn-hint').hidden = true; });
+  $('btn-options').addEventListener('click', showOptions);
+  $('btn-reveal').addEventListener('click', () => { const card = S.cards.get(S.session.current().id); showBack(card); renderRatings(['again', 'hard', 'good', 'easy']); });
+  $('btn-export').addEventListener('click', exportBackup);
+  $('file-import').addEventListener('change', (e) => { const f = e.target.files[0]; e.target.value = ''; if (f) importBackup(f); });
+}
+
+async function init() {
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
+  await db.open();
+  navigator.storage?.persist?.().catch(() => {});
+  await loadAll();
+  bind();
+  const r = await syncCards(db);
+  if (r.ok && r.changed) { S.cards = new Map((await db.getAllCards()).map((c) => [c.card_id, c])); await getPlan(true); }
+  S.syncError = r.ok ? null : r.reason;
+  show('home'); await renderHome();
+}
+
+init();

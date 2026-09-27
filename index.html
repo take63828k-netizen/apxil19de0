@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="社会暗記">
+<meta name="theme-color" content="#F8F6FF">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="stylesheet" href="./css/style.css">
+<title>限界暗記マスター</title>
+</head>
+<body>
+<main id="app">
+  <section id="screen-home" class="screen">
+    <div id="notices"></div>
+    <h1 class="today">🌸 今日は <strong id="today-count">0</strong> 問クリア！</h1>
+    <p class="badge" id="streak"></p>
+    <p class="remain" id="remain"></p>
+    <div class="calendar" id="calendar"></div>
+    <button class="btn primary" id="btn-start"></button>
+    <button class="btn secondary" id="btn-weak"></button>
+    <button class="btn ghost" id="btn-settings">せってい</button>
+  </section>
+
+  <section id="screen-study" class="screen" hidden>
+    <div class="progress"><div id="progress-bar"></div></div>
+    <p class="progress-text" id="progress-text"></p>
+    <article class="card">
+      <p class="card-type" id="card-type"></p>
+      <p class="question" id="question"></p>
+      <img id="card-image" alt="" hidden>
+      <button class="mask" id="btn-hint" hidden>💡 ヒントを見る</button>
+      <p class="hint" id="hint" hidden></p>
+      <button class="mask" id="btn-options" hidden>🔒 選択肢を見る</button>
+      <div class="options" id="options" hidden></div>
+      <div class="back" id="back" hidden>
+        <p class="answer" id="answer"></p>
+        <div class="timeline" id="timeline" hidden></div>
+        <p class="mnemonic" id="mnemonic" hidden></p>
+        <p class="explanation" id="explanation"></p>
+      </div>
+    </article>
+    <button class="btn primary" id="btn-reveal" hidden>答えを見る</button>
+    <div class="ratings" id="ratings" hidden></div>
+    <button class="btn ghost" id="btn-quit">ホームへもどる</button>
+  </section>
+
+  <section id="screen-done" class="screen" hidden>
+    <div class="photocard">
+      <p class="photocard-label">SHAKAI MASTER</p>
+      <p class="praise" id="praise"></p>
+      <p class="done-count" id="done-count"></p>
+    </div>
+    <p class="pick">シールをえらんでね</p>
+    <div class="stickers" id="stickers"></div>
+  </section>
+
+  <section id="screen-settings" class="screen" hidden>
+    <h2>せってい</h2>
+    <form id="settings-form"></form>
+    <button class="btn primary" id="btn-export">学習記録を書き出す</button>
+    <label class="btn secondary">学習記録を読み戻す<input type="file" id="file-import" accept=".json,application/json" hidden></label>
+    <p class="small" id="card-info"></p>
+    <button class="btn ghost" id="btn-back">もどる</button>
+  </section>
+</main>
+<script type="module" src="./js/app.js"></script>
+</body>
+</html>
