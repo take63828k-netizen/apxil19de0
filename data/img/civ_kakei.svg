@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 250" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="250" fill="#FFFFFF"/>
+<text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">家計の収入と支出の分け方</text>
+<rect x="250" y="55" width="180" height="60" rx="12" fill="#FFD97D"/>
+<text x="340.0" y="80" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">収入</text>
+<text x="340.0" y="104" text-anchor="middle" font-size="14" fill="#4A4259">（勤労所得・事業所得等）</text>
+<line x1="340" y1="115" x2="340" y2="129" stroke="#4A4259" stroke-width="3"/>
+<polygon points="340,143 346,129 334,129" fill="#4A4259"/>
+<rect x="30" y="155" width="190" height="70" rx="12" fill="#B4ECE3"/>
+<text x="125.0" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">消費支出</text>
+<text x="125.0" y="208" text-anchor="middle" font-size="14" fill="#4A4259">食料・住居・光熱費等</text>
+<rect x="250" y="155" width="190" height="70" rx="12" fill="#E8A0BF"/>
+<text x="345.0" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">非消費支出</text>
+<text x="345.0" y="208" text-anchor="middle" font-size="14" fill="#4A4259">税金・社会保険料</text>
+<rect x="470" y="155" width="190" height="70" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="565.0" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">貯蓄</text>
+<text x="565.0" y="208" text-anchor="middle" font-size="14" fill="#4A4259">銀行預金・保険料等</text>
+<line x1="340" y1="115" x2="139" y2="151" stroke="#4A4259" stroke-width="3"/>
+<polygon points="125,153 140,156 138,145" fill="#4A4259"/>
+<line x1="340" y1="115" x2="551" y2="151" stroke="#4A4259" stroke-width="3"/>
+<polygon points="565,153 552,145 550,156" fill="#4A4259"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="300" fill="#FFFFFF"/>
+<text x="340" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">契約の成立（売買契約の例）</text>
+<rect x="20" y="90" width="190" height="90" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">消費者</text>
+<text x="115.0" y="154" text-anchor="middle" font-size="14" fill="#4A4259">「これをください」</text>
+<rect x="470" y="90" width="190" height="90" rx="12" fill="#E8A0BF"/>
+<text x="565.0" y="130" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">店（事業者）</text>
+<text x="565.0" y="154" text-anchor="middle" font-size="14" fill="#4A4259">「わかりました」</text>
+<line x1="212" y1="110" x2="454" y2="110" stroke="#4A4259" stroke-width="3"/>
+<polygon points="468,110 454,104 454,116" fill="#4A4259"/>
+<text x="340" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#2E6B8C">申し込み</text>
+<line x1="468" y1="150" x2="226" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="212,150 226,156 226,144" fill="#4A4259"/>
+<text x="340" y="175" text-anchor="middle" font-size="16" font-weight="bold" fill="#2E6B8C">承諾</text>
+<rect x="230" y="205" width="220" height="46" rx="10" fill="#FFD97D"/>
+<text x="340" y="233" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">契約の成立</text>
+<line x1="340" y1="190" x2="340" y2="189" stroke="#4A4259" stroke-width="3"/>
+<polygon points="340,203 346,189 334,189" fill="#4A4259"/>
+<text x="340" y="275" text-anchor="middle" font-size="13" fill="#4A4259">契約が成立すると、消費者にも店にも権利と義務が生まれ、一方的にはやめられない</text>
+</svg>
