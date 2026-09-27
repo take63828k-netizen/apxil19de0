@@ -54,6 +54,11 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--
 .praise { font-size: 1.6rem; font-weight: bold; margin: 0; color: #fff; text-shadow: 0 2px 6px rgba(74, 66, 89, .4); }
 .done-count { margin: 4px 0 0; color: #fff; font-weight: bold; }
 .pick { text-align: center; margin: 0; }
+.missed { background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 14px 16px; }
+.missed h2 { margin: 0 0 8px; font-size: 1rem; }
+.missed ol { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; }
+.missed-q { margin: 0; line-height: 1.5; overflow-wrap: anywhere; }
+.missed-a { margin: 2px 0 0; font-weight: bold; color: #C0588A; overflow-wrap: anywhere; }
 .stickers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
 .stickers button { font-size: 2.2rem; background: #fff; border: 0; border-radius: var(--radius); padding: 12px; box-shadow: var(--shadow); }
 #settings-form { display: flex; flex-direction: column; gap: 10px; background: #fff; border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); }
