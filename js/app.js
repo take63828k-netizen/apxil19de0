@@ -5,7 +5,7 @@ import { rateCard } from './fsrs.js';
 import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
-import { syncCards, imageUrl, imageUrls, prefetchImages } from './sync.js';
+import { syncCards, imageUrl, imageUrls, prefetchImages, creditLabel } from './sync.js';
 import { serializeBackup, parseBackup } from './backup.js';
 import { pop, stamp, playSound, setSoundEnabled } from './effects.js';
 
@@ -119,6 +119,8 @@ function renderCard() {
   $('question').textContent = card.question;
   const img = $('card-image');
   if (card.image) { img.src = imageUrl(card); img.hidden = false; } else { img.removeAttribute('src'); img.hidden = true; }
+  const credit = card.image ? creditLabel(card.image_credit) : '';
+  $('image-credit').textContent = credit; $('image-credit').hidden = !credit;
   $('hint').textContent = card.hint ?? ''; $('hint').hidden = true; $('btn-hint').hidden = !card.hint;
   $('options').replaceChildren(); $('options').hidden = true;
   $('btn-options').hidden = !card.options;

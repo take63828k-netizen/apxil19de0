@@ -32,6 +32,7 @@ body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--
 .card-type { margin: 0; font-size: .8rem; color: var(--primary); font-weight: bold; }
 .question { margin: 0; font-size: 1.25rem; line-height: 1.6; }
 #card-image { max-width: 100%; border-radius: 12px; align-self: center; }
+.credit { margin: -4px 0 0; font-size: .72rem; line-height: 1.4; color: var(--text); opacity: .75; overflow-wrap: anywhere; }
 .mask { font: inherit; background: repeating-linear-gradient(45deg, #F3E9FF, #F3E9FF 10px, #fff 10px, #fff 20px); border: 2px dashed var(--primary); border-radius: 12px; padding: 12px; color: var(--text); }
 .options { display: flex; flex-direction: column; gap: 8px; }
 .option { font: inherit; font-size: 1.05rem; background: var(--bg); border: 2px solid transparent; border-radius: 12px; padding: 12px; color: var(--text); text-align: left; }

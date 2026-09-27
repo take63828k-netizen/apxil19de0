@@ -45,6 +45,13 @@ export function imageUrl(card) {
   return `./data/img/${card.image}?v=${card.image_hash ?? ''}`;
 }
 
+// 図の下に出す出典。作図の道具名（◯◯.py）は利用者に要らないので、括弧ごと・文ごと消す
+export function creditLabel(credit) {
+  const text = String(credit ?? '').replace(/（[^（）]*\.py[^（）]*）/g, '');
+  const kept = text.split('。').map((s) => s.trim()).filter((s) => s && !s.includes('.py'));
+  return kept.length ? '出典：' + kept.join('。') : '';
+}
+
 export function imageUrls(cards) {
   return [...new Set(cards.filter((c) => !c.retired && c.image).map(imageUrl))].sort();
 }
