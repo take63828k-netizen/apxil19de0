@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 530" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="530" fill="#FFFFFF"/>
+<text x="300" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">刑事裁判（簡易裁判所から始まる例）</text>
+<rect x="200" y="60" width="200" height="60" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="98" text-anchor="middle" font-size="24" font-weight="bold" fill="#4A4259">最高裁判所</text>
+<rect x="200" y="200" width="200" height="60" rx="14" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="300.0" y="240" text-anchor="middle" font-size="28" font-weight="bold" fill="#4A4259">Ｐ</text>
+<rect x="30" y="340" width="180" height="60" rx="14" fill="#C9C4D3"/>
+<text x="120.0" y="378" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">地方裁判所</text>
+<rect x="390" y="340" width="180" height="60" rx="14" fill="#B4ECE3"/>
+<text x="480.0" y="378" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">簡易裁判所</text>
+<rect x="390" y="460" width="180" height="56" rx="14" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="480.0" y="497" text-anchor="middle" font-size="26" font-weight="bold" fill="#4A4259">Ｓ</text>
+<text x="582" y="98" text-anchor="end" font-size="18" fill="#4A4259">第三審</text>
+<text x="582" y="238" text-anchor="end" font-size="18" fill="#4A4259">第二審</text>
+<text x="582" y="330" text-anchor="end" font-size="18" fill="#4A4259">第一審</text>
+<line x1="300" y1="198" x2="300" y2="138" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,122 293,138 307,138" fill="#4A4259"/>
+<text x="318" y="166" text-anchor="start" font-size="18" fill="#4A4259">上告</text>
+<line x1="470" y1="338" x2="383" y2="272" stroke="#4A4259" stroke-width="3"/>
+<polygon points="370,262 378,277 387,266" fill="#4A4259"/>
+<text x="440" y="292" text-anchor="start" font-size="18" fill="#4A4259">控訴</text>
+<line x1="130" y1="338" x2="217" y2="272" stroke="#8C86A0" stroke-width="3"/>
+<polygon points="230,262 213,266 222,277" fill="#8C86A0"/>
+<line x1="480" y1="458" x2="480" y2="418" stroke="#4A4259" stroke-width="3"/>
+<polygon points="480,402 473,418 487,418" fill="#4A4259"/>
+<text x="496" y="438" text-anchor="start" font-size="18" fill="#4A4259">起訴</text>
+<text x="120" y="440" text-anchor="middle" font-size="15" fill="#4A4259">（地方裁判所から始まる</text>
+<text x="120" y="460" text-anchor="middle" font-size="15" fill="#4A4259">　場合も高等裁判所へ）</text>
+</svg>

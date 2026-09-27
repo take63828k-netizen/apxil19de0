@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="500" fill="#FFFFFF"/>
+<text x="300" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">予算の議決</text>
+<rect x="80" y="50" width="440" height="52" rx="14" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="300.0" y="83" text-anchor="middle" font-size="21" font-weight="bold" fill="#4A4259">予算は先に衆議院へ提出</text>
+<rect x="80" y="130" width="440" height="52" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="163" text-anchor="middle" font-size="21" font-weight="bold" fill="#4A4259">衆議院で可決</text>
+<rect x="80" y="210" width="440" height="52" rx="14" fill="#B4ECE3"/>
+<text x="300.0" y="243" text-anchor="middle" font-size="21" font-weight="bold" fill="#4A4259">参議院で異なる議決</text>
+<rect x="80" y="290" width="440" height="52" rx="14" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="300.0" y="323" text-anchor="middle" font-size="21" font-weight="bold" fill="#4A4259">［　Ａ　］を開いても意見が一致しない</text>
+<rect x="80" y="370" width="440" height="52" rx="14" fill="#FFD97D"/>
+<text x="300.0" y="403" text-anchor="middle" font-size="21" font-weight="bold" fill="#4A4259">衆議院の議決が国会の議決になる</text>
+<line x1="300" y1="102" x2="300" y2="112" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,128 307,112 293,112" fill="#4A4259"/>
+<line x1="300" y1="182" x2="300" y2="192" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,208 307,192 293,192" fill="#4A4259"/>
+<line x1="300" y1="262" x2="300" y2="272" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,288 307,272 293,272" fill="#4A4259"/>
+<line x1="300" y1="342" x2="300" y2="352" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,368 307,352 293,352" fill="#4A4259"/>
+<text x="300" y="456" text-anchor="middle" font-size="17" fill="#4A4259">参議院が30日以内に議決しないときも、</text>
+<text x="300" y="480" text-anchor="middle" font-size="17" fill="#4A4259">衆議院の議決が国会の議決になる</text>
+</svg>

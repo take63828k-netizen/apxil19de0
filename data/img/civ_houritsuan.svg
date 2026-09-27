@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 490" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="490" fill="#FFFFFF"/>
+<text x="300" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">法律案の議決（衆議院が先に可決した場合）</text>
+<rect x="80" y="50" width="440" height="56" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="86" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">衆議院で可決</text>
+<rect x="80" y="140" width="440" height="56" rx="14" fill="#B4ECE3"/>
+<text x="300.0" y="176" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">参議院で否決（異なる議決）</text>
+<rect x="80" y="230" width="440" height="80" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="264" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">衆議院で出席議員の</text>
+<text x="300.0" y="291" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">［　ア　］以上の賛成で再可決</text>
+<rect x="80" y="344" width="440" height="56" rx="14" fill="#FFD97D"/>
+<text x="300.0" y="380" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">法律が成立</text>
+<line x1="300" y1="106" x2="300" y2="122" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,138 307,122 293,122" fill="#4A4259"/>
+<line x1="300" y1="196" x2="300" y2="212" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,228 307,212 293,212" fill="#4A4259"/>
+<line x1="300" y1="310" x2="300" y2="326" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,342 307,326 293,326" fill="#4A4259"/>
+<text x="300" y="440" text-anchor="middle" font-size="17" fill="#4A4259">参議院が［　イ　］日以内に議決しないとき、</text>
+<text x="300" y="464" text-anchor="middle" font-size="17" fill="#4A4259">衆議院は、参議院が否決したものとみなせる</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="470" fill="#FFFFFF"/>
+<rect x="20" y="40" width="200" height="72" rx="14" fill="#E8A0BF"/>
+<text x="120.0" y="69" text-anchor="middle" font-size="26" font-weight="bold" fill="#4A4259">首長</text>
+<text x="120.0" y="101" text-anchor="middle" font-size="17" fill="#4A4259">（知事、市町村長）</text>
+<rect x="380" y="40" width="200" height="72" rx="14" fill="#B4ECE3"/>
+<text x="480.0" y="85" text-anchor="middle" font-size="26" font-weight="bold" fill="#4A4259">地方議会</text>
+<rect x="200" y="380" width="200" height="70" rx="14" fill="#FFD97D"/>
+<text x="300.0" y="424" text-anchor="middle" font-size="26" font-weight="bold" fill="#4A4259">住民</text>
+<line x1="378" y1="64" x2="238" y2="64" stroke="#4A4259" stroke-width="3"/>
+<polygon points="222,64 238,71 238,57" fill="#4A4259"/>
+<line x1="222" y1="94" x2="362" y2="94" stroke="#4A4259" stroke-width="3"/>
+<polygon points="378,94 362,87 362,101" fill="#4A4259"/>
+<circle cx="300" cy="38" r="17" fill="#FFD97D"/>
+<text x="300" y="45" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">ア</text>
+<circle cx="300" cy="122" r="17" fill="#FFD97D"/>
+<text x="300" y="129" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">イ</text>
+<line x1="262" y1="378" x2="135" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="128,116 129,134 142,127" fill="#4A4259"/>
+<line x1="338" y1="378" x2="465" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="472,116 458,127 471,134" fill="#4A4259"/>
+<text x="170" y="250" text-anchor="middle" font-size="18" fill="#4A4259">選挙</text>
+<text x="430" y="250" text-anchor="middle" font-size="18" fill="#4A4259">選挙</text>
+<text x="300" y="236" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">直接請求</text>
+<text x="300" y="262" text-anchor="middle" font-size="15" fill="#4A4259">（解職、解散など）</text>
+</svg>

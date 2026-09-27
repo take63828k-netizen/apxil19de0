@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="520" fill="#FFFFFF"/>
+<rect x="190" y="18" width="220" height="74" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="47" text-anchor="middle" font-size="28" font-weight="bold" fill="#4A4259">国会</text>
+<text x="300.0" y="82" text-anchor="middle" font-size="17" fill="#4A4259">（立法権）</text>
+<rect x="14" y="380" width="200" height="74" rx="14" fill="#B4ECE3"/>
+<text x="114.0" y="409" text-anchor="middle" font-size="28" font-weight="bold" fill="#4A4259">内閣</text>
+<text x="114.0" y="444" text-anchor="middle" font-size="17" fill="#4A4259">（行政権）</text>
+<rect x="386" y="380" width="200" height="74" rx="14" fill="#FFD97D"/>
+<text x="486.0" y="409" text-anchor="middle" font-size="28" font-weight="bold" fill="#4A4259">裁判所</text>
+<text x="486.0" y="444" text-anchor="middle" font-size="17" fill="#4A4259">（司法権）</text>
+<circle cx="300" cy="268" r="56" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="300" y="266" text-anchor="middle" font-size="26" font-weight="bold" fill="#4A4259">国民</text>
+<text x="300" y="292" text-anchor="middle" font-size="16" fill="#4A4259">（主権者）</text>
+<line x1="222" y1="96" x2="124" y2="359" stroke="#4A4259" stroke-width="3"/>
+<polygon points="118,374 130,362 117,356" fill="#4A4259"/>
+<line x1="150" y1="376" x2="248" y2="113" stroke="#4A4259" stroke-width="3"/>
+<polygon points="254,98 242,110 255,116" fill="#4A4259"/>
+<line x1="378" y1="96" x2="476" y2="359" stroke="#4A4259" stroke-width="3"/>
+<polygon points="482,374 483,356 470,362" fill="#4A4259"/>
+<line x1="450" y1="376" x2="352" y2="113" stroke="#4A4259" stroke-width="3"/>
+<polygon points="346,98 345,116 358,110" fill="#4A4259"/>
+<line x1="218" y1="402" x2="366" y2="402" stroke="#4A4259" stroke-width="3"/>
+<polygon points="382,402 366,395 366,409" fill="#4A4259"/>
+<line x1="382" y1="434" x2="234" y2="434" stroke="#4A4259" stroke-width="3"/>
+<polygon points="218,434 234,441 234,427" fill="#4A4259"/>
+<line x1="300" y1="210" x2="300" y2="112" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,96 293,112 307,112" fill="#4A4259"/>
+<line x1="342" y1="306" x2="408" y2="365" stroke="#4A4259" stroke-width="3"/>
+<polygon points="420,376 413,360 403,371" fill="#4A4259"/>
+<line x1="258" y1="306" x2="192" y2="365" stroke="#4A4259" stroke-width="3" stroke-dasharray="8 6"/>
+<polygon points="180,376 197,371 187,360" fill="#4A4259"/>
+<text x="236" y="356" text-anchor="middle" font-size="18" fill="#4A4259">世論</text>
+<circle cx="146" cy="226" r="17" fill="#FFD97D"/>
+<text x="146" y="233" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">ア</text>
+<circle cx="226" cy="214" r="17" fill="#FFD97D"/>
+<text x="226" y="221" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">イ</text>
+<circle cx="454" cy="226" r="17" fill="#FFD97D"/>
+<text x="454" y="233" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">ウ</text>
+<circle cx="374" cy="214" r="17" fill="#FFD97D"/>
+<text x="374" y="221" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">エ</text>
+<circle cx="300" cy="384" r="17" fill="#FFD97D"/>
+<text x="300" y="391" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">オ</text>
+<circle cx="300" cy="458" r="17" fill="#FFD97D"/>
+<text x="300" y="465" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">カ</text>
+<circle cx="322" cy="156" r="17" fill="#FFD97D"/>
+<text x="322" y="163" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">キ</text>
+<circle cx="398" cy="324" r="17" fill="#FFD97D"/>
+<text x="398" y="331" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">ク</text>
+<text x="300" y="508" text-anchor="middle" font-size="15" fill="#4A4259">矢印は、はたらきかける向きを示す</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="460" fill="#FFFFFF"/>
+<text x="300" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">民事裁判（地方裁判所から始まる例）</text>
+<rect x="200" y="60" width="200" height="60" rx="14" fill="#E8A0BF"/>
+<text x="300.0" y="98" text-anchor="middle" font-size="24" font-weight="bold" fill="#4A4259">最高裁判所</text>
+<rect x="200" y="200" width="200" height="60" rx="14" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="300.0" y="240" text-anchor="middle" font-size="28" font-weight="bold" fill="#4A4259">Ａ</text>
+<rect x="200" y="340" width="200" height="60" rx="14" fill="#B4ECE3"/>
+<text x="300.0" y="378" text-anchor="middle" font-size="24" font-weight="bold" fill="#4A4259">地方裁判所</text>
+<text x="150" y="98" text-anchor="end" font-size="20" fill="#4A4259">第三審</text>
+<text x="150" y="238" text-anchor="end" font-size="20" fill="#4A4259">第二審</text>
+<text x="150" y="378" text-anchor="end" font-size="20" fill="#4A4259">第一審</text>
+<line x1="300" y1="338" x2="300" y2="278" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,262 293,278 307,278" fill="#4A4259"/>
+<line x1="300" y1="198" x2="300" y2="138" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,122 293,138 307,138" fill="#4A4259"/>
+<circle cx="340" cy="300" r="17" fill="#FFD97D"/>
+<text x="340" y="307" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">Ｘ</text>
+<circle cx="340" cy="160" r="17" fill="#FFD97D"/>
+<text x="340" y="167" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">Ｙ</text>
+<text x="300" y="440" text-anchor="middle" font-size="17" fill="#4A4259">判決に不服なとき、上級の裁判所に訴える</text>
+</svg>
