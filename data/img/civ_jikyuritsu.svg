@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 416" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="640" height="416" fill="#FFFFFF"/>
+<text x="320.0" y="26.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">品目別の食料自給率（重量ベース）</text>
+<text x="120.0" y="80.0" text-anchor="end" font-size="14" fill="#4A4259">米</text>
+<rect x="130.0" y="60.0" width="380.0" height="16.0" fill="#C9C4D3"/>
+<text x="516.0" y="73.0" text-anchor="start" font-size="12" fill="#4A4259">95</text>
+<rect x="130.0" y="78.0" width="380.0" height="16.0" fill="#E8A0BF"/>
+<text x="516.0" y="91.0" text-anchor="start" font-size="12" fill="#4A4259">95</text>
+<text x="120.0" y="124.0" text-anchor="end" font-size="14" fill="#4A4259">小麦</text>
+<rect x="130.0" y="104.0" width="112.0" height="16.0" fill="#C9C4D3"/>
+<text x="248.0" y="117.0" text-anchor="start" font-size="12" fill="#4A4259">28</text>
+<rect x="130.0" y="122.0" width="64.0" height="16.0" fill="#E8A0BF"/>
+<text x="200.0" y="135.0" text-anchor="start" font-size="12" fill="#4A4259">16</text>
+<text x="120.0" y="168.0" text-anchor="end" font-size="14" fill="#4A4259">大豆</text>
+<rect x="130.0" y="148.0" width="44.0" height="16.0" fill="#C9C4D3"/>
+<text x="180.0" y="161.0" text-anchor="start" font-size="12" fill="#4A4259">11</text>
+<rect x="130.0" y="166.0" width="28.0" height="16.0" fill="#E8A0BF"/>
+<text x="164.0" y="179.0" text-anchor="start" font-size="12" fill="#4A4259">7</text>
+<text x="120.0" y="212.0" text-anchor="end" font-size="14" fill="#4A4259">野菜</text>
+<rect x="130.0" y="192.0" width="400.0" height="16.0" fill="#C9C4D3"/>
+<text x="536.0" y="205.0" text-anchor="start" font-size="12" fill="#4A4259">100</text>
+<rect x="130.0" y="210.0" width="308.0" height="16.0" fill="#E8A0BF"/>
+<text x="444.0" y="223.0" text-anchor="start" font-size="12" fill="#4A4259">77</text>
+<text x="120.0" y="256.0" text-anchor="end" font-size="14" fill="#4A4259">果実</text>
+<rect x="130.0" y="236.0" width="360.0" height="16.0" fill="#C9C4D3"/>
+<text x="496.0" y="249.0" text-anchor="start" font-size="12" fill="#4A4259">90</text>
+<rect x="130.0" y="254.0" width="152.0" height="16.0" fill="#E8A0BF"/>
+<text x="288.0" y="267.0" text-anchor="start" font-size="12" fill="#4A4259">38</text>
+<text x="120.0" y="300.0" text-anchor="end" font-size="14" fill="#4A4259">肉類</text>
+<rect x="130.0" y="280.0" width="360.0" height="16.0" fill="#C9C4D3"/>
+<text x="496.0" y="293.0" text-anchor="start" font-size="12" fill="#4A4259">90</text>
+<rect x="130.0" y="298.0" width="212.0" height="16.0" fill="#E8A0BF"/>
+<text x="348.0" y="311.0" text-anchor="start" font-size="12" fill="#4A4259">53</text>
+<text x="120.0" y="344.0" text-anchor="end" font-size="14" fill="#4A4259">魚介類</text>
+<rect x="130.0" y="324.0" width="400.0" height="16.0" fill="#C9C4D3"/>
+<text x="536.0" y="337.0" text-anchor="start" font-size="12" fill="#4A4259">100</text>
+<rect x="130.0" y="342.0" width="212.0" height="16.0" fill="#E8A0BF"/>
+<text x="348.0" y="355.0" text-anchor="start" font-size="12" fill="#4A4259">53</text>
+<rect x="170.0" y="366.0" width="22.0" height="14.0" fill="#C9C4D3"/>
+<text x="198.0" y="378.0" text-anchor="start" font-size="13" fill="#4A4259">1965年度</text>
+<rect x="330.0" y="366.0" width="22.0" height="14.0" fill="#E8A0BF"/>
+<text x="358.0" y="378.0" text-anchor="start" font-size="13" fill="#4A4259">2025年度（概算）</text>
+<text x="320.0" y="404.0" text-anchor="middle" font-size="12" fill="#4A4259">単位は％。自給率＝国内生産量÷国内消費仕向量×100</text>
+</svg>

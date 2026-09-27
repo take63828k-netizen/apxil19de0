@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 374" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="640" height="374" fill="#FFFFFF"/>
+<text x="320.0" y="26.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">耐久消費財の普及率の移り変わり（二人以上の世帯）</text>
+<line x1="60" y1="320.0" x2="560" y2="320.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="324.0" text-anchor="end" font-size="11" fill="#4A4259">0</text>
+<line x1="60" y1="268.0" x2="560" y2="268.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="272.0" text-anchor="end" font-size="11" fill="#4A4259">20</text>
+<line x1="60" y1="216.0" x2="560" y2="216.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="220.0" text-anchor="end" font-size="11" fill="#4A4259">40</text>
+<line x1="60" y1="164.0" x2="560" y2="164.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="168.0" text-anchor="end" font-size="11" fill="#4A4259">60</text>
+<line x1="60" y1="112.0" x2="560" y2="112.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="116.0" text-anchor="end" font-size="11" fill="#4A4259">80</text>
+<line x1="60" y1="60.0" x2="560" y2="60.0" stroke="#EEEAF4" stroke-width="1"/>
+<text x="54.0" y="64.0" text-anchor="end" font-size="11" fill="#4A4259">100</text>
+<text x="60.0" y="338.0" text-anchor="middle" font-size="11" fill="#4A4259">1960</text>
+<text x="185.0" y="338.0" text-anchor="middle" font-size="11" fill="#4A4259">1970</text>
+<text x="310.0" y="338.0" text-anchor="middle" font-size="11" fill="#4A4259">1980</text>
+<text x="435.0" y="338.0" text-anchor="middle" font-size="11" fill="#4A4259">1990</text>
+<text x="560.0" y="338.0" text-anchor="middle" font-size="11" fill="#4A4259">2000</text>
+<text x="54.0" y="46.0" text-anchor="start" font-size="12" fill="#4A4259">（％）</text>
+<polyline points="135.0,319.2 147.5,315.8 160.0,306.0 172.5,283.9 185.0,251.6 197.5,210.0 210.0,161.1 222.5,122.9 235.0,96.7 247.5,85.2 260.0,76.4 272.5,72.0 285.0,66.0 297.5,65.7 310.0,64.7 322.5,63.9 335.0,62.9 347.5,63.1 360.0,62.1 372.5,62.3 385.0,62.9 397.5,63.4 410.0,62.6 422.5,61.8 435.0,61.6 447.5,61.8 460.0,62.6 472.5,62.3 485.0,62.6 497.5,62.9 510.0,62.3 522.5,62.1 535.0,62.1 547.5,62.9 560.0,62.6" fill="none" stroke="#C0588A" stroke-width="3"/>
+<circle cx="186.0" cy="161.1" r="15" fill="#FFD97D"/>
+<text x="186.0" y="167.1" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">Ａ</text>
+<polyline points="72.5,312.7 85.0,306.7 97.5,304.1 110.0,304.4 122.5,296.1 135.0,288.5 147.5,295.3 160.0,285.9 172.5,275.0 185.0,262.5 197.5,250.3 210.0,241.7 222.5,224.6 235.0,216.5 247.5,212.9 260.0,205.6 272.5,193.4 285.0,185.6 297.5,178.0 310.0,171.3 322.5,167.9 335.0,158.8 347.5,156.5 360.0,151.5 372.5,144.8 385.0,144.8 397.5,136.4 410.0,133.1 422.5,122.4 435.0,119.0 447.5,113.3 460.0,115.6 472.5,112.0 485.0,112.8 497.5,112.0 510.0,111.7 522.5,105.2 535.0,103.9 547.5,105.5 560.0,102.6" fill="none" stroke="#2E8C7E" stroke-width="3" stroke-dasharray="8 5"/>
+<circle cx="352.0" cy="127.5" r="15" fill="#FFD97D"/>
+<text x="352.0" y="133.5" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">Ｂ</text>
+<polyline points="72.5,319.0 85.0,318.2 97.5,316.6 110.0,315.6 122.5,314.8 135.0,314.8 147.5,312.7 160.0,309.9 172.5,307.8 185.0,304.7 197.5,300.0 210.0,295.8 222.5,286.5 235.0,287.8 247.5,275.3 260.0,269.3 272.5,253.2 285.0,242.3 297.5,227.7 310.0,218.1 322.5,212.9 335.0,210.3 347.5,191.0 360.0,191.8 372.5,184.0 385.0,178.0 397.5,171.8 410.0,165.8 422.5,155.4 435.0,154.4 447.5,142.9 460.0,138.5 472.5,132.0 485.0,127.1 497.5,119.3 510.0,119.3 522.5,113.8 535.0,107.1 547.5,100.6 560.0,95.9" fill="none" stroke="#4A4259" stroke-width="3" stroke-dasharray="2 4"/>
+<circle cx="397.0" cy="202.0" r="15" fill="#FFD97D"/>
+<text x="397.0" y="208.0" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">Ｃ</text>
+<text x="320.0" y="362.0" text-anchor="middle" font-size="12" fill="#4A4259">Ａ〜Ｃは、カラーテレビ・乗用車・ルームエアコン（クーラー）のどれか</text>
+</svg>

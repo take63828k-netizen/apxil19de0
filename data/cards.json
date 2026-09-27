@@ -1,7 +1,7 @@
 {
- "version": "5ad453fbe6af",
- "generated": "2026-09-27T18:57:49",
- "count": 267,
+ "version": "3d28833463a8",
+ "generated": "2026-09-27T19:00:40",
+ "count": 270,
  "cards": [
   {
    "card_id": "his_001",
@@ -383,6 +383,28 @@
    "source": "教科書（東京書籍・歴史）太平洋戦争の単元（勢力範囲の線は教科書の地図と照合）",
    "unit_order": 1,
    "image_hash": "1640c385f45d"
+  },
+  {
+   "card_id": "his_056",
+   "subject": "歴史",
+   "category_large": "近代・現代の日本と世界",
+   "category_small": "太平洋戦争と終戦",
+   "card_type": "資料判別",
+   "priority": 1,
+   "question": "写真は、原子爆弾の被害を今に伝える建物で、世界遺産に登録されている。この建物がある都市は？",
+   "options": [
+    "広島",
+    "長崎",
+    "東京",
+    "那覇"
+   ],
+   "answer": "広島",
+   "explanation": "原爆ドーム（もとは広島県産業奨励館）。1945年8月6日に投下された原子爆弾で被害を受け、1996年に世界遺産に登録された。長崎への投下は8月9日。",
+   "image": "his_genbaku.jpg",
+   "image_credit": "Oilstreet 撮影、CC BY 2.5（Wikimedia Commons「Genbaku Dome04-r.JPG」）。縮小し、画像の右下に出典を記入（make_charts2.py）",
+   "source": "教科書（東京書籍・歴史）戦争の終結の単元",
+   "unit_order": 2,
+   "image_hash": "06cf9f7b5522"
   },
   {
    "card_id": "his_024",
@@ -857,6 +879,28 @@
    "unit_order": 3
   },
   {
+   "card_id": "his_057",
+   "subject": "歴史",
+   "category_large": "近代・現代の日本と世界",
+   "category_small": "現代の日本と世界",
+   "card_type": "資料判別",
+   "priority": 2,
+   "question": "グラフのＡは、1975年に普及率が90％をこえた。Ａにあてはまるものは？",
+   "options": [
+    "カラーテレビ",
+    "乗用車",
+    "ルームエアコン",
+    "電気冷蔵庫"
+   ],
+   "answer": "カラーテレビ",
+   "explanation": "Ａはカラーテレビ（1975年に90.3％）、Ｂは乗用車、Ｃはルームエアコン。この3つは3C（新三種の神器）と呼ばれ、高度経済成長期の後半から広まった。1950年代後半からの三種の神器は、白黒テレビ・電気洗濯機・電気冷蔵庫。",
+   "image": "his_3c.svg",
+   "image_credit": "自作（make_charts2.py で作成）。数値：内閣府 消費動向調査「主要耐久消費財の普及率の推移（二人以上の世帯）」（e-Stat）",
+   "source": "教科書（東京書籍・歴史）高度経済成長の単元",
+   "unit_order": 4,
+   "image_hash": "3fa2187b9276"
+  },
+  {
    "card_id": "civ_001",
    "subject": "公民",
    "category_large": "私たちと現代社会",
@@ -1272,6 +1316,28 @@
    "source": "教科書（東京書籍・公民）少子高齢化の単元",
    "unit_order": 6,
    "image_hash": "7457171e40dd"
+  },
+  {
+   "card_id": "civ_213",
+   "subject": "公民",
+   "category_large": "私たちと現代社会",
+   "category_small": "私たちが生きる現代社会",
+   "card_type": "資料判別",
+   "priority": 2,
+   "question": "グラフで、2025年度（概算）の自給率が最も低い品目は？",
+   "options": [
+    "大豆",
+    "小麦",
+    "果実",
+    "米"
+   ],
+   "answer": "大豆",
+   "explanation": "2025年度（概算）は大豆7％、小麦16％、果実38％、米95％。1965年度と比べて多くの品目で自給率が下がり、食料の多くを輸入にたよっている（国際分業の進展）。",
+   "image": "civ_jikyuritsu.svg",
+   "image_credit": "自作（make_charts2.py で作成）。数値：農林水産省「総合食料自給率（カロリー・生産額）、品目別自給率等」",
+   "source": "教科書（東京書籍・公民）グローバル化の単元",
+   "unit_order": 7,
+   "image_hash": "951293810f45"
   },
   {
    "card_id": "civ_024",
