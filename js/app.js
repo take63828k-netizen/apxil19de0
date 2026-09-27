@@ -5,7 +5,7 @@ import { rateCard } from './fsrs.js';
 import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
-import { syncCards } from './sync.js';
+import { syncCards, imageUrl, imageUrls, prefetchImages } from './sync.js';
 import { serializeBackup, parseBackup } from './backup.js';
 import { pop, stamp, playSound, setSoundEnabled } from './effects.js';
 
@@ -118,7 +118,7 @@ function renderCard() {
   $('card-type').textContent = `${card.subject}・${card.card_type}`;
   $('question').textContent = card.question;
   const img = $('card-image');
-  if (card.image) { img.src = `./data/img/${card.image}`; img.hidden = false; } else { img.removeAttribute('src'); img.hidden = true; }
+  if (card.image) { img.src = imageUrl(card); img.hidden = false; } else { img.removeAttribute('src'); img.hidden = true; }
   $('hint').textContent = card.hint ?? ''; $('hint').hidden = true; $('btn-hint').hidden = !card.hint;
   $('options').replaceChildren(); $('options').hidden = true;
   $('btn-options').hidden = !card.options;
@@ -278,10 +278,13 @@ async function init() {
   navigator.storage?.persist?.().catch(() => {});
   await loadAll();
   bind();
+  // 先に手元のカードでホームを出し、カードの更新はその後に確かめる（電波が弱くても待たせない）
+  show('home'); await renderHome();
   const r = await syncCards(db);
   if (r.ok && r.changed) { S.cards = new Map((await db.getAllCards()).map((c) => [c.card_id, c])); await getPlan(true); }
   S.syncError = r.ok ? null : r.reason;
-  show('home'); await renderHome();
+  if (r.ok) prefetchImages(imageUrls([...S.cards.values()])).catch(() => {});
+  if (!$('screen-home').hidden && (r.changed || !r.ok)) await renderHome();
 }
 
 init();

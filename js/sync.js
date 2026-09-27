@@ -16,18 +16,53 @@ export function mergeCards(localCards, remote) {
   return [...fresh, ...retired];
 }
 
-export async function syncCards(db, fetchImpl = fetch) {
+// 電波が弱いと fetch が返ってこないことがあるので、待ち時間を区切って手元のカードで続ける
+export async function syncCards(db, fetchImpl = fetch, { timeoutMs = 8000 } = {}) {
   let data;
+  const ctrl = new AbortController();
+  let timer;
+  const timeout = new Promise((_, reject) => {
+    timer = setTimeout(() => { ctrl.abort(); reject(new Error('通信の待ち時間を過ぎました')); }, timeoutMs);
+  });
   try {
-    const res = await fetchImpl('./data/cards.json', { cache: 'no-cache' });
+    const res = await Promise.race([fetchImpl('./data/cards.json', { cache: 'no-cache', signal: ctrl.signal }), timeout]);
     if (!res.ok) return { ok: false, reason: `HTTP ${res.status}` };
-    data = await res.json();
+    data = await Promise.race([res.json(), timeout]);
     validateRemote(data);
   } catch (e) {
     return { ok: false, reason: e.message };
+  } finally {
+    clearTimeout(timer);
   }
   if ((await db.getKV('cardsVersion')) === data.version) return { ok: true, changed: false };
   await db.replaceCards(mergeCards(await db.getAllCards(), data));
   await db.setKV('cardsVersion', data.version);
   return { ok: true, changed: true, count: data.cards.length };
+}
+
+// 画像の URL。中身の指紋（image_hash）を付けるので、同じ名前で差し替えると別の URL になる
+export function imageUrl(card) {
+  return `./data/img/${card.image}?v=${card.image_hash ?? ''}`;
+}
+
+export function imageUrls(cards) {
+  return [...new Set(cards.filter((c) => !c.retired && c.image).map(imageUrl))].sort();
+}
+
+// 電波のあるうちに画像を端末へ保存し、使わなくなった画像を消す（オフラインでも画像を出すため）
+export async function prefetchImages(urls, { fetchImpl = fetch, cacheStorage = caches, cacheName = 'data-v1', base = location.href } = {}) {
+  const cache = await cacheStorage.open(cacheName);
+  const wanted = new Set(urls.map((u) => new URL(u, base).href));
+  let fetched = 0, failed = 0, removed = 0;
+  for (const u of urls) {
+    if (await cache.match(u)) continue;
+    try {
+      const res = await fetchImpl(u);
+      if (res.ok) { await cache.put(u, res.clone()); fetched++; } else failed++;
+    } catch { failed++; }
+  }
+  for (const req of await cache.keys()) {
+    if (new URL(req.url).pathname.includes('/data/img/') && !wanted.has(req.url)) { await cache.delete(req); removed++; }
+  }
+  return { fetched, failed, removed };
 }

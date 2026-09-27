@@ -60,11 +60,19 @@ export async function replaceAllProgress({ states, logs, stickers, settings }) {
   const d = await open();
   const tx = d.transaction(['states', 'logs', 'stickers', 'kv'], 'readwrite');
   const st = tx.objectStore('states'), lg = tx.objectStore('logs'), sk = tx.objectStore('stickers'), kv = tx.objectStore('kv');
-  st.clear(); lg.clear(); sk.clear();
-  for (const s of states) st.put(s);
-  for (const l of logs) { const { id, ...rest } = l; lg.add(rest); }
-  for (const k of stickers) sk.put(k);
-  kv.put({ key: 'settings', value: settings });
-  kv.delete('dailyPlan');
-  return finish(tx);
+  const done = finish(tx);
+  try {
+    st.clear(); lg.clear(); sk.clear();
+    for (const s of states) st.put(s);
+    for (const l of logs) { const { id, ...rest } = l; lg.add(rest); }
+    for (const k of stickers) sk.put(k);
+    kv.put({ key: 'settings', value: settings });
+    kv.delete('dailyPlan');
+  } catch (e) {
+    // 途中の書き込みが失敗したら、消したものも含めて全部取り消す（いまの記録を守る）
+    done.catch(() => {});
+    tx.abort();
+    throw e;
+  }
+  return done;
 }
