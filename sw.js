@@ -1,4 +1,4 @@
-const SHELL_CACHE = 'shell-321f32de06c4'; // アプリ本体を直したら `python tools/stamp_sw.py` で付け直す（試験が確かめる）
+const SHELL_CACHE = 'shell-e7cee43b5ca8'; // アプリ本体を直したら `python tools/stamp_sw.py` で付け直す（試験が確かめる）
 const DATA_CACHE = 'data-v1';
 const NETWORK_TIMEOUT_MS = 8000; // 電波が弱いときは、これを過ぎたら保存済みのカードを使う
 const SHELL = [

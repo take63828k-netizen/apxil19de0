@@ -1,7 +1,7 @@
 export const DEFAULT_SETTINGS = {
-  examDate: null, bufferDays: 30, backlogLimit: 100, dayStartHour: 4, sessionSize: 20,
+  examDate: '2027-02-24', bufferDays: 30, backlogLimit: 100, dayStartHour: 4, sessionSize: 20,
   reinsertGap: 5, weakCount: 10, lapseDays: 7, graceWindow: 7, backupRemindDays: 7, sound: true,
-  testDate: null, testSubject: null, testFrom: null, testTo: null,
+  testDate: '2026-11-11', testSubject: null, testFrom: null, testTo: null,
 };
 // basic：設定画面にいつも出す。それ以外は「くわしい設定」を開いたときに出す（次のテストの欄は app.js が別に作る）
 export const SETTING_FIELDS = [
