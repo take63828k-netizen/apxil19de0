@@ -2,11 +2,6 @@ export function gradeChoice(selected, answer) {
   return selected === answer ? null : 'again';
 }
 
-// 完了画面で見直すカード：このセッションで一度でも「もう一度」を付けたもの（最初にまちがえた順）
-export function missedCardIds(logs) {
-  return [...new Set(logs.filter((l) => l.rating === 'again').map((l) => l.card_id))];
-}
-
 export function shuffle(arr, rng = Math.random) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {

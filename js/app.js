@@ -3,7 +3,7 @@ import * as db from './db.js';
 import { studyDay } from './dates.js';
 import { rateCard } from './fsrs.js';
 import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
-import { gradeChoice, displayOptions, missedCardIds } from './grading.js';
+import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
 import { syncCards, imageUrl, imageUrls, prefetchImages, creditLabel } from './sync.js';
 import { serializeBackup, parseBackup } from './backup.js';
@@ -105,7 +105,6 @@ async function startSession(mode) {
   }
   S.mode = mode;
   S.session = createSession(ids, { reinsertGap: S.settings.reinsertGap });
-  S.sessionLogs = [];
   show('study'); renderCard();
 }
 
@@ -180,7 +179,7 @@ async function onRate(rating) {
   S.states.set(item.id, next);
   await db.putState(next);
   const log = { card_id: item.id, rating, at: now.getTime(), day: today(), repeat: item.repeat, mode: S.mode };
-  S.logs.push(log); S.sessionLogs.push(log);
+  S.logs.push(log);
   await db.addLog(log);
   if (!prev && S.mode === 'normal' && !item.repeat) { const plan = await getPlan(); plan.introduced++; await db.setKV('dailyPlan', plan); }
   playSound(rating === 'again' ? 'miss' : 'tap');
@@ -191,7 +190,6 @@ async function onRate(rating) {
 function showDone() {
   $('praise').textContent = PRAISES[Math.floor(Math.random() * PRAISES.length)];
   $('done-count').textContent = `${S.session.progress().total} 問クリア！`;
-  renderMissed();
   $('stickers').replaceChildren(...STICKERS.map((e) => {
     const b = document.createElement('button'); b.textContent = e;
     b.addEventListener('click', async () => {
@@ -203,18 +201,6 @@ function showDone() {
     return b;
   }));
   show('done'); playSound('fanfare');
-}
-
-function renderMissed() {
-  const cards = missedCardIds(S.sessionLogs).map((id) => S.cards.get(id)).filter(Boolean);
-  $('missed-title').textContent = `まちがえた問題（${cards.length}問）`;
-  $('missed-list').replaceChildren(...cards.map((c) => {
-    const li = document.createElement('li');
-    const q = document.createElement('p'); q.className = 'missed-q'; q.textContent = c.question;
-    const a = document.createElement('p'); a.className = 'missed-a'; a.textContent = `正解：${c.answer}`;
-    li.append(q, a); return li;
-  }));
-  $('missed').hidden = cards.length === 0;
 }
 
 function renderSettings() {
