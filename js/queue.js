@@ -8,20 +8,24 @@ export function newCardQuota({ unseenCount, today, examDate, bufferDays, dueCoun
   return Math.ceil(unseenCount / daysLeft);
 }
 
-export function dueCardIds({ cards, states, now }) {
+// dueOf：出題を選ぶときの期日（テスト・入試の総復習で早めるとき。prep.js の effectiveDue）
+export function dueCardIds({ cards, states, now, dueOf = (s) => s.due }) {
   const out = [];
   for (const s of states.values()) {
     const c = cards.get(s.card_id);
-    if (c && !c.retired && s.due && s.due <= now) out.push(s);
+    if (!c || c.retired || !s.due) continue;
+    const due = dueOf(s, c);
+    if (due <= now) out.push({ id: s.card_id, due });
   }
   out.sort((a, b) => a.due - b.due);
-  return out.map((s) => s.card_id);
+  return out.map((x) => x.id);
 }
 
-export function unseenCardIds({ cards, states }) {
+// first：先に出すカード（テストの範囲）
+export function unseenCardIds({ cards, states, first = () => false }) {
   return [...cards.values()]
     .filter((c) => !c.retired && !states.has(c.card_id))
-    .sort((a, b) => (a.unit_order ?? 0) - (b.unit_order ?? 0) || a.priority - b.priority || a.order - b.order)
+    .sort((a, b) => Number(first(b)) - Number(first(a)) || (a.unit_order ?? 0) - (b.unit_order ?? 0) || a.priority - b.priority || a.order - b.order)
     .map((c) => c.card_id);
 }
 

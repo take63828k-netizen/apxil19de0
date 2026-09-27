@@ -1,10 +1,10 @@
-const SHELL_CACHE = 'shell-0a9fa318243c'; // アプリ本体を直したら `python tools/stamp_sw.py` で付け直す（試験が確かめる）
+const SHELL_CACHE = 'shell-321f32de06c4'; // アプリ本体を直したら `python tools/stamp_sw.py` で付け直す（試験が確かめる）
 const DATA_CACHE = 'data-v1';
 const NETWORK_TIMEOUT_MS = 8000; // 電波が弱いときは、これを過ぎたら保存済みのカードを使う
 const SHELL = [
   './', './index.html', './manifest.webmanifest', './css/style.css',
   './js/app.js', './js/config.js', './js/dates.js', './js/fsrs.js', './js/queue.js', './js/grading.js',
-  './js/streak.js', './js/sync.js', './js/backup.js', './js/db.js', './js/effects.js',
+  './js/streak.js', './js/sync.js', './js/backup.js', './js/db.js', './js/effects.js', './js/prep.js',
   './vendor/ts-fsrs.js', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png',
 ];
 

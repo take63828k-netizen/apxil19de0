@@ -3,6 +3,7 @@ import * as db from './db.js';
 import { studyDay } from './dates.js';
 import { rateCard } from './fsrs.js';
 import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
+import { activeTest, inTestRange, prepWindows, effectiveDue, rangeQuota, unitOptions, clearExpiredTest } from './prep.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
 import { syncCards, imageUrl, imageUrls, prefetchImages, creditLabel } from './sync.js';
@@ -20,15 +21,28 @@ async function loadAll() {
   S.logs = await db.getAllLogs();
 }
 const today = () => studyDay(new Date(), S.settings.dayStartHour);
-const lists = (now = new Date()) => ({ due: dueCardIds({ cards: S.cards, states: S.states, now }), unseen: unseenCardIds({ cards: S.cards, states: S.states }) });
+// テスト・入試の総復習（設計書 6.9）：期日を早めて選び、テストの範囲の新しいカードを先に出す
+const lists = (now = new Date()) => {
+  const day = studyDay(now, S.settings.dayStartHour);
+  const windows = prepWindows(S.settings, day);
+  const test = activeTest(S.settings, day);
+  return {
+    due: dueCardIds({ cards: S.cards, states: S.states, now, dueOf: (s, c) => effectiveDue(s, c, windows, S.settings.dayStartHour, now) }),
+    unseen: unseenCardIds({ cards: S.cards, states: S.states, first: (c) => inTestRange(c, test) }),
+    test,
+  };
+};
 
 async function getPlan(recalc = false) {
   const day = today();
   let plan = await db.getKV('dailyPlan');
   if (!plan || plan.day !== day) { plan = { day, introduced: 0, quota: 0 }; recalc = true; }
   if (recalc) {
-    const { due, unseen } = lists();
-    plan.quota = plan.introduced + newCardQuota({ unseenCount: unseen.length, today: day, examDate: S.settings.examDate, bufferDays: S.settings.bufferDays, dueCount: due.length, backlogLimit: S.settings.backlogLimit });
+    const { due, unseen, test } = lists();
+    const normal = newCardQuota({ unseenCount: unseen.length, today: day, examDate: S.settings.examDate, bufferDays: S.settings.bufferDays, dueCount: due.length, backlogLimit: S.settings.backlogLimit });
+    const rangeUnseen = unseen.filter((id) => inTestRange(S.cards.get(id), test)).length;
+    const range = due.length > S.settings.backlogLimit ? 0 : rangeQuota({ rangeUnseen, today: day, test });
+    plan.quota = plan.introduced + Math.max(normal, range);
     await db.setKV('dailyPlan', plan);
   }
   return plan;
@@ -203,23 +217,55 @@ function showDone() {
   show('done'); playSound('fanfare');
 }
 
+function fieldLabel(f) {
+  const label = document.createElement('label'); label.textContent = f.label;
+  const input = document.createElement('input'); input.type = f.type; input.name = f.key;
+  if (f.type === 'checkbox') input.checked = !!S.settings[f.key];
+  else { input.value = S.settings[f.key] ?? ''; if (f.min !== undefined) { input.min = f.min; input.max = f.max; } }
+  input.addEventListener('change', saveSettings);
+  label.append(input); return label;
+}
+
+function selectLabel(text, name, options, value) {
+  const label = document.createElement('label'); label.textContent = text;
+  const sel = document.createElement('select'); sel.name = name;
+  sel.append(new Option('（えらぶ）', ''), ...options.map((o) => new Option(o.text, String(o.value))));
+  sel.value = value == null ? '' : String(value);
+  sel.addEventListener('change', saveSettings);
+  label.append(sel); return label;
+}
+
+// 次のテスト（設計書 6.9）：日・分野・はじめ・おわり。単元は選んだ分野のものを単元一覧の順に出す
+function testFieldset() {
+  const box = document.createElement('fieldset'); box.className = 'test-box';
+  const legend = document.createElement('legend'); legend.textContent = '次のテスト（14日前から範囲をまとめて復習）';
+  const date = fieldLabel({ key: 'testDate', label: 'テストの日', type: 'date' });
+  const subjects = [...new Set([...S.cards.values()].filter((c) => !c.retired && typeof c.unit_no === 'number').map((c) => c.subject))]
+    .sort((a, b) => ['歴史', '地理', '公民'].indexOf(a) - ['歴史', '地理', '公民'].indexOf(b));
+  const units = unitOptions(S.cards, S.settings.testSubject).map((u) => ({ value: u.no, text: u.name }));
+  box.append(legend, date,
+    selectLabel('分野', 'testSubject', subjects.map((s) => ({ value: s, text: s })), S.settings.testSubject),
+    selectLabel('はじめの単元', 'testFrom', units, S.settings.testFrom),
+    selectLabel('おわりの単元', 'testTo', units, S.settings.testTo));
+  return box;
+}
+
 function renderSettings() {
   const form = $('settings-form'); form.replaceChildren();
-  for (const f of SETTING_FIELDS) {
-    const label = document.createElement('label'); label.textContent = f.label;
-    const input = document.createElement('input'); input.type = f.type; input.name = f.key;
-    if (f.type === 'checkbox') input.checked = !!S.settings[f.key];
-    else { input.value = S.settings[f.key] ?? ''; if (f.min !== undefined) { input.min = f.min; input.max = f.max; } }
-    input.addEventListener('change', saveSettings);
-    label.append(input); form.append(label);
-  }
+  const basic = SETTING_FIELDS.filter((f) => f.basic);
+  form.append(fieldLabel(basic[0]), testFieldset(), ...basic.slice(1).map(fieldLabel));
+  const more = document.createElement('details'); more.className = 'more';
+  const sum = document.createElement('summary'); sum.textContent = 'くわしい設定';
+  more.append(sum, ...SETTING_FIELDS.filter((f) => !f.basic).map(fieldLabel));
+  form.append(more);
   $('card-info').textContent = `カード ${[...S.cards.values()].filter((c) => !c.retired).length} 枚`;
 }
 
-async function saveSettings() {
+async function saveSettings(e) {
+  const form = $('settings-form');
   const next = { ...S.settings };
   for (const f of SETTING_FIELDS) {
-    const input = $('settings-form').elements[f.key];
+    const input = form.elements[f.key];
     if (f.type === 'checkbox') next[f.key] = input.checked;
     else if (f.type === 'date') next[f.key] = input.value || null;
     else {
@@ -228,9 +274,17 @@ async function saveSettings() {
       input.value = next[f.key];
     }
   }
+  const num = (v) => (v === '' ? null : Number(v));
+  next.testDate = form.elements.testDate.value || null;
+  next.testSubject = form.elements.testSubject.value || null;
+  next.testFrom = num(form.elements.testFrom.value);
+  next.testTo = num(form.elements.testTo.value);
+  const subjectChanged = next.testSubject !== S.settings.testSubject;
+  if (subjectChanged) { next.testFrom = null; next.testTo = null; }
   S.settings = next; setSoundEnabled(next.sound);
   await db.setKV('settings', next);
   await getPlan(true);
+  if (subjectChanged) { const open = form.querySelector('details.more')?.open; renderSettings(); if (open) form.querySelector('details.more').open = true; }
 }
 
 async function exportBackup() {
@@ -279,6 +333,8 @@ async function init() {
   await db.open();
   navigator.storage?.persist?.().catch(() => {});
   await loadAll();
+  const cleared = clearExpiredTest(S.settings, today());
+  if (cleared !== S.settings) { S.settings = cleared; await db.setKV('settings', cleared); }
   bind();
   // 先に手元のカードでホームを出し、カードの更新はその後に確かめる（電波が弱くても待たせない）
   show('home'); await renderHome();

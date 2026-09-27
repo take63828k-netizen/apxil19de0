@@ -1,9 +1,12 @@
 export const DEFAULT_SETTINGS = {
   examDate: null, bufferDays: 30, backlogLimit: 100, dayStartHour: 4, sessionSize: 20,
   reinsertGap: 5, weakCount: 10, lapseDays: 7, graceWindow: 7, backupRemindDays: 7, sound: true,
+  testDate: null, testSubject: null, testFrom: null, testTo: null,
 };
+// basic：設定画面にいつも出す。それ以外は「くわしい設定」を開いたときに出す（次のテストの欄は app.js が別に作る）
 export const SETTING_FIELDS = [
-  { key: 'examDate', label: '入試日', type: 'date' },
+  { key: 'examDate', label: '入試日', type: 'date', basic: true },
+  { key: 'sound', label: '効果音', type: 'checkbox', basic: true },
   { key: 'bufferDays', label: '全カードを出し終える日（入試の何日前）', type: 'number', min: 0, max: 120 },
   { key: 'backlogLimit', label: '復習がこの枚数を超えたら新しいカードを休む', type: 'number', min: 10, max: 1000 },
   { key: 'dayStartHour', label: '日付が変わる時刻（時）', type: 'number', min: 0, max: 12 },
@@ -13,7 +16,6 @@ export const SETTING_FIELDS = [
   { key: 'lapseDays', label: '苦手に入れる「もう一度」の日数', type: 'number', min: 1, max: 30 },
   { key: 'graceWindow', label: 'ゆるガードの間隔（日）', type: 'number', min: 1, max: 30 },
   { key: 'backupRemindDays', label: 'バックアップのお知らせ（日）', type: 'number', min: 1, max: 30 },
-  { key: 'sound', label: '効果音', type: 'checkbox' },
 ];
 export const STICKERS = ['👑', '🎀', '🍓', '🐻', '🌸', '💎'];
 export const PRAISES = ['社会にLOVE DIVE！', '11点満点中11点！', '完璧なマスター！', '記憶力、限界突破！', 'きょうも天才的！', 'このまま合格ルート！'];
