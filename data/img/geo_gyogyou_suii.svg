@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">漁業種類別漁獲量の移り変わり（模式）</text>
+<line x1="70" y1="280" x2="690" y2="280" stroke="#4A4259" stroke-width="2"/>
+<polyline points="70,118 194,100 318,172 442,244 566,262 690,266" fill="none" stroke="#E8A0BF" stroke-width="4"/>
+<polyline points="70,172 194,118 318,82 442,172 566,199 690,208" fill="none" stroke="#FFD97D" stroke-width="4"/>
+<polyline points="70,154 194,163 318,181 442,199 566,217 690,226" fill="none" stroke="#B4ECE3" stroke-width="4"/>
+<polyline points="70,244 194,226 318,208 442,208 566,217 690,217" fill="none" stroke="#7CA8C9" stroke-width="4"/>
+<text x="70.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1965</text>
+<text x="194.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1975</text>
+<text x="318.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1985</text>
+<text x="442.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1995</text>
+<text x="566.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2005</text>
+<text x="690.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2015</text>
+<text x="130" y="45" text-anchor="start" font-size="13" font-weight="bold" fill="#E8A0BF">A：遠洋漁業（1970年代以降に急減）</text>
+<text x="130" y="60" text-anchor="start" font-size="13" font-weight="bold" fill="#B8860B">沖合漁業</text>
+<text x="330" y="60" text-anchor="start" font-size="13" font-weight="bold" fill="#2E8B7A">沿岸漁業</text>
+<text x="470" y="60" text-anchor="start" font-size="13" font-weight="bold" fill="#2E6B8C">養殖業</text>
+</svg>

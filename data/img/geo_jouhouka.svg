@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 290" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="290" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">情報通信網（ICT）の広がり</text>
+<rect x="300" y="60" width="160" height="70" rx="12" fill="#FFD97D"/>
+<text x="380.0" y="100" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">インターネット</text>
+<rect x="40" y="180" width="160" height="80" rx="12" fill="#B4ECE3"/>
+<text x="120.0" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">家庭</text>
+<text x="120.0" y="236" text-anchor="middle" font-size="13" fill="#4A4259">通信販売・動画配信</text>
+<rect x="260" y="180" width="220" height="80" rx="12" fill="#B4ECE3"/>
+<text x="370.0" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">会社・学校</text>
+<text x="370.0" y="236" text-anchor="middle" font-size="13" fill="#4A4259">在宅勤務・オンライン授業</text>
+<rect x="560" y="180" width="160" height="80" rx="12" fill="#B4ECE3"/>
+<text x="640.0" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">病院</text>
+<text x="640.0" y="236" text-anchor="middle" font-size="13" fill="#4A4259">遠隔診療</text>
+<line x1="340" y1="130" x2="143" y2="175" stroke="#4A4259" stroke-width="3"/>
+<polygon points="130,178 144,180 142,170" fill="#4A4259"/>
+<line x1="370" y1="130" x2="370" y2="165" stroke="#4A4259" stroke-width="3"/>
+<polygon points="370,178 375,165 365,165" fill="#4A4259"/>
+<line x1="400" y1="130" x2="607" y2="175" stroke="#4A4259" stroke-width="3"/>
+<polygon points="620,178 608,170 606,180" fill="#4A4259"/>
+</svg>

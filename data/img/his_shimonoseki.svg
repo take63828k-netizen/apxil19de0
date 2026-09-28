@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="760" height="330" fill="#FFFFFF"/>
+<text x="340" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">下関条約（1895年）で日本が得たもの</text>
+<rect x="30" y="90" width="180" height="80" rx="12" fill="#B4ECE3"/>
+<text x="120.0" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">台湾</text>
+<text x="120.0" y="147" text-anchor="middle" font-size="13" fill="#4A4259">そのまま日本領に</text>
+<rect x="230" y="90" width="180" height="80" rx="12" fill="#B4ECE3"/>
+<text x="320.0" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">澎湖諸島</text>
+<text x="320.0" y="147" text-anchor="middle" font-size="13" fill="#4A4259">そのまま日本領に</text>
+<rect x="430" y="90" width="180" height="80" rx="12" fill="#E8A0BF"/>
+<text x="520.0" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">遼東半島</text>
+<text x="520.0" y="147" text-anchor="middle" font-size="13" fill="#4A4259">三国干渉により清へ返還</text>
+<rect x="630" y="90" width="100" height="80" rx="12" fill="#FFD97D"/>
+<text x="680.0" y="126" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">賠償金</text>
+<text x="680.0" y="145" text-anchor="middle" font-size="13" fill="#4A4259">多額</text>
+<line x1="520" y1="178" x2="489" y2="211" stroke="#4A4259" stroke-width="3"/>
+<polygon points="480,220 493,214 485,207" fill="#4A4259"/>
+<rect x="340" y="225" width="260" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="470.0" y="260" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">ロシア・フランス・ドイツによる三国干渉</text>
+<text x="370" y="310" text-anchor="middle" font-size="14" fill="#4A4259">→遼東半島だけは、清に返還した</text>
+</svg>

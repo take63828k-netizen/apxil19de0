@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="340" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">主な再生可能エネルギーによる発電</text>
+<rect x="40" y="90" width="200" height="90" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">太陽光発電</text>
+<rect x="280" y="90" width="200" height="90" rx="12" fill="#B4ECE3"/>
+<text x="380.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">風力発電</text>
+<rect x="520" y="90" width="200" height="90" rx="12" fill="#B4ECE3"/>
+<text x="620.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">地熱発電</text>
+<line x1="140" y1="180" x2="328" y2="236" stroke="#4A4259" stroke-width="3"/>
+<polygon points="340,240 329,231 326,241" fill="#4A4259"/>
+<line x1="380" y1="180" x2="372" y2="227" stroke="#4A4259" stroke-width="3"/>
+<polygon points="370,240 377,228 367,226" fill="#4A4259"/>
+<line x1="620" y1="180" x2="413" y2="237" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,240 414,242 411,232" fill="#4A4259"/>
+<rect x="270" y="245" width="220" height="70" rx="12" fill="#FFD97D"/>
+<text x="380.0" y="276" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">くり返し利用でき</text>
+<text x="380.0" y="294" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">資源が枯渇しない</text>
+</svg>

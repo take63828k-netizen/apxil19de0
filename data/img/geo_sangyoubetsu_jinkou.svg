@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">日本の産業別人口の割合（近年・模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 1 1 110.9,213.8 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="322.0151054697425" y="289.93841368401667" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">第3次産業</text>
+<path d="M220,200 L110.9,213.8 A110,110 0 0 1 199.4,91.9 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="109.9736887650071" y="120.06120568822371" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">第2次産業</text>
+<path d="M220,200 L199.4,91.9 A110,110 0 0 1 220.0,90.0 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="207.20126938868185" y="64.60357281398115" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">第1次産業</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（近年の統計にもとづくおおよその割合）</text>
+</svg>

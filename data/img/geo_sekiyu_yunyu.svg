@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本の原油輸入先の割合</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 1 1 167.0,103.6 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="253.82182465442025" y="331.72730991349385" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">西アジア（中東）</text>
+<path d="M220,200 L167.0,103.6 A110,110 0 0 1 220.0,90.0 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="186.1781753455797" y="68.2726900865062" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="460" y="170" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">西アジア（中東）</text>
+<text x="460" y="195" text-anchor="middle" font-size="13" fill="#4A4259">が9割以上を占める</text>
+<text x="300" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（資源エネルギー庁の資料にもとづくおおよその割合）</text>
+</svg>

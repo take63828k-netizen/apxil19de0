@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="350" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本銀行の3つの役割</text>
+<rect x="280" y="130" width="200" height="90" rx="12" fill="#FFD97D"/>
+<text x="380.0" y="181" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本銀行</text>
+<rect x="40" y="20" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="56" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">発券銀行</text>
+<text x="140.0" y="76" text-anchor="middle" font-size="13" fill="#4A4259">紙幣を発行する</text>
+<rect x="540" y="20" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="640.0" y="56" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">銀行の銀行</text>
+<text x="640.0" y="76" text-anchor="middle" font-size="13" fill="#4A4259">一般の銀行と取り引き</text>
+<rect x="280" y="250" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="380.0" y="286" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">政府の銀行</text>
+<text x="380.0" y="306" text-anchor="middle" font-size="13" fill="#4A4259">国の資金を管理</text>
+<line x1="280" y1="150" x2="248" y2="110" stroke="#4A4259" stroke-width="3"/>
+<polygon points="240,100 244,113 252,107" fill="#4A4259"/>
+<line x1="480" y1="150" x2="531" y2="99" stroke="#4A4259" stroke-width="3"/>
+<polygon points="540,90 527,96 534,103" fill="#4A4259"/>
+<line x1="380" y1="220" x2="380" y2="235" stroke="#4A4259" stroke-width="3"/>
+<polygon points="380,248 385,235 375,235" fill="#4A4259"/>
+</svg>

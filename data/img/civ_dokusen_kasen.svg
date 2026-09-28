@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 290" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="290" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">独占・寡占市場のイメージ</text>
+<rect x="40" y="80" width="220" height="100" rx="12" fill="#E8A0BF"/>
+<text x="150.0" y="125" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">独占</text>
+<text x="150.0" y="148" text-anchor="middle" font-size="13" fill="#4A4259">1社が市場を支配</text>
+<rect x="300" y="80" width="220" height="100" rx="12" fill="#FFD97D"/>
+<text x="410.0" y="125" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">寡占</text>
+<text x="410.0" y="148" text-anchor="middle" font-size="13" fill="#4A4259">少数の企業が市場を支配</text>
+<rect x="560" y="80" width="180" height="100" rx="12" fill="#B4ECE3"/>
+<text x="650.0" y="126" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">自由な競争</text>
+<text x="650.0" y="146" text-anchor="middle" font-size="13" fill="#4A4259">多くの企業が競争</text>
+<text x="370" y="230" text-anchor="middle" font-size="14" fill="#4A4259">独占・寡占が進むと価格競争が弱まり、不当に高い価格が維持されやすい</text>
+<text x="370" y="260" text-anchor="middle" font-size="13" fill="#4A4259">→公正取引委員会が独占禁止法にもとづき監視する</text>
+</svg>

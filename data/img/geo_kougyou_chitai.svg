@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 350" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="700" height="350" fill="#FFFFFF"/>
+<text x="340" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">主な工業地帯の製造品出荷額（近年・模式）</text>
+<line x1="80" y1="280" x2="640" y2="280" stroke="#4A4259" stroke-width="2"/>
+<rect x="112" y="89" width="77" height="191" fill="#E8A0BF" stroke="#4A4259" stroke-width="1.5"/>
+<text x="150.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">中京</text>
+<rect x="252" y="165" width="77" height="115" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="290.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">阪神</text>
+<rect x="392" y="190" width="77" height="90" fill="#B4ECE3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="430.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">京浜</text>
+<rect x="532" y="245" width="77" height="35" fill="#C9C4D3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="570.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">北九州</text>
+<text x="360" y="330" text-anchor="middle" font-size="12" fill="#4A4259">（近年の工業統計にもとづくおおよその比較）</text>
+</svg>

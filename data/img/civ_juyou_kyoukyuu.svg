@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="340" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">需要曲線と供給曲線</text>
+<line x1="90" y1="300" x2="590" y2="300" stroke="#4A4259" stroke-width="2"/>
+<line x1="90" y1="60" x2="90" y2="300" stroke="#4A4259" stroke-width="2"/>
+<text x="340.0" y="330" text-anchor="middle" font-size="14" fill="#4A4259">数量</text>
+<text x="50" y="70" text-anchor="middle" font-size="14" fill="#4A4259">価格</text>
+<line x1="110" y1="80" x2="570" y2="280" stroke="#2E6B8C" stroke-width="3"/>
+<line x1="110" y1="280" x2="570" y2="80" stroke="#B23A48" stroke-width="3"/>
+<text x="580" y="75" text-anchor="end" font-size="13" font-weight="bold" fill="#2E6B8C">供給曲線</text>
+<text x="580" y="275" text-anchor="end" font-size="13" font-weight="bold" fill="#B23A48">需要曲線</text>
+<circle cx="340" cy="180" r="6" fill="#FFD97D"/>
+<text x="360.0" y="170.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">均衡価格</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">条約改正の歩み</text>
+<rect x="30" y="100" width="300" height="100" rx="12" fill="#B4ECE3"/>
+<text x="180.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">1894年</text>
+<text x="180.0" y="156" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">領事裁判権の撤廃</text>
+<text x="180.0" y="177" text-anchor="middle" font-size="13" fill="#4A4259">外相：陸奥宗光</text>
+<rect x="440" y="100" width="300" height="100" rx="12" fill="#E8A0BF"/>
+<text x="590.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">1911年</text>
+<text x="590.0" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">関税自主権の完全回復</text>
+<text x="590.0" y="176" text-anchor="middle" font-size="13" fill="#4A4259">外相：小村寿太郎</text>
+<line x1="330" y1="150" x2="425" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="438,150 425,145 425,155" fill="#4A4259"/>
+<text x="384.0" y="142.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">17年後</text>
+<text x="370" y="250" text-anchor="middle" font-size="14" fill="#4A4259">→領事裁判権の撤廃が先、関税自主権の完全回復があと</text>
+</svg>

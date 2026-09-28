@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="320" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">排他的経済水域の範囲（模式・断面図）</text>
+<rect x="60" y="220" width="650" height="40" fill="#B4ECE3"/>
+<text x="110" y="246" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">陸地</text>
+<rect x="160" y="160" width="120" height="60" fill="#E8A0BF" opacity="0.7"/>
+<text x="220" y="195" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">領海
+12海里</text>
+<rect x="160" y="160" width="500" height="60" fill="#FFD97D" opacity="0.5"/>
+<text x="460" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">排他的経済水域（200海里）</text>
+<line x1="280" y1="190" x2="647" y2="190" stroke="#4A4259" stroke-width="3"/>
+<polygon points="660,190 647,185 647,195" fill="#4A4259"/>
+<text x="370" y="300" text-anchor="middle" font-size="14" fill="#4A4259">沿岸国が水産資源・鉱産資源を管理できる範囲</text>
+</svg>

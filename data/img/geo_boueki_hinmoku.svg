@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">日本の貿易品目の割合（近年・模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 0 1 295.3,280.2 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="346.44960208080215" y="149.93506083488379" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">機械類</text>
+<path d="M220,200 L295.3,280.2 A110,110 0 0 1 144.7,280.2 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="220.00000000000003" y="336.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">原料品・燃料</text>
+<path d="M220,200 L144.7,280.2 A110,110 0 0 1 110.0,200.0 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="95.18537090697859" y="254.01211312633023" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">化学製品</text>
+<path d="M220,200 L110.0,200.0 A110,110 0 0 1 220.0,90.0 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="123.83347775862951" y="103.83347775862954" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（近年の貿易統計にもとづくおおよその割合）</text>
+</svg>

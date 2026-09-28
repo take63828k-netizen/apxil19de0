@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="760" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">促成栽培と抑制栽培の出荷量（模式）</text>
+<line x1="60" y1="280" x2="700" y2="280" stroke="#4A4259" stroke-width="2"/>
+<polyline points="60,120 118,130 176,160 235,220 293,260 351,270 409,270 467,270 525,260 584,220 642,170 700,130" fill="none" stroke="#E8A0BF" stroke-width="4"/>
+<text x="620" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#E8A0BF">A：促成栽培（冬〜春が多い）</text>
+<polyline points="60,270 118,270 176,270 235,270 293,260 351,200 409,120 467,130 525,200 584,260 642,270 700,270" fill="none" stroke="#B4ECE3" stroke-width="4"/>
+<text x="620" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#B4ECE3">B：抑制栽培（夏が多い）</text>
+<text x="60.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1</text>
+<text x="118.18181818181819" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2</text>
+<text x="176.36363636363637" y="302" text-anchor="middle" font-size="12" fill="#4A4259">3</text>
+<text x="234.54545454545453" y="302" text-anchor="middle" font-size="12" fill="#4A4259">4</text>
+<text x="292.72727272727275" y="302" text-anchor="middle" font-size="12" fill="#4A4259">5</text>
+<text x="350.9090909090909" y="302" text-anchor="middle" font-size="12" fill="#4A4259">6</text>
+<text x="409.09090909090907" y="302" text-anchor="middle" font-size="12" fill="#4A4259">7</text>
+<text x="467.27272727272725" y="302" text-anchor="middle" font-size="12" fill="#4A4259">8</text>
+<text x="525.4545454545455" y="302" text-anchor="middle" font-size="12" fill="#4A4259">9</text>
+<text x="583.6363636363636" y="302" text-anchor="middle" font-size="12" fill="#4A4259">10</text>
+<text x="641.8181818181818" y="302" text-anchor="middle" font-size="12" fill="#4A4259">11</text>
+<text x="700.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">12</text>
+<text x="370" y="325" text-anchor="middle" font-size="12" fill="#4A4259">月</text>
+</svg>

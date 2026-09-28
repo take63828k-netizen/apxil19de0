@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 335" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="335" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">直接金融と間接金融</text>
+<rect x="40" y="40" width="180" height="70" rx="12" fill="#FFD97D"/>
+<text x="130.0" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">家計（貸し手）</text>
+<rect x="300" y="40" width="200" height="70" rx="12" fill="#B4ECE3"/>
+<text x="400.0" y="71" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">証券市場</text>
+<text x="400.0" y="89" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（株式・社債）</text>
+<rect x="560" y="40" width="180" height="70" rx="12" fill="#E8A0BF"/>
+<text x="650.0" y="80" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">企業（借り手）</text>
+<line x1="220" y1="75" x2="285" y2="75" stroke="#4A4259" stroke-width="3"/>
+<polygon points="298,75 285,70 285,80" fill="#4A4259"/>
+<line x1="500" y1="75" x2="545" y2="75" stroke="#4A4259" stroke-width="3"/>
+<polygon points="558,75 545,70 545,80" fill="#4A4259"/>
+<text x="370" y="150" text-anchor="middle" font-size="14" fill="#4A4259">直接金融：銀行を通さず直接資金を集める</text>
+<rect x="40" y="200" width="180" height="70" rx="12" fill="#FFD97D"/>
+<text x="130.0" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">家計（貸し手）</text>
+<rect x="300" y="200" width="200" height="70" rx="12" fill="#B4ECE3"/>
+<text x="400.0" y="241" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">銀行</text>
+<rect x="560" y="200" width="180" height="70" rx="12" fill="#E8A0BF"/>
+<text x="650.0" y="240" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">企業（借り手）</text>
+<line x1="220" y1="235" x2="285" y2="235" stroke="#4A4259" stroke-width="3"/>
+<polygon points="298,235 285,230 285,240" fill="#4A4259"/>
+<line x1="500" y1="235" x2="545" y2="235" stroke="#4A4259" stroke-width="3"/>
+<polygon points="558,235 545,230 545,240" fill="#4A4259"/>
+<text x="370" y="310" text-anchor="middle" font-size="14" fill="#4A4259">間接金融：銀行などを通して資金を集める</text>
+</svg>

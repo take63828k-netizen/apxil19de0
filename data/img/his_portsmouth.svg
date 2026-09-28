@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 300" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="300" fill="#FFFFFF"/>
+<text x="340" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">ポーツマス条約（1905年）で日本が得たもの</text>
+<rect x="30" y="90" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">韓国での優越権</text>
+<rect x="280" y="90" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="390.0" y="131" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">旅順・大連の租借権</text>
+<text x="390.0" y="149" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">南満州鉄道の利権</text>
+<rect x="530" y="90" width="220" height="90" rx="12" fill="#FFD97D"/>
+<text x="640.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">樺太の南半分</text>
+<text x="640.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">北半分はロシア領のまま</text>
+<rect x="150" y="220" width="460" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="380.0" y="255" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">賠償金は得られず、国内で不満（日比谷焼き打ち事件）</text>
+</svg>

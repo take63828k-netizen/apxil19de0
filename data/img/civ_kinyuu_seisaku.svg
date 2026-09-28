@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">公開市場操作（不景気のとき）</text>
+<rect x="60" y="100" width="220" height="90" rx="12" fill="#FFD97D"/>
+<text x="170.0" y="151" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">日本銀行</text>
+<rect x="480" y="100" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="590.0" y="151" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">一般の銀行</text>
+<line x1="280" y1="125" x2="465" y2="125" stroke="#4A4259" stroke-width="3"/>
+<polygon points="478,125 465,120 465,130" fill="#4A4259"/>
+<text x="379.0" y="117.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">国債を買う</text>
+<line x1="478" y1="165" x2="293" y2="165" stroke="#4A4259" stroke-width="3"/>
+<polygon points="280,165 293,170 293,160" fill="#4A4259"/>
+<text x="379.0" y="157.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">代金（通貨）を払う</text>
+<rect x="280" y="230" width="220" height="70" rx="12" fill="#E8A0BF"/>
+<text x="390.0" y="261" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">世の中に出回る</text>
+<text x="390.0" y="279" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">通貨量が増える</text>
+<line x1="590" y1="190" x2="413" y2="227" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,230 414,232 412,222" fill="#4A4259"/>
+</svg>

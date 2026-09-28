@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本の産業革命の広がり</text>
+<rect x="40" y="100" width="300" height="110" rx="12" fill="#B4ECE3"/>
+<text x="190.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">紡績・製糸業</text>
+<text x="190.0" y="161" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">（軽工業）</text>
+<text x="190.0" y="182" text-anchor="middle" font-size="13" fill="#4A4259">日清戦争前後に発展</text>
+<rect x="430" y="100" width="300" height="110" rx="12" fill="#E8A0BF"/>
+<text x="580.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">鉄鋼業</text>
+<text x="580.0" y="161" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">（重工業）</text>
+<text x="580.0" y="182" text-anchor="middle" font-size="13" fill="#4A4259">日露戦争前後に発展・八幡製鉄所</text>
+<line x1="340" y1="155" x2="415" y2="155" stroke="#4A4259" stroke-width="3"/>
+<polygon points="428,155 415,150 415,160" fill="#4A4259"/>
+<text x="384.0" y="147.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">さらに発展</text>
+<text x="370" y="250" text-anchor="middle" font-size="14" fill="#4A4259">軽工業から重工業へと、産業革命が進んだ</text>
+</svg>
