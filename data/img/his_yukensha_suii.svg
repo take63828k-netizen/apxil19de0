@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 355" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="355" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">有権者数の全人口に占める割合の変化（模式）</text>
+<line x1="80" y1="280" x2="680" y2="280" stroke="#4A4259" stroke-width="2"/>
+<rect x="114" y="269" width="82" height="11" fill="#C9C4D3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="155.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">1890年</text>
+<rect x="264" y="259" width="82" height="21" fill="#C9C4D3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="305.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">1902年</text>
+<rect x="414" y="227" width="82" height="53" fill="#B4ECE3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="455.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">1920年</text>
+<rect x="564" y="89" width="82" height="191" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="605.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">1928年</text>
+<text x="370" y="330" text-anchor="middle" font-size="13" fill="#4A4259">1928年は普通選挙法にもとづく最初の総選挙（数値はおおよその傾向を示す）</text>
+</svg>

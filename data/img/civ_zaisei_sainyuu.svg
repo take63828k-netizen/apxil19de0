@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">国の歳入の内訳（近年・模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 1 1 155.3,289.0 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="349.3436862161409" y="242.02631123499285" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">租税及び印紙収入</text>
+<path d="M220,200 L155.3,289.0 A110,110 0 0 1 161.1,107.1 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="84.06710779026051" y="195.7281367653746" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">公債金</text>
+<path d="M220,200 L161.1,107.1 A110,110 0 0 1 220.0,90.0 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="182.05720957866478" y="69.40005874793576" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他収入</text>
+<text x="480" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（近年の予算にもとづくおおよその割合）</text>
+</svg>

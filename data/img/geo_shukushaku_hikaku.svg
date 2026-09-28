@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">縮尺の異なる2つの地図（模式）</text>
+<rect x="60" y="70" width="300" height="220" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="210" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">A：2万5千分の1</text>
+<rect x="90" y="130" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="90" y="165" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="90" y="200" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="90" y="235" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="150" y="130" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="150" y="165" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="150" y="200" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="150" y="235" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="210" y="130" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="210" y="165" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="210" y="200" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="210" y="235" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="270" y="130" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="270" y="165" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="270" y="200" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="270" y="235" width="40" height="30" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="410" y="70" width="300" height="220" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="560" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">B：5万分の1</text>
+<rect x="440" y="130" width="240" height="130" fill="#FFD97D" stroke="#4A4259"/>
+<text x="560" y="200" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">同じ範囲がより大まかに</text>
+</svg>

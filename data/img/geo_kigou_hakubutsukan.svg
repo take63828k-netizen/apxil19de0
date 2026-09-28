@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="330" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">地図記号</text>
+<circle cx="300" cy="190" r="90" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<polygon points="255,185 345,185 300,145" fill="none" stroke="#4A4259" stroke-width="7"/>
+<rect x="260" y="185" width="80" height="45" fill="none" stroke="#4A4259" stroke-width="7"/>
+</svg>

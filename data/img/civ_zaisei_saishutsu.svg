@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">国の歳出の内訳（近年・模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 0 1 316.4,253.0 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="337.06091567253634" y="130.77036745794953" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">社会保障関係費</text>
+<path d="M220,200 L316.4,253.0 A110,110 0 0 1 186.0,304.6 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="270.0649391651162" y="326.4496020808022" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">国債費</text>
+<path d="M220,200 L186.0,304.6 A110,110 0 0 1 115.4,234.0 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="123.83347775862954" y="296.16652224137044" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">地方交付税交付金等</text>
+<path d="M220,200 L115.4,234.0 A110,110 0 0 1 110.2,193.1 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="85.07240062123103" y="217.04531976474541" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">公共事業関係費</text>
+<path d="M220,200 L110.2,193.1 A110,110 0 0 1 220.0,90.0 Z" fill="#C9E4FF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="126.90159359369831" y="100.86026667068806" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="480" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（近年の予算にもとづくおおよその割合）</text>
+</svg>

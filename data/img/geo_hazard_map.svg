@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="350" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">洪水ハザードマップ（模式）</text>
+<rect x="60" y="60" width="650" height="220" fill="#B4ECE3" stroke="#4A4259" stroke-width="2"/>
+<polygon points="60,280 250,80 450,280" fill="#E8A0BF" opacity="0.8"/>
+<polygon points="60,280 200,150 320,280" fill="#FFD97D" opacity="0.9"/>
+<text x="230" y="320" text-anchor="middle" font-size="13" fill="#4A4259">浸水が深いと予想される区域ほど濃い色で示す</text>
+<rect x="500" y="100" width="170" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="585.0" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">避難場所</text>
+</svg>

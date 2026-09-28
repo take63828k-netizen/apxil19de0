@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="270" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">内閣の移り変わり（大正時代）</text>
+<rect x="40" y="100" width="260" height="90" rx="12" fill="#C9C4D3"/>
+<text x="170.0" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">藩閥・軍閥中心の内閣</text>
+<rect x="480" y="100" width="260" height="90" rx="12" fill="#E8A0BF"/>
+<text x="610.0" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">原敬内閣（1918年〜）</text>
+<text x="610.0" y="160" text-anchor="middle" font-size="13" fill="#4A4259">立憲政友会の党員が中心</text>
+<line x1="300" y1="145" x2="465" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="478,145 465,140 465,150" fill="#4A4259"/>
+<text x="389.0" y="137.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">護憲運動の高まり</text>
+<text x="370" y="240" text-anchor="middle" font-size="14" fill="#4A4259">陸軍・海軍大臣以外の閣僚のほとんどを政党の党員が占めた</text>
+</svg>

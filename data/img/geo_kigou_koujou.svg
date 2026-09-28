@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="330" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">地図記号</text>
+<circle cx="300" cy="190" r="90" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<circle cx="300" cy="190" r="16" fill="none" stroke="#4A4259" stroke-width="8"/>
+<line x1="330" y1="190" x2="345" y2="190" stroke="#4A4259" stroke-width="9"/>
+<line x1="321" y1="211" x2="332" y2="222" stroke="#4A4259" stroke-width="9"/>
+<line x1="300" y1="220" x2="300" y2="235" stroke="#4A4259" stroke-width="9"/>
+<line x1="279" y1="211" x2="268" y2="222" stroke="#4A4259" stroke-width="9"/>
+<line x1="270" y1="190" x2="255" y2="190" stroke="#4A4259" stroke-width="9"/>
+<line x1="279" y1="169" x2="268" y2="158" stroke="#4A4259" stroke-width="9"/>
+<line x1="300" y1="160" x2="300" y2="145" stroke="#4A4259" stroke-width="9"/>
+<line x1="321" y1="169" x2="332" y2="158" stroke="#4A4259" stroke-width="9"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">社会保障制度の4つの柱</text>
+<rect x="40" y="90" width="320" height="90" rx="12" fill="#E8A0BF"/>
+<text x="200.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">社会保険</text>
+<text x="200.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">医療・年金・介護・雇用保険</text>
+<rect x="410" y="90" width="320" height="90" rx="12" fill="#B4ECE3"/>
+<text x="570.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">公的扶助</text>
+<text x="570.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">生活保護など</text>
+<rect x="40" y="210" width="320" height="90" rx="12" fill="#FFD97D"/>
+<text x="200.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">社会福祉</text>
+<text x="200.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">児童・障がい者・高齢者の支援</text>
+<rect x="410" y="210" width="320" height="90" rx="12" fill="#C9E4FF"/>
+<text x="570.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">公衆衛生</text>
+<text x="570.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">感染症予防・上下水道など</text>
+</svg>

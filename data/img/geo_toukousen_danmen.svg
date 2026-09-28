@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 290" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="290" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">等高線と地形の断面（模式）</text>
+<rect x="90" y="220" width="620" height="18" fill="#C9C4D3" stroke="#4A4259"/>
+<rect x="135" y="190" width="530" height="18" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="180" y="160" width="440" height="18" fill="#B4ECE3" stroke="#4A4259"/>
+<rect x="225" y="130" width="350" height="18" fill="#E8A0BF" stroke="#4A4259"/>
+<rect x="270" y="100" width="260" height="18" fill="#E8A0BF" stroke="#4A4259"/>
+<rect x="315" y="75" width="170" height="18" fill="#FFD97D" stroke="#4A4259"/>
+<text x="150" y="205" text-anchor="start" font-size="13" font-weight="bold" fill="#4A4259">A：等高線がせまい（急な斜面）</text>
+<text x="430" y="90" text-anchor="start" font-size="13" font-weight="bold" fill="#4A4259">B：山頂に向けて張り出す＝尾根</text>
+<text x="370" y="260" text-anchor="middle" font-size="13" fill="#4A4259">等高線の間隔と地形の高さ・傾斜には対応関係がある</text>
+</svg>

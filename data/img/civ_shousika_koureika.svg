@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">年少人口・高齢者人口の割合の変化（模式）</text>
+<line x1="80" y1="280" x2="680" y2="280" stroke="#4A4259" stroke-width="2"/>
+<polyline points="80,172 280,190 480,202 680,208" fill="none" stroke="#B4ECE3" stroke-width="4"/>
+<polyline points="80,208 280,178 480,142 680,106" fill="none" stroke="#E8A0BF" stroke-width="4"/>
+<text x="80.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">1990</text>
+<text x="280.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2000</text>
+<text x="480.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2010</text>
+<text x="680.0" y="302" text-anchor="middle" font-size="12" fill="#4A4259">2020</text>
+<text x="120" y="50" text-anchor="start" font-size="13" font-weight="bold" fill="#B23A48">高齢者人口の割合</text>
+<text x="380" y="50" text-anchor="start" font-size="13" font-weight="bold" fill="#2E8B7A">年少人口の割合</text>
+</svg>

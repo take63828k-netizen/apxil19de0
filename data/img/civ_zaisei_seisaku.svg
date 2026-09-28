@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="340" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">不景気のときの財政政策</text>
+<rect x="280" y="30" width="200" height="70" rx="12" fill="#C9C4D3"/>
+<text x="380.0" y="71" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">不景気</text>
+<rect x="40" y="150" width="260" height="90" rx="12" fill="#B4ECE3"/>
+<text x="170.0" y="190" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">減税</text>
+<text x="170.0" y="212" text-anchor="middle" font-size="13" fill="#4A4259">家計・企業の使えるお金を増やす</text>
+<rect x="470" y="150" width="260" height="90" rx="12" fill="#B4ECE3"/>
+<text x="600.0" y="191" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">公共投資の拡大</text>
+<text x="600.0" y="210" text-anchor="middle" font-size="13" fill="#4A4259">道路や施設の整備を増やす</text>
+<line x1="330" y1="100" x2="182" y2="144" stroke="#4A4259" stroke-width="3"/>
+<polygon points="170,148 184,149 181,139" fill="#4A4259"/>
+<line x1="430" y1="100" x2="558" y2="144" stroke="#4A4259" stroke-width="3"/>
+<polygon points="570,148 559,139 556,149" fill="#4A4259"/>
+<rect x="230" y="260" width="320" height="60" rx="12" fill="#FFD97D"/>
+<text x="390.0" y="295" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">景気の回復をうながす</text>
+</svg>

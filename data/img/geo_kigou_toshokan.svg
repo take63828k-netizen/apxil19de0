@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="330" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">地図記号</text>
+<circle cx="300" cy="190" r="90" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<path d="M255 170 Q300 145 345 170 L345 215 Q300 190 255 215 Z" fill="none" stroke="#4A4259" stroke-width="7"/>
+<line x1="300" y1="155" x2="300" y2="200" stroke="#4A4259" stroke-width="6"/>
+</svg>

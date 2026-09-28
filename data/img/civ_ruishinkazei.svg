@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 355" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="355" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">所得税の累進課税の仕組み（模式）</text>
+<line x1="100" y1="280" x2="660" y2="280" stroke="#4A4259" stroke-width="2"/>
+<rect x="121" y="258" width="51" height="22" fill="#B4ECE3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="146.66666666666666" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">195万円以下</text>
+<rect x="214" y="236" width="51" height="44" fill="#B4ECE3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="239.99999999999997" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">330万円以下</text>
+<rect x="308" y="192" width="51" height="88" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="333.3333333333333" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">695万円以下</text>
+<rect x="401" y="179" width="51" height="101" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="426.6666666666667" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">900万円以下</text>
+<rect x="494" y="135" width="51" height="145" fill="#E8A0BF" stroke="#4A4259" stroke-width="1.5"/>
+<text x="520.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">1800万円以下</text>
+<rect x="588" y="82" width="51" height="198" fill="#E8A0BF" stroke="#4A4259" stroke-width="1.5"/>
+<text x="613.3333333333333" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">4000万円超</text>
+<text x="370" y="330" text-anchor="middle" font-size="13" fill="#4A4259">課税対象の所得が多い段階ほど、税率（％）が高くなる</text>
+</svg>
