@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 290" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="740" height="290" fill="#FFFFFF"/>
+<text x="340" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">樺太・千島交換条約（1875年）による国境の変化</text>
+<text x="180" y="60" text-anchor="middle" font-size="16" font-weight="bold" fill="#B23A48">条約の前</text>
+<rect x="30" y="80" width="300" height="70" rx="12" fill="#C9C4D3"/>
+<text x="180.0" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">樺太</text>
+<text x="180.0" y="132" text-anchor="middle" font-size="13" fill="#4A4259">日本・ロシアの雑居地（国境が未確定）</text>
+<rect x="30" y="165" width="300" height="70" rx="12" fill="#C9C4D3"/>
+<text x="180.0" y="195" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">千島列島</text>
+<text x="180.0" y="217" text-anchor="middle" font-size="13" fill="#4A4259">得撫島より北＝ロシア領、択捉島より南＝日本領</text>
+<text x="500" y="60" text-anchor="middle" font-size="16" font-weight="bold" fill="#2E6B8C">条約の後</text>
+<rect x="410" y="80" width="300" height="70" rx="12" fill="#C9E4FF"/>
+<text x="560.0" y="110" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">樺太</text>
+<text x="560.0" y="132" text-anchor="middle" font-size="13" fill="#4A4259">全島がロシア領に</text>
+<rect x="410" y="165" width="300" height="70" rx="12" fill="#FFD97D"/>
+<text x="560.0" y="195" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">千島列島</text>
+<text x="560.0" y="217" text-anchor="middle" font-size="13" fill="#4A4259">全島が日本領に</text>
+<line x1="330" y1="115" x2="395" y2="115" stroke="#4A4259" stroke-width="3"/>
+<polygon points="408,115 395,110 395,120" fill="#4A4259"/>
+<line x1="330" y1="200" x2="395" y2="200" stroke="#4A4259" stroke-width="3"/>
+<polygon points="408,200 395,195 395,205" fill="#4A4259"/>
+<text x="400" y="270" text-anchor="middle" font-size="14" fill="#4A4259">領土を交換することで、両国の国境をめぐる対立を解消した</text>
+</svg>

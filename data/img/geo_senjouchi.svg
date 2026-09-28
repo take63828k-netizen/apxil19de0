@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="300" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">扇状地の断面と利用のようす（模式図）</text>
+<polygon points="60,220 400,120 620,220" fill="#C9C4D3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="150" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">山地</text>
+<polygon points="330,150 470,150 560,220 240,220" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="400" y="195" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">扇状地</text>
+<text x="400" y="240" text-anchor="middle" font-size="13" fill="#4A4259">（粒の粗い土砂が積もり、水はけがよい→果樹園に利用）</text>
+<line x1="400" y1="120" x2="400" y2="260" stroke="#C9E4FF" stroke-width="4"/>
+<text x="430" y="270" text-anchor="middle" font-size="15" font-weight="bold" fill="#2E6B8C">川</text>
+</svg>

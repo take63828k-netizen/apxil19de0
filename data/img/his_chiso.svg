@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="740" height="340" fill="#FFFFFF"/>
+<text x="340" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">地租改正のしくみ</text>
+<rect x="40" y="90" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="124" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">地価</text>
+<text x="140.0" y="150" text-anchor="middle" font-size="13" fill="#4A4259">土地の価格</text>
+<rect x="500" y="90" width="200" height="80" rx="12" fill="#E8A0BF"/>
+<text x="600.0" y="124" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">地租</text>
+<text x="600.0" y="150" text-anchor="middle" font-size="13" fill="#4A4259">税額（現金で納入）</text>
+<line x1="240" y1="130" x2="485" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="498,130 485,125 485,135" fill="#4A4259"/>
+<text x="369.0" y="122.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">× 3%</text>
+<rect x="270" y="190" width="160" height="60" rx="12" fill="#FFD97D"/>
+<text x="350.0" y="216" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">地券</text>
+<text x="350.0" y="236" text-anchor="middle" font-size="13" fill="#4A4259">土地の所有を証明</text>
+<rect x="40" y="260" width="200" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="140.0" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">地券をもつ土地の所有者</text>
+<rect x="500" y="260" width="200" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="600.0" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">政府（財政の安定）</text>
+<line x1="140" y1="220" x2="140" y2="245" stroke="#4A4259" stroke-width="3"/>
+<polygon points="140,258 145,245 135,245" fill="#4A4259"/>
+<line x1="140" y1="258" x2="138" y2="203" stroke="#4A4259" stroke-width="3" stroke-dasharray="7 5"/>
+<polygon points="138,190 133,203 144,203" fill="#4A4259"/>
+<line x1="600" y1="170" x2="600" y2="245" stroke="#4A4259" stroke-width="3"/>
+<polygon points="600,258 605,245 595,245" fill="#4A4259"/>
+<text x="340" y="320" text-anchor="middle" font-size="13" fill="#4A4259">豊作・凶作にかかわらず、地価が変わらなければ税収は安定する</text>
+</svg>

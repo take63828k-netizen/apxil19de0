@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 250" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="250" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">労働三権の関係（日本国憲法第28条）</text>
+<rect x="20" y="100" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="130.0" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">団結権</text>
+<text x="130.0" y="163" text-anchor="middle" font-size="13" fill="#4A4259">労働組合をつくる権利</text>
+<rect x="280" y="100" width="220" height="90" rx="12" fill="#FFD97D"/>
+<text x="390.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">団体交渉権</text>
+<text x="390.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">使用者と労働条件を交渉する権利</text>
+<rect x="540" y="100" width="220" height="90" rx="12" fill="#E8A0BF"/>
+<text x="650.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">団体行動権</text>
+<text x="650.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">ストライキなどを行う権利</text>
+<line x1="240" y1="145" x2="265" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="278,145 265,140 265,150" fill="#4A4259"/>
+<line x1="500" y1="145" x2="525" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="538,145 525,140 525,150" fill="#4A4259"/>
+<text x="390" y="230" text-anchor="middle" font-size="13" fill="#4A4259">これらを具体化するため、労働組合法・労働関係調整法・労働基準法（労働三法）が定められている</text>
+</svg>

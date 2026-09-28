@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="800" height="220" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">労働三法とその内容</text>
+<rect x="20" y="90" width="240" height="100" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">労働基準法</text>
+<text x="140.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">労働条件の最低基準
+（1日8時間・週40時間等）</text>
+<rect x="280" y="90" width="240" height="100" rx="12" fill="#FFD97D"/>
+<text x="400.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">労働組合法</text>
+<text x="400.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">労働組合をつくる権利
+などを保障</text>
+<rect x="540" y="90" width="240" height="100" rx="12" fill="#E8A0BF"/>
+<text x="660.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">労働関係調整法</text>
+<text x="660.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">労働争議の予防・
+解決の方法を規定</text>
+</svg>

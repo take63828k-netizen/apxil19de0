@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="740" height="360" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">大日本帝国憲法下の統治のしくみ</text>
+<rect x="270" y="70" width="200" height="80" rx="12" fill="#FFD97D"/>
+<text x="370.0" y="104" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">天皇</text>
+<text x="370.0" y="130" text-anchor="middle" font-size="13" fill="#4A4259">主権をもち、統治権を統べる</text>
+<rect x="40" y="210" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="150.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">内閣</text>
+<text x="150.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">国務大臣が天皇を助ける（輔弼）</text>
+<rect x="290" y="210" width="220" height="90" rx="12" fill="#E8A0BF"/>
+<text x="400.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">帝国議会</text>
+<text x="400.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">貴族院・衆議院。法律や予算に協賛</text>
+<rect x="540" y="210" width="200" height="90" rx="12" fill="#C9E4FF"/>
+<text x="640.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">陸海軍</text>
+<text x="640.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">天皇が統帥権をもつ</text>
+<line x1="340" y1="150" x2="162" y2="204" stroke="#4A4259" stroke-width="3"/>
+<polygon points="150,208 164,209 161,199" fill="#4A4259"/>
+<line x1="370" y1="150" x2="394" y2="196" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,208 399,194 389,199" fill="#4A4259"/>
+<line x1="420" y1="150" x2="617" y2="205" stroke="#4A4259" stroke-width="3"/>
+<polygon points="630,208 619,200 616,210" fill="#4A4259"/>
+<text x="370" y="340" text-anchor="middle" font-size="13" fill="#4A4259">主権者は天皇であり、国民は「臣民」として法律の範囲内で権利が認められた</text>
+</svg>

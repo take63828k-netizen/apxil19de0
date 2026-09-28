@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="800" height="320" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">雇用形態の分類</text>
+<rect x="300" y="60" width="200" height="60" rx="12" fill="#FFD97D"/>
+<text x="400.0" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">雇用形態</text>
+<rect x="60" y="170" width="260" height="70" rx="12" fill="#B4ECE3"/>
+<text x="190.0" y="200" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">正規雇用</text>
+<text x="190.0" y="222" text-anchor="middle" font-size="13" fill="#4A4259">正社員</text>
+<rect x="440" y="170" width="300" height="90" rx="12" fill="#E8A0BF"/>
+<text x="590.0" y="210" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">非正規雇用</text>
+<text x="590.0" y="232" text-anchor="middle" font-size="13" fill="#4A4259">パート・アルバイト・
+派遣社員・契約社員など</text>
+<line x1="360" y1="122" x2="203" y2="165" stroke="#4A4259" stroke-width="3"/>
+<polygon points="190,168 204,170 201,160" fill="#4A4259"/>
+<line x1="440" y1="122" x2="578" y2="164" stroke="#4A4259" stroke-width="3"/>
+<polygon points="590,168 579,159 576,169" fill="#4A4259"/>
+<text x="400" y="300" text-anchor="middle" font-size="14" fill="#4A4259">近年、労働者全体に占める非正規雇用の割合は増加傾向にある</text>
+</svg>

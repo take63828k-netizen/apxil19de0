@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="740" height="320" fill="#FFFFFF"/>
+<text x="340" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">版籍奉還から廃藩置県への中央集権化</text>
+<rect x="30" y="100" width="200" height="90" rx="12" fill="#B4ECE3"/>
+<text x="130.0" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">版籍奉還</text>
+<text x="130.0" y="163" text-anchor="middle" font-size="13" fill="#4A4259">1869年：藩主が土地と人民を政府に返す</text>
+<rect x="270" y="100" width="200" height="90" rx="12" fill="#FFD97D"/>
+<text x="370.0" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">（藩主が知藩事に）</text>
+<text x="370.0" y="160" text-anchor="middle" font-size="13" fill="#4A4259">藩はそのまま残り、中央集権は不十分</text>
+<rect x="510" y="100" width="200" height="90" rx="12" fill="#E8A0BF"/>
+<text x="610.0" y="140" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">廃藩置県</text>
+<text x="610.0" y="163" text-anchor="middle" font-size="13" fill="#4A4259">1871年：藩を廃止し府県を設置</text>
+<line x1="230" y1="145" x2="255" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="268,145 255,140 255,150" fill="#4A4259"/>
+<line x1="470" y1="145" x2="495" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="508,145 495,140 495,150" fill="#4A4259"/>
+<rect x="270" y="220" width="300" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="420.0" y="255" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">中央から府知事・県令を派遣</text>
+<line x1="460" y1="190" x2="431" y2="211" stroke="#4A4259" stroke-width="3"/>
+<polygon points="420,218 434,215 428,206" fill="#4A4259"/>
+<text x="340" y="300" text-anchor="middle" font-size="14" fill="#4A4259">→中央集権的な国家のしくみが完成した</text>
+</svg>

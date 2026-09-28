@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="280" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">ハザードマップ（防災マップ）の読み取り方</text>
+<rect x="60" y="60" width="240" height="60" fill="#C9E4FF" opacity="0.7"/>
+<text x="180" y="95" text-anchor="middle" font-size="14" fill="#4A4259">洪水浸水想定区域</text>
+<rect x="60" y="140" width="240" height="60" fill="#FFD97D" opacity="0.7"/>
+<text x="180" y="175" text-anchor="middle" font-size="14" fill="#4A4259">土砂災害警戒区域</text>
+<circle cx="450" cy="90" r="20" fill="#B4ECE3" stroke="#4A4259" stroke-width="2"/>
+<text x="560" y="95" text-anchor="middle" font-size="14" fill="#4A4259">指定避難場所</text>
+<line x1="400" y1="170" x2="448" y2="194" stroke="#2E6B8C" stroke-width="3"/>
+<polygon points="460,200 451,190 446,199" fill="#2E6B8C"/>
+<text x="430.0" y="177.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">避難経路</text>
+<text x="370" y="260" text-anchor="middle" font-size="13" fill="#4A4259">色や記号の意味（凡例）を確認し、自分の家の危険度と避難先を確かめる</text>
+</svg>

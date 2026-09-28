@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="760" height="400" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">企業の種類</text>
+<rect x="300" y="60" width="160" height="60" rx="12" fill="#FFD97D"/>
+<text x="380.0" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">企業</text>
+<rect x="60" y="170" width="260" height="80" rx="12" fill="#B4ECE3"/>
+<text x="190.0" y="205" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">公企業</text>
+<text x="190.0" y="227" text-anchor="middle" font-size="13" fill="#4A4259">国・地方公共団体が運営。利潤の追求が目的ではない</text>
+<rect x="440" y="170" width="260" height="80" rx="12" fill="#E8A0BF"/>
+<text x="570.0" y="205" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">私企業</text>
+<text x="570.0" y="227" text-anchor="middle" font-size="13" fill="#4A4259">個人・民間が運営。利潤の追求が目的</text>
+<line x1="340" y1="122" x2="202" y2="164" stroke="#4A4259" stroke-width="3"/>
+<polygon points="190,168 204,169 201,159" fill="#4A4259"/>
+<line x1="400" y1="122" x2="557" y2="165" stroke="#4A4259" stroke-width="3"/>
+<polygon points="570,168 559,160 556,170" fill="#4A4259"/>
+<rect x="440" y="280" width="260" height="60" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="570.0" y="315" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">株式会社など</text>
+<line x1="570" y1="250" x2="570" y2="265" stroke="#4A4259" stroke-width="3"/>
+<polygon points="570,278 575,265 565,265" fill="#4A4259"/>
+<text x="370" y="380" text-anchor="middle" font-size="14" fill="#4A4259">中小企業は日本の企業数の約99％を占める</text>
+</svg>

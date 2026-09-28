@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="680" height="320" fill="#FFFFFF"/>
+<text x="370" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">三角州の地形と利用のようす（模式図）</text>
+<rect x="60" y="120" width="560" height="40" fill="#C9E4FF"/>
+<text x="120" y="145" text-anchor="middle" font-size="14" fill="#2E6B8C">川（上流）</text>
+<polygon points="350,160 470,160 560,240 260,240" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="410" y="205" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">三角州</text>
+<text x="410" y="250" text-anchor="middle" font-size="13" fill="#4A4259">（細かい土砂が積もる。水田や都市に利用）</text>
+<polygon points="60,240 260,240 220,290 60,290" fill="#E3F6F2"/>
+<polygon points="620,240 560,240 590,290 620,290" fill="#E3F6F2"/>
+<text x="410" y="300" text-anchor="middle" font-size="14" fill="#2E6B8C">海（または湖）</text>
+</svg>

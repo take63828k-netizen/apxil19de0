@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="800" height="420" fill="#FFFFFF"/>
+<text x="400" y="24" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">岩倉使節団の行程（模式図）</text>
+<rect x="20" y="90" width="150" height="80" rx="12" fill="#FFD97D"/>
+<text x="95.0" y="126" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">日本（出発）</text>
+<text x="95.0" y="145" text-anchor="middle" font-size="13" fill="#4A4259">1871年 横浜出港</text>
+<rect x="210" y="90" width="150" height="80" rx="12" fill="#B4ECE3"/>
+<text x="285.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アメリカ</text>
+<rect x="400" y="90" width="150" height="80" rx="12" fill="#C9E4FF"/>
+<text x="475.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">イギリス</text>
+<rect x="590" y="90" width="150" height="80" rx="12" fill="#C9E4FF"/>
+<text x="665.0" y="135" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">フランスなど
+欧州各国</text>
+<line x1="170" y1="130" x2="195" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="208,130 195,125 195,135" fill="#4A4259"/>
+<line x1="360" y1="130" x2="385" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="398,130 385,125 385,135" fill="#4A4259"/>
+<line x1="550" y1="130" x2="575" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="588,130 575,125 575,135" fill="#4A4259"/>
+<rect x="210" y="220" width="380" height="70" rx="12" fill="#E8A0BF"/>
+<text x="400.0" y="251" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">条約改正の交渉</text>
+<text x="400.0" y="271" text-anchor="middle" font-size="13" fill="#4A4259">→ 失敗（欧米の理解を得られず）</text>
+<rect x="210" y="300" width="380" height="70" rx="12" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<text x="400.0" y="331" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">欧米の進んだ制度・産業の視察</text>
+<text x="400.0" y="350" text-anchor="middle" font-size="13" fill="#4A4259">帰国後の近代化政策に影響</text>
+<line x1="750" y1="170" x2="313" y2="217" stroke="#4A4259" stroke-width="3" stroke-dasharray="7 5"/>
+<polygon points="300,218 313,222 312,211" fill="#4A4259"/>
+<text x="400" y="400" text-anchor="middle" font-size="13" fill="#4A4259">全権大使：岩倉具視。大久保利通・木戸孝允・伊藤博文らが同行し、1873年に帰国した。</text>
+</svg>
