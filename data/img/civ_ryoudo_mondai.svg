@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 360" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="360" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">日本周辺の領土をめぐる問題（模式図）</text>
+<rect x="500" y="40" width="220" height="80" rx="12" fill="#E8A0BF"/>
+<text x="610.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">北方領土</text>
+<text x="610.0" y="96" text-anchor="middle" font-size="13" fill="#4A4259">ロシアが占拠</text>
+<rect x="500" y="260" width="220" height="80" rx="12" fill="#FFD97D"/>
+<text x="610.0" y="296" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">竹島</text>
+<text x="610.0" y="316" text-anchor="middle" font-size="13" fill="#4A4259">韓国との間で主張の違い</text>
+<rect x="60" y="150" width="220" height="80" rx="12" fill="#B4ECE3"/>
+<text x="170.0" y="186" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">尖閣諸島</text>
+<text x="170.0" y="205" text-anchor="middle" font-size="13" fill="#4A4259">日本固有の領土</text>
+<rect x="300" y="60" width="150" height="240" fill="#F8F6FF" opacity="0.5"/>
+<text x="375" y="190" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">日本列島
+（模式）</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 260" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="260" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">SDGs（持続可能な開発目標）</text>
+<rect x="40" y="90" width="320" height="90" rx="12" fill="#FFD97D"/>
+<text x="200.0" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">2015年、国連サミットで採択</text>
+<rect x="410" y="90" width="320" height="90" rx="12" fill="#B4ECE3"/>
+<text x="570.0" y="131" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">2030年までに</text>
+<text x="570.0" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">17の目標の達成を目指す</text>
+<text x="370" y="230" text-anchor="middle" font-size="16" fill="#4A4259">貧困・環境・教育など、国際社会共通の目標</text>
+</svg>

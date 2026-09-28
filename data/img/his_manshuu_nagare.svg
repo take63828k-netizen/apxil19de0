@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 240" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="240" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">満州事変後の日本の動き</text>
+<rect x="30" y="110" width="165" height="90" rx="12" fill="#E8A0BF"/>
+<text x="112.5" y="151" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">満州事変</text>
+<text x="112.5" y="169" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1931年）</text>
+<line x1="195" y1="155" x2="202" y2="155" stroke="#4A4259" stroke-width="3"/>
+<polygon points="215,155 202,150 202,160" fill="#4A4259"/>
+<rect x="215" y="110" width="165" height="90" rx="12" fill="#FFD97D"/>
+<text x="297.5" y="151" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">満州国建国</text>
+<text x="297.5" y="169" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1932年）</text>
+<line x1="380" y1="155" x2="387" y2="155" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,155 387,150 387,160" fill="#4A4259"/>
+<rect x="400" y="110" width="165" height="90" rx="12" fill="#B4ECE3"/>
+<text x="482.5" y="151" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">リットン調査団</text>
+<text x="482.5" y="169" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">の報告</text>
+<line x1="565" y1="155" x2="572" y2="155" stroke="#4A4259" stroke-width="3"/>
+<polygon points="585,155 572,150 572,160" fill="#4A4259"/>
+<rect x="585" y="110" width="165" height="90" rx="12" fill="#E8A0BF"/>
+<text x="667.5" y="151" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">国際連盟脱退</text>
+<text x="667.5" y="169" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1933年）</text>
+</svg>

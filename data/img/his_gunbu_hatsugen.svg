@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">軍部の発言力の高まり</text>
+<rect x="60" y="100" width="280" height="100" rx="12" fill="#E8A0BF"/>
+<text x="200.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">五・一五事件</text>
+<text x="200.0" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">（1932年）</text>
+<text x="200.0" y="176" text-anchor="middle" font-size="13" fill="#4A4259">海軍青年将校が犬養毅首相を暗殺</text>
+<rect x="430" y="100" width="280" height="100" rx="12" fill="#FFD97D"/>
+<text x="570.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">二・二六事件</text>
+<text x="570.0" y="156" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">（1936年）</text>
+<text x="570.0" y="176" text-anchor="middle" font-size="13" fill="#4A4259">陸軍青年将校によるクーデター未遂</text>
+<line x1="340" y1="150" x2="415" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="428,150 415,145 415,155" fill="#4A4259"/>
+<text x="384.0" y="142.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">4年後</text>
+<text x="370" y="250" text-anchor="middle" font-size="14" fill="#4A4259">→どちらも軍の青年将校が関わり、軍部の政治的発言力が強まった</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">水俣病の発生の経路（模式）</text>
+<rect x="30" y="100" width="200" height="90" rx="12" fill="#C9C4D3"/>
+<text x="130.0" y="151" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">化学工場</text>
+<rect x="280" y="100" width="200" height="90" rx="12" fill="#E8A0BF"/>
+<text x="380.0" y="141" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">水俣湾</text>
+<text x="380.0" y="158" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">（有機水銀を含む排水）</text>
+<rect x="530" y="100" width="200" height="90" rx="12" fill="#FFD97D"/>
+<text x="630.0" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">魚介類・人体</text>
+<line x1="230" y1="145" x2="265" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="278,145 265,140 265,150" fill="#4A4259"/>
+<line x1="480" y1="145" x2="515" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="528,145 515,140 515,150" fill="#4A4259"/>
+<text x="370" y="240" text-anchor="middle" font-size="14" fill="#4A4259">工場排水中の有機水銀が魚介類に蓄積し、人体に取り込まれた</text>
+</svg>

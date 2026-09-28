@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">瀬戸内工業地域の工業出荷額の割合（模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 0 1 328.1,179.4 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="306.6896626058218" y="95.21019898249266" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">化学（石油化学など）</text>
+<path d="M220,200 L328.1,179.4 A110,110 0 0 1 273.0,296.4 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="343.05647913537865" y="257.9059836528499" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">金属</text>
+<path d="M220,200 L273.0,296.4 A110,110 0 0 1 110.9,186.2 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="143.55666061211022" y="312.4829581013404" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">機械</text>
+<path d="M220,200 L110.9,186.2 A110,110 0 0 1 220.0,90.0 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="130.06158631598333" y="97.9848945302575" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（近年の工業統計にもとづくおおよその割合）</text>
+</svg>

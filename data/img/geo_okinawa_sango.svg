@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="790" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">沖縄県の特色</text>
+<rect x="40" y="90" width="220" height="100" rx="12" fill="#B4ECE3"/>
+<text x="150.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">さんご礁の海</text>
+<text x="150.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">観光業がさかん</text>
+<rect x="290" y="90" width="220" height="100" rx="12" fill="#FFD97D"/>
+<text x="400.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">亜熱帯の気候</text>
+<text x="400.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">年間を通じて温暖</text>
+<rect x="540" y="90" width="220" height="100" rx="12" fill="#E8A0BF"/>
+<text x="650.0" y="136" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">アメリカ軍基地</text>
+<text x="650.0" y="155" text-anchor="middle" font-size="13" fill="#4A4259">日本にある基地の多くが集中</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">3R（リデュース・リユース・リサイクル）</text>
+<rect x="30" y="90" width="220" height="100" rx="12" fill="#E8A0BF"/>
+<text x="140.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">リデュース</text>
+<text x="140.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">ごみそのものを減らす</text>
+<rect x="280" y="90" width="220" height="100" rx="12" fill="#B4ECE3"/>
+<text x="390.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">リユース</text>
+<text x="390.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">くり返し使う</text>
+<rect x="530" y="90" width="220" height="100" rx="12" fill="#FFD97D"/>
+<text x="640.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">リサイクル</text>
+<text x="640.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">再生利用する</text>
+</svg>

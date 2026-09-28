@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 330" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="330" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">阿蘇山のカルデラ（断面・模式）</text>
+<polygon points="80,220 250,60 420,220" fill="#C9C4D3"/>
+<polygon points="180,220 250,140 320,220" fill="#F8F6FF"/>
+<text x="250" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">カルデラ（くぼ地）</text>
+<rect x="460" y="100" width="260" height="90" rx="12" fill="#B4ECE3"/>
+<text x="590.0" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">カルデラの中に</text>
+<text x="590.0" y="160" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">田畑や集落がある</text>
+<text x="370" y="300" text-anchor="middle" font-size="14" fill="#4A4259">カルデラは火山の爆発・陥没によってできた大きなくぼ地</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">中国・四国地方の主な農産物の産地</text>
+<rect x="30" y="90" width="220" height="90" rx="12" fill="#FFD97D"/>
+<text x="140.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">鳥取県</text>
+<text x="140.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">らっきょう・すいか（砂丘農業）</text>
+<rect x="280" y="90" width="220" height="90" rx="12" fill="#E8A0BF"/>
+<text x="390.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">高知平野</text>
+<text x="390.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">なす・ピーマンの促成栽培</text>
+<rect x="530" y="90" width="220" height="90" rx="12" fill="#B4ECE3"/>
+<text x="640.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">愛媛県</text>
+<text x="640.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">みかんの栽培</text>
+</svg>

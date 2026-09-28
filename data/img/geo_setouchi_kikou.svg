@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">瀬戸内の気候（模式・断面）</text>
+<polygon points="30,220 180,80 330,220" fill="#B4ECE3"/>
+<text x="180" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">中国山地</text>
+<polygon points="440,220 590,80 740,220" fill="#B4ECE3"/>
+<text x="590" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">四国山地</text>
+<rect x="300" y="130" width="170" height="70" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="161" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">瀬戸内</text>
+<text x="385.0" y="181" text-anchor="middle" font-size="13" fill="#4A4259">降水量が少ない</text>
+<line x1="200" y1="150" x2="287" y2="163" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,165 288,158 286,168" fill="#4A4259"/>
+<text x="250.0" y="149.5" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">季節風</text>
+<line x1="540" y1="150" x2="483" y2="162" stroke="#4A4259" stroke-width="3"/>
+<polygon points="470,165 484,167 482,157" fill="#4A4259"/>
+<text x="505.0" y="149.5" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">季節風</text>
+</svg>
