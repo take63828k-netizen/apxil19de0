@@ -1,8 +1,8 @@
 import { DEFAULT_SETTINGS, SETTING_FIELDS, STICKERS, PRAISES, RATING_LABEL } from './config.js';
 import * as db from './db.js';
 import { studyDay, dayEnd } from './dates.js';
-import { rateCard } from './fsrs.js';
-import { dailyNewQuota, startLabel, remainLabel, clearedToday, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
+import { applyAnswer } from './fsrs.js';
+import { dailyNewQuota, startLabel, remainLabel, clearedToday, pendingToday, dueCardIds, unseenCardIds, createSession } from './queue.js';
 import { activeTest, inTestRange, prepWindows, effectiveDue, unitOptions, clearExpiredTest } from './prep.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
@@ -11,7 +11,7 @@ import { serializeBackup, parseBackup } from './backup.js';
 import { pop, stamp, playSound, setSoundEnabled } from './effects.js';
 
 const $ = (id) => document.getElementById(id);
-const S = { settings: { ...DEFAULT_SETTINGS }, cards: new Map(), states: new Map(), logs: [], session: null, mode: 'normal', busy: false, syncError: null, flash: null };
+const S = { settings: { ...DEFAULT_SETTINGS }, cards: new Map(), states: new Map(), logs: [], session: null, busy: false, syncError: null, flash: null };
 
 async function loadAll() {
   S.settings = { ...DEFAULT_SETTINGS, ...((await db.getKV('settings')) ?? {}) };
@@ -22,14 +22,15 @@ async function loadAll() {
 }
 const today = () => studyDay(new Date(), S.settings.dayStartHour);
 // テスト・入試の総復習（設計書 6.9）：期日を早めて選び、テストの範囲の新しいカードを先に出す
-// 今日の問題（設計書 6.3）：今日の終わりまでに期日が来る復習から、今日の最後の答えが正解のカードを除いたもの
+// 今日の問題（設計書 6.3）：今日の終わりまでに期日が来る復習と、今日まだ正解していない不正解。今日の最後の答えが正解のカードは除く
 const lists = (now = new Date()) => {
   const day = studyDay(now, S.settings.dayStartHour);
   const windows = prepWindows(S.settings, day, S.cards);
   const test = activeTest(S.settings, day);
   return {
     due: dueCardIds({
-      cards: S.cards, states: S.states, now, until: dayEnd(day, S.settings.dayStartHour), skip: clearedToday(S.logs, day),
+      cards: S.cards, states: S.states, now, until: dayEnd(day, S.settings.dayStartHour),
+      skip: clearedToday(S.logs, day), keep: pendingToday(S.logs, day),
       dueOf: (s, c) => effectiveDue(s, c, windows, S.settings.dayStartHour, now),
     }),
     unseen: unseenCardIds({ cards: S.cards, states: S.states, first: (c) => inTestRange(c, test) }),
@@ -79,7 +80,6 @@ async function renderHome() {
   const fresh = Math.min(Math.max(0, plan.quota - plan.introduced), unseen.length);
   $('remain').textContent = remainLabel(due.length + fresh);
   $('btn-start').textContent = startLabel(due.length + fresh, S.settings.sessionSize);
-  $('btn-weak').textContent = `苦手特訓（${S.settings.weakCount}問）`;
   $('notices').replaceChildren();
   if (!isStandalone()) addNotice('📱 ホーム画面のアイコンから開いてね。Safari で開くと、学習記録がアプリとは別の場所に保存されます。');
   if (S.flash) { addNotice(S.flash); S.flash = null; }
@@ -110,21 +110,15 @@ async function renderCalendar(day) {
   }
 }
 
-async function startSession(mode) {
+async function startSession() {
   const now = new Date();
-  let ids;
-  if (mode === 'weak') {
-    ids = pickWeakIds({ cards: S.cards, states: S.states, logs: S.logs, now, count: S.settings.weakCount, lapseDays: S.settings.lapseDays });
-  } else {
-    const plan = await getPlan();
-    const { due, unseen } = lists(now);
-    ids = [...due, ...unseen.slice(0, Math.max(0, plan.quota - plan.introduced))].slice(0, S.settings.sessionSize);
-  }
+  const plan = await getPlan();
+  const { due, unseen } = lists(now);
+  const ids = [...due, ...unseen.slice(0, Math.max(0, plan.quota - plan.introduced))].slice(0, S.settings.sessionSize);
   if (ids.length === 0) {
-    S.flash = mode === 'weak' ? 'まだ苦手カードはありません。まずは通常の問題をやってみよう！' : '今日の分はぜんぶクリア！🎉 苦手特訓もできるよ。';
+    S.flash = '今日の分はぜんぶクリア！🎉 また明日ね。';
     await renderHome(); return;
   }
-  S.mode = mode;
   S.session = createSession(ids, { reinsertGap: S.settings.reinsertGap });
   show('study'); renderCard();
 }
@@ -135,7 +129,7 @@ function renderCard() {
   const card = S.cards.get(item.id);
   const { done, total } = S.session.progress();
   $('progress-bar').style.width = `${(done / total) * 100}%`;
-  $('progress-text').textContent = `${done} / ${total}${item.repeat ? '（もう一度）' : ''}`;
+  $('progress-text').textContent = `${done} / ${total}${item.repeat ? '（出し直し）' : ''}`;
   $('card-type').textContent = `${card.subject}・${card.card_type}`;
   $('question').textContent = card.question;
   const img = $('card-image');
@@ -163,9 +157,9 @@ function showOptions() {
 function onChoice(card, selected, btn) {
   for (const b of $('options').children) { b.disabled = true; if (b.textContent === card.answer) b.classList.add('correct'); }
   if (gradeChoice(selected, card.answer) === 'again') {
-    btn.classList.add('wrong'); playSound('miss'); showBack(card); renderRatings(['again'], { again: 'つぎへ（もう一度）' });
+    btn.classList.add('wrong'); playSound('miss'); showBack(card); renderRatings(['again'], { again: 'つぎへ（不正解・あとでもう一度）' });
   } else {
-    pop(btn); playSound('ok'); showBack(card); renderRatings(['hard', 'good', 'easy']);
+    pop(btn); playSound('ok'); showBack(card); renderRatings(['good'], { good: 'つぎへ（正解）' });
   }
 }
 
@@ -196,13 +190,16 @@ async function onRate(rating) {
   const item = S.session.current();
   const now = new Date();
   const prev = S.states.get(item.id);
-  const next = rateCard(item.id, prev, rating, now);
+  const day = today();
+  const todayRatings = S.logs.filter((l) => l.card_id === item.id && l.day === day).map((l) => l.rating);
+  const nextDayStart = new Date(dayEnd(day, S.settings.dayStartHour).getTime() + 1);
+  const next = applyAnswer({ cardId: item.id, prev, rating, now, todayRatings, nextDayStart });
   S.states.set(item.id, next);
   await db.putState(next);
-  const log = { card_id: item.id, rating, at: now.getTime(), day: today(), repeat: item.repeat, mode: S.mode };
+  const log = { card_id: item.id, rating, at: now.getTime(), day, repeat: item.repeat };
   S.logs.push(log);
   await db.addLog(log);
-  if (!prev && S.mode === 'normal' && !item.repeat) {
+  if (!prev && !item.repeat) {
     const plan = await getPlan();
     plan.introduced++;
     if (inTestRange(S.cards.get(item.id), activeTest(S.settings, plan.day))) plan.introducedRange = (plan.introducedRange ?? 0) + 1;
@@ -328,14 +325,13 @@ async function importBackup(file) {
 
 function bind() {
   document.addEventListener('pointerdown', (e) => { const b = e.target.closest('button, .btn'); if (b) pop(b); });
-  $('btn-start').addEventListener('click', () => startSession('normal'));
-  $('btn-weak').addEventListener('click', () => startSession('weak'));
+  $('btn-start').addEventListener('click', () => startSession());
   $('btn-settings').addEventListener('click', () => { renderSettings(); show('settings'); });
   $('btn-back').addEventListener('click', async () => { show('home'); await renderHome(); });
   $('btn-quit').addEventListener('click', async () => { show('home'); await renderHome(); });
   $('btn-hint').addEventListener('click', () => { $('hint').hidden = false; $('btn-hint').hidden = true; });
   $('btn-options').addEventListener('click', showOptions);
-  $('btn-reveal').addEventListener('click', () => { const card = S.cards.get(S.session.current().id); showBack(card); renderRatings(['again', 'hard', 'good', 'easy']); });
+  $('btn-reveal').addEventListener('click', () => { const card = S.cards.get(S.session.current().id); showBack(card); renderRatings(['again', 'good']); });
   $('btn-export').addEventListener('click', exportBackup);
   $('file-import').addEventListener('change', (e) => { const f = e.target.files[0]; e.target.value = ''; if (f) importBackup(f); });
 }

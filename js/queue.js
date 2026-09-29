@@ -25,22 +25,32 @@ export function remainLabel(remain) {
   return remain > 0 ? `のこり ${remain} 問` : '今日の学習は完了！🎉';
 }
 
-// 記憶の計算が「10分後にもう一度」としていても、今日の最後の答えが正解なら今日はもう出さない
-export function clearedToday(logs, day) {
+function lastToday(logs, day) {
   const last = new Map();
   for (const l of logs) if (l.day === day && (!last.has(l.card_id) || l.at >= last.get(l.card_id).at)) last.set(l.card_id, l);
-  return new Set([...last.values()].filter((l) => l.rating !== 'again').map((l) => l.card_id));
+  return [...last.values()];
+}
+
+// 今日の最後の答えが正解のカード：今日はもう出さない
+export function clearedToday(logs, day) {
+  return new Set(lastToday(logs, day).filter((l) => l.rating !== 'again').map((l) => l.card_id));
+}
+
+// 今日の最後の答えが不正解のカード：正解するまで今日の問題に残す
+export function pendingToday(logs, day) {
+  return new Set(lastToday(logs, day).filter((l) => l.rating === 'again').map((l) => l.card_id));
 }
 
 // dueOf：出題を選ぶときの期日（テスト・入試の総復習で早めるとき。prep.js の effectiveDue）
-// until：この時刻までに期日が来るカードを選ぶ（今日の終わりを渡すと、今日のうちに期日が来るものを数える）。skip：今日は済みのカード
-export function dueCardIds({ cards, states, now, dueOf = (s) => s.due, until = now, skip = new Set() }) {
+// until：この時刻までに期日が来るカードを選ぶ（今日の終わりを渡すと、今日のうちに期日が来るものを数える）。
+// skip：今日は済みのカード。keep：期日にかかわらず今日の問題に入れるカード（正解するまで残す不正解）
+export function dueCardIds({ cards, states, now, dueOf = (s) => s.due, until = now, skip = new Set(), keep = new Set() }) {
   const out = [];
   for (const s of states.values()) {
     const c = cards.get(s.card_id);
     if (!c || c.retired || !s.due || skip.has(s.card_id)) continue;
     const due = dueOf(s, c);
-    if (due <= until) out.push({ id: s.card_id, due });
+    if (due <= until || keep.has(s.card_id)) out.push({ id: s.card_id, due });
   }
   out.sort((a, b) => a.due - b.due);
   return out.map((x) => x.id);
@@ -79,17 +89,4 @@ export function createSession(ids, { reinsertGap = 5, maxReinserts = 2 } = {}) {
     isDone() { return pos >= queue.length; },
     progress() { return { done, total: ids.length }; },
   };
-}
-
-export function pickWeakIds({ cards, states, logs, now, count = 10, lapseDays = 7 }) {
-  const since = now.getTime() - lapseDays * 86400000;
-  const usable = (id) => { const c = cards.get(id); const s = states.get(id); return c && !c.retired && s && s.reps > 0; };
-  const recent = logs.filter((l) => l.rating === 'again' && l.at >= since).sort((a, b) => b.at - a.at).map((l) => l.card_id);
-  const hard = [...states.values()].sort((a, b) => b.difficulty - a.difficulty).map((s) => s.card_id);
-  const out = [];
-  for (const id of [...recent, ...hard]) {
-    if (out.length >= count) break;
-    if (usable(id) && !out.includes(id)) out.push(id);
-  }
-  return out;
 }

@@ -1,5 +1,5 @@
 export function gradeChoice(selected, answer) {
-  return selected === answer ? null : 'again';
+  return selected === answer ? 'good' : 'again';
 }
 
 export function shuffle(arr, rng = Math.random) {
