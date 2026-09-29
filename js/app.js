@@ -2,8 +2,8 @@ import { DEFAULT_SETTINGS, SETTING_FIELDS, STICKERS, PRAISES, RATING_LABEL } fro
 import * as db from './db.js';
 import { studyDay } from './dates.js';
 import { rateCard } from './fsrs.js';
-import { newCardQuota, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
-import { activeTest, inTestRange, prepWindows, effectiveDue, rangeQuota, unitOptions, clearExpiredTest } from './prep.js';
+import { dailyNewQuota, startLabel, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
+import { activeTest, inTestRange, prepWindows, effectiveDue, unitOptions, clearExpiredTest } from './prep.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
 import { syncCards, imageUrl, imageUrls, prefetchImages, creditLabel } from './sync.js';
@@ -24,7 +24,7 @@ const today = () => studyDay(new Date(), S.settings.dayStartHour);
 // テスト・入試の総復習（設計書 6.9）：期日を早めて選び、テストの範囲の新しいカードを先に出す
 const lists = (now = new Date()) => {
   const day = studyDay(now, S.settings.dayStartHour);
-  const windows = prepWindows(S.settings, day);
+  const windows = prepWindows(S.settings, day, S.cards);
   const test = activeTest(S.settings, day);
   return {
     due: dueCardIds({ cards: S.cards, states: S.states, now, dueOf: (s, c) => effectiveDue(s, c, windows, S.settings.dayStartHour, now) }),
@@ -36,13 +36,16 @@ const lists = (now = new Date()) => {
 async function getPlan(recalc = false) {
   const day = today();
   let plan = await db.getKV('dailyPlan');
-  if (!plan || plan.day !== day) { plan = { day, introduced: 0, quota: 0 }; recalc = true; }
+  if (!plan || plan.day !== day) { plan = { day, introduced: 0, introducedRange: 0, quota: 0 }; recalc = true; }
   if (recalc) {
     const { due, unseen, test } = lists();
-    const normal = newCardQuota({ unseenCount: unseen.length, today: day, examDate: S.settings.examDate, bufferDays: S.settings.bufferDays, dueCount: due.length, backlogLimit: S.settings.backlogLimit });
+    // 復習が上限を超えたかは、その日のはじめの枚数で決める（復習を片付けた後に計算し直しても新しいカードを出さない）
+    plan.dueStart ??= due.length;
     const rangeUnseen = unseen.filter((id) => inTestRange(S.cards.get(id), test)).length;
-    const range = due.length > S.settings.backlogLimit ? 0 : rangeQuota({ rangeUnseen, today: day, test });
-    plan.quota = plan.introduced + Math.max(normal, range);
+    plan.quota = dailyNewQuota({
+      unseenCount: unseen.length, rangeUnseen, introduced: plan.introduced, introducedRange: plan.introducedRange ?? 0,
+      today: day, examDate: S.settings.examDate, dueCount: plan.dueStart, backlogLimit: S.settings.backlogLimit, test,
+    });
     await db.setKV('dailyPlan', plan);
   }
   return plan;
@@ -71,7 +74,7 @@ async function renderHome() {
   const { due, unseen } = lists();
   const fresh = Math.min(Math.max(0, plan.quota - plan.introduced), unseen.length);
   $('remain').textContent = `のこり ${due.length + fresh} 問`;
-  $('btn-start').textContent = `${S.settings.sessionSize}問スタート`;
+  $('btn-start').textContent = startLabel(due.length + fresh, S.settings.sessionSize);
   $('btn-weak').textContent = `苦手特訓（${S.settings.weakCount}問）`;
   $('notices').replaceChildren();
   if (!isStandalone()) addNotice('📱 ホーム画面のアイコンから開いてね。Safari で開くと、学習記録がアプリとは別の場所に保存されます。');
@@ -195,7 +198,12 @@ async function onRate(rating) {
   const log = { card_id: item.id, rating, at: now.getTime(), day: today(), repeat: item.repeat, mode: S.mode };
   S.logs.push(log);
   await db.addLog(log);
-  if (!prev && S.mode === 'normal' && !item.repeat) { const plan = await getPlan(); plan.introduced++; await db.setKV('dailyPlan', plan); }
+  if (!prev && S.mode === 'normal' && !item.repeat) {
+    const plan = await getPlan();
+    plan.introduced++;
+    if (inTestRange(S.cards.get(item.id), activeTest(S.settings, plan.day))) plan.introducedRange = (plan.introducedRange ?? 0) + 1;
+    await db.setKV('dailyPlan', plan);
+  }
   playSound(rating === 'again' ? 'miss' : 'tap');
   S.session.answer(rating);
   if (S.session.isDone()) showDone(); else renderCard();

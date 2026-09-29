@@ -1,11 +1,24 @@
 import { addDays, daysBetween } from './dates.js';
+import { rangeQuota, EXAM_PREP_DAYS } from './prep.js';
 
-export function newCardQuota({ unseenCount, today, examDate, bufferDays, dueCount, backlogLimit }) {
+// 新しいカードの期限は、入試の総復習の初日（入試の40日前）で固定
+export function newCardQuota({ unseenCount, today, examDate, dueCount, backlogLimit }) {
   if (!examDate || unseenCount <= 0) return 0;
   if (dueCount > backlogLimit) return 0;
-  const deadline = addDays(examDate, -bufferDays);
+  const deadline = addDays(examDate, -EXAM_PREP_DAYS);
   const daysLeft = Math.max(1, daysBetween(today, deadline));
   return Math.ceil(unseenCount / daysLeft);
+}
+
+// 今日すでに出した枚数を未出題へ足し戻して計算するので、途中で計算し直しても1日分が上乗せされない
+export function dailyNewQuota({ unseenCount, rangeUnseen, introduced, introducedRange, today, examDate, dueCount, backlogLimit, test }) {
+  const normal = newCardQuota({ unseenCount: unseenCount + introduced, today, examDate, dueCount, backlogLimit });
+  const range = dueCount > backlogLimit ? 0 : rangeQuota({ rangeUnseen: rangeUnseen + introducedRange, today, test });
+  return Math.max(introduced, normal, range);
+}
+
+export function startLabel(remain, sessionSize) {
+  return remain > 0 ? `${Math.min(remain, sessionSize)}問スタート` : '今日の分はクリア！';
 }
 
 // dueOf：出題を選ぶときの期日（テスト・入試の総復習で早めるとき。prep.js の effectiveDue）

@@ -1,5 +1,5 @@
 export const DEFAULT_SETTINGS = {
-  examDate: '2027-02-24', bufferDays: 30, backlogLimit: 100, dayStartHour: 4, sessionSize: 20,
+  examDate: '2027-02-24', backlogLimit: 100, dayStartHour: 4, sessionSize: 20,
   reinsertGap: 5, weakCount: 10, lapseDays: 7, graceWindow: 7, backupRemindDays: 7, sound: true,
   testDate: '2026-11-11', testSubject: null, testFrom: null, testTo: null,
 };
@@ -7,7 +7,6 @@ export const DEFAULT_SETTINGS = {
 export const SETTING_FIELDS = [
   { key: 'examDate', label: '入試日', type: 'date', basic: true },
   { key: 'sound', label: '効果音', type: 'checkbox', basic: true },
-  { key: 'bufferDays', label: '全カードを出し終える日（入試の何日前）', type: 'number', min: 0, max: 120 },
   { key: 'backlogLimit', label: '復習がこの枚数を超えたら新しいカードを休む', type: 'number', min: 10, max: 1000 },
   { key: 'dayStartHour', label: '日付が変わる時刻（時）', type: 'number', min: 0, max: 12 },
   { key: 'sessionSize', label: '1セッションの問題数', type: 'number', min: 5, max: 50 },
