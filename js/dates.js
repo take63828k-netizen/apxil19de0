@@ -5,6 +5,11 @@ export function studyDay(date, dayStartHour) {
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 }
 
+export function dayEnd(day, dayStartHour) {
+  const [y, m, d] = day.split('-').map(Number);
+  return new Date(new Date(y, m - 1, d + 1, dayStartHour).getTime() - 1);
+}
+
 function toUTC(day) {
   const [y, m, d] = day.split('-').map(Number);
   return Date.UTC(y, m - 1, d);

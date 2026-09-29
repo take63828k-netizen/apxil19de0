@@ -21,14 +21,26 @@ export function startLabel(remain, sessionSize) {
   return remain > 0 ? `${Math.min(remain, sessionSize)}問スタート` : '今日の分はクリア！';
 }
 
+export function remainLabel(remain) {
+  return remain > 0 ? `のこり ${remain} 問` : '今日の学習は完了！🎉';
+}
+
+// 記憶の計算が「10分後にもう一度」としていても、今日の最後の答えが正解なら今日はもう出さない
+export function clearedToday(logs, day) {
+  const last = new Map();
+  for (const l of logs) if (l.day === day && (!last.has(l.card_id) || l.at >= last.get(l.card_id).at)) last.set(l.card_id, l);
+  return new Set([...last.values()].filter((l) => l.rating !== 'again').map((l) => l.card_id));
+}
+
 // dueOf：出題を選ぶときの期日（テスト・入試の総復習で早めるとき。prep.js の effectiveDue）
-export function dueCardIds({ cards, states, now, dueOf = (s) => s.due }) {
+// until：この時刻までに期日が来るカードを選ぶ（今日の終わりを渡すと、今日のうちに期日が来るものを数える）。skip：今日は済みのカード
+export function dueCardIds({ cards, states, now, dueOf = (s) => s.due, until = now, skip = new Set() }) {
   const out = [];
   for (const s of states.values()) {
     const c = cards.get(s.card_id);
-    if (!c || c.retired || !s.due) continue;
+    if (!c || c.retired || !s.due || skip.has(s.card_id)) continue;
     const due = dueOf(s, c);
-    if (due <= now) out.push({ id: s.card_id, due });
+    if (due <= until) out.push({ id: s.card_id, due });
   }
   out.sort((a, b) => a.due - b.due);
   return out.map((x) => x.id);

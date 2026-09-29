@@ -1,8 +1,8 @@
 import { DEFAULT_SETTINGS, SETTING_FIELDS, STICKERS, PRAISES, RATING_LABEL } from './config.js';
 import * as db from './db.js';
-import { studyDay } from './dates.js';
+import { studyDay, dayEnd } from './dates.js';
 import { rateCard } from './fsrs.js';
-import { dailyNewQuota, startLabel, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
+import { dailyNewQuota, startLabel, remainLabel, clearedToday, dueCardIds, unseenCardIds, createSession, pickWeakIds } from './queue.js';
 import { activeTest, inTestRange, prepWindows, effectiveDue, unitOptions, clearExpiredTest } from './prep.js';
 import { gradeChoice, displayOptions } from './grading.js';
 import { computeStreak } from './streak.js';
@@ -22,12 +22,16 @@ async function loadAll() {
 }
 const today = () => studyDay(new Date(), S.settings.dayStartHour);
 // テスト・入試の総復習（設計書 6.9）：期日を早めて選び、テストの範囲の新しいカードを先に出す
+// 今日の問題（設計書 6.3）：今日の終わりまでに期日が来る復習から、今日の最後の答えが正解のカードを除いたもの
 const lists = (now = new Date()) => {
   const day = studyDay(now, S.settings.dayStartHour);
   const windows = prepWindows(S.settings, day, S.cards);
   const test = activeTest(S.settings, day);
   return {
-    due: dueCardIds({ cards: S.cards, states: S.states, now, dueOf: (s, c) => effectiveDue(s, c, windows, S.settings.dayStartHour, now) }),
+    due: dueCardIds({
+      cards: S.cards, states: S.states, now, until: dayEnd(day, S.settings.dayStartHour), skip: clearedToday(S.logs, day),
+      dueOf: (s, c) => effectiveDue(s, c, windows, S.settings.dayStartHour, now),
+    }),
     unseen: unseenCardIds({ cards: S.cards, states: S.states, first: (c) => inTestRange(c, test) }),
     test,
   };
@@ -68,12 +72,12 @@ function addNotice(text) {
 async function renderHome() {
   const plan = await getPlan();
   const day = plan.day;
-  $('today-count').textContent = S.logs.filter((l) => l.day === day && !l.repeat).length;
+  $('today-count').textContent = clearedToday(S.logs, day).size;
   const studied = new Set(S.logs.map((l) => l.day));
   $('streak').textContent = `🔥 ${computeStreak(studied, day, { graceWindow: S.settings.graceWindow })} 日連続学習中！`;
   const { due, unseen } = lists();
   const fresh = Math.min(Math.max(0, plan.quota - plan.introduced), unseen.length);
-  $('remain').textContent = `のこり ${due.length + fresh} 問`;
+  $('remain').textContent = remainLabel(due.length + fresh);
   $('btn-start').textContent = startLabel(due.length + fresh, S.settings.sessionSize);
   $('btn-weak').textContent = `苦手特訓（${S.settings.weakCount}問）`;
   $('notices').replaceChildren();
