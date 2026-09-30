@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">阪神工業地帯の分布（模式）</text>
+<rect x="60" y="90" width="250" height="100" rx="12" fill="#B4ECE3"/>
+<text x="185.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">大阪湾岸</text>
+<text x="185.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">金属工業・化学工業</text>
+<rect x="400" y="90" width="300" height="100" rx="12" fill="#FFD97D"/>
+<text x="550.0" y="136" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">内陸部</text>
+<text x="550.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">中小企業の町工場が多い</text>
+</svg>

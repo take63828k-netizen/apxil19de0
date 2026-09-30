@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">開国後の日本の主な輸出品の割合（模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 0 1 220.0,310.0 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="356.0" y="200.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">生糸</text>
+<path d="M220,200 L220.0,310.0 A110,110 0 0 1 120.5,246.8 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="147.12755588285648" y="314.8285978682741" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">茶</text>
+<path d="M220,200 L120.5,246.8 A110,110 0 0 1 220.0,90.0 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="105.17140213172594" y="127.12755588285648" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（幕末期の貿易にもとづくおおよその割合）</text>
+</svg>

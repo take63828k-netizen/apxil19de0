@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="790" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">扇状地の断面（模式）</text>
+<polygon points="370,50 150,220 590,220" fill="#FFD97D"/>
+<text x="370" y="245" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">扇状地（水はけがよい）</text>
+<rect x="500" y="60" width="240" height="80" rx="12" fill="#B4ECE3"/>
+<text x="620.0" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">果樹園</text>
+<text x="620.0" y="116" text-anchor="middle" font-size="13" fill="#4A4259">ぶどう・ももの栽培</text>
+</svg>

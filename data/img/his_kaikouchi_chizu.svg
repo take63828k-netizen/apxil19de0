@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 260" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="790" height="260" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">日米修好通商条約で開かれた港（模式）</text>
+<rect x="30" y="90" width="170" height="90" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">函館</text>
+<rect x="230" y="90" width="170" height="90" rx="12" fill="#FFD97D"/>
+<text x="315.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">横浜</text>
+<text x="315.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">最大の貿易港</text>
+<rect x="430" y="90" width="170" height="90" rx="12" fill="#B4ECE3"/>
+<text x="515.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">新潟</text>
+<rect x="630" y="90" width="140" height="90" rx="12" fill="#E8A0BF"/>
+<text x="700.0" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">長崎</text>
+<text x="370" y="230" text-anchor="middle" font-size="14" fill="#4A4259">ほかに兵庫（神戸）を合わせた5港が開かれた</text>
+</svg>

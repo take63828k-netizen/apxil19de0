@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="230" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">開国までの流れ</text>
+<rect x="40" y="100" width="220" height="100" rx="12" fill="#B4ECE3"/>
+<text x="150.0" y="146" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">ペリー来航</text>
+<text x="150.0" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">（1853年）</text>
+<line x1="260" y1="150" x2="267" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="280,150 267,145 267,155" fill="#4A4259"/>
+<rect x="280" y="100" width="220" height="100" rx="12" fill="#FFD97D"/>
+<text x="390.0" y="146" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">日米和親条約</text>
+<text x="390.0" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">（1854年）</text>
+<line x1="500" y1="150" x2="507" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="520,150 507,145 507,155" fill="#4A4259"/>
+<rect x="520" y="100" width="220" height="100" rx="12" fill="#E8A0BF"/>
+<text x="630.0" y="146" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">日米修好通商条約</text>
+<text x="630.0" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">（1858年）</text>
+</svg>

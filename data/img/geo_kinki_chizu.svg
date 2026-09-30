@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 360" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="790" height="360" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">近畿地方の主な地形（模式）</text>
+<rect x="280" y="40" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="380.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">琵琶湖</text>
+<text x="380.0" y="96" text-anchor="middle" font-size="13" fill="#4A4259">近畿地方最大の湖</text>
+<line x1="380" y1="120" x2="380" y2="147" stroke="#4A4259" stroke-width="3"/>
+<polygon points="380,160 385,147 375,147" fill="#4A4259"/>
+<text x="380.0" y="132.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">淀川</text>
+<rect x="280" y="170" width="200" height="70" rx="12" fill="#FFD97D"/>
+<text x="380.0" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">大阪湾へ</text>
+<rect x="500" y="250" width="240" height="90" rx="12" fill="#E8A0BF"/>
+<text x="620.0" y="291" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">紀伊山地</text>
+<text x="620.0" y="311" text-anchor="middle" font-size="13" fill="#4A4259">吉野すぎなどの林業</text>
+</svg>

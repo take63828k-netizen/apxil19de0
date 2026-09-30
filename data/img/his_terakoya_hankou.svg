@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="790" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">寺子屋と藩校</text>
+<rect x="60" y="90" width="300" height="100" rx="12" fill="#B4ECE3"/>
+<text x="210.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">寺子屋</text>
+<text x="210.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">庶民の子ども・読み書きそろばん</text>
+<rect x="430" y="90" width="300" height="100" rx="12" fill="#FFD97D"/>
+<text x="580.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">藩校</text>
+<text x="580.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">藩士の子弟・学問や武芸</text>
+</svg>

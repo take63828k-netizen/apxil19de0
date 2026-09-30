@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 220" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="220" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">北陸の豪雪と水田単作の関係</text>
+<rect x="60" y="90" width="300" height="100" rx="12" fill="#B4ECE3"/>
+<text x="210.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">冬は豪雪</text>
+<text x="210.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">田で裏作ができない</text>
+<line x1="370" y1="140" x2="417" y2="140" stroke="#4A4259" stroke-width="3"/>
+<polygon points="430,140 417,135 417,145" fill="#4A4259"/>
+<text x="400.0" y="132.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">そのため</text>
+<rect x="440" y="90" width="290" height="100" rx="12" fill="#FFD97D"/>
+<text x="585.0" y="135" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">水田単作</text>
+<text x="585.0" y="157" text-anchor="middle" font-size="13" fill="#4A4259">1年に稲作のみを行う</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">江戸の三大改革の流れ</text>
+<rect x="20" y="100" width="175" height="100" rx="12" fill="#B4ECE3"/>
+<text x="107.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">享保の改革</text>
+<text x="107.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1716年〜）</text>
+<line x1="195" y1="150" x2="197" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="210,150 197,145 197,155" fill="#4A4259"/>
+<rect x="210" y="100" width="175" height="100" rx="12" fill="#FFD97D"/>
+<text x="297.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">田沼意次の政治</text>
+<text x="297.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1772年〜）</text>
+<line x1="385" y1="150" x2="387" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,150 387,145 387,155" fill="#4A4259"/>
+<rect x="400" y="100" width="175" height="100" rx="12" fill="#E8A0BF"/>
+<text x="487.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">寛政の改革</text>
+<text x="487.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1787年〜）</text>
+<line x1="575" y1="150" x2="577" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="590,150 577,145 577,155" fill="#4A4259"/>
+<rect x="590" y="100" width="175" height="100" rx="12" fill="#B4ECE3"/>
+<text x="677.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">天保の改革</text>
+<text x="677.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（1841年〜）</text>
+<text x="370" y="240" text-anchor="middle" font-size="14" fill="#4A4259">天保の改革では株仲間の解散が命じられた</text>
+</svg>

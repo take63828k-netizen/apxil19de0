@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">輪島塗の製作工程（模式）</text>
+<rect x="20" y="100" width="175" height="100" rx="12" fill="#B4ECE3"/>
+<text x="107.5" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">木地作り</text>
+<line x1="195" y1="150" x2="197" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="210,150 197,145 197,155" fill="#4A4259"/>
+<rect x="210" y="100" width="175" height="100" rx="12" fill="#FFD97D"/>
+<text x="297.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">下地塗り</text>
+<text x="297.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（工程を重ねる）</text>
+<line x1="385" y1="150" x2="387" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="400,150 387,145 387,155" fill="#4A4259"/>
+<rect x="400" y="100" width="175" height="100" rx="12" fill="#E8A0BF"/>
+<text x="487.5" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">上塗り</text>
+<line x1="575" y1="150" x2="577" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="590,150 577,145 577,155" fill="#4A4259"/>
+<rect x="590" y="100" width="175" height="100" rx="12" fill="#B4ECE3"/>
+<text x="677.5" y="146" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">加飾</text>
+<text x="677.5" y="164" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">（蒔絵など）</text>
+<text x="370" y="240" text-anchor="middle" font-size="14" fill="#4A4259">冬の農閑期の副業として発達した伝統産業（地場産業）</text>
+</svg>

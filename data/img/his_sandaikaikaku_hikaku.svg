@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 260" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="260" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">江戸の三大改革</text>
+<rect x="30" y="80" width="220" height="110" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">享保の改革</text>
+<text x="140.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">徳川吉宗（1716年〜）</text>
+<rect x="280" y="80" width="220" height="110" rx="12" fill="#FFD97D"/>
+<text x="390.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">寛政の改革</text>
+<text x="390.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">松平定信（1787年〜）</text>
+<rect x="530" y="80" width="220" height="110" rx="12" fill="#E8A0BF"/>
+<text x="640.0" y="131" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">天保の改革</text>
+<text x="640.0" y="151" text-anchor="middle" font-size="13" fill="#4A4259">水野忠邦（1841年〜）</text>
+<text x="370" y="230" text-anchor="middle" font-size="14" fill="#4A4259">いずれも幕府の財政再建・立て直しを目指した改革</text>
+</svg>

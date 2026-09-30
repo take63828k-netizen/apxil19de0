@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="230" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">株仲間の仕組み</text>
+<rect x="20" y="100" width="220" height="100" rx="12" fill="#B4ECE3"/>
+<text x="130.0" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">商工業者</text>
+<text x="130.0" y="166" text-anchor="middle" font-size="13" fill="#4A4259">同業者組合を結成</text>
+<rect x="290" y="100" width="220" height="100" rx="12" fill="#FFD97D"/>
+<text x="400.0" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">幕府・藩</text>
+<text x="400.0" y="166" text-anchor="middle" font-size="13" fill="#4A4259">営業税（運上・冥加）を受け取る</text>
+<rect x="560" y="100" width="190" height="100" rx="12" fill="#E8A0BF"/>
+<text x="655.0" y="146" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">独占的な</text>
+<text x="655.0" y="165" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">営業権</text>
+<line x1="240" y1="150" x2="275" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="288,150 275,145 275,155" fill="#4A4259"/>
+<text x="264.0" y="142.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">税を納める</text>
+<line x1="510" y1="150" x2="545" y2="150" stroke="#4A4259" stroke-width="3"/>
+<polygon points="558,150 545,145 545,155" fill="#4A4259"/>
+<text x="534.0" y="142.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">与える</text>
+</svg>
