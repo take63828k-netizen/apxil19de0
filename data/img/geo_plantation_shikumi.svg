@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="230" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">プランテーション農業（模式）</text>
+<rect x="30" y="90" width="300" height="110" rx="12" fill="#BEE3B4"/>
+<text x="180.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">熱帯の大農園</text>
+<text x="180.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">天然ゴム・油やし・カカオなどを大量に栽培</text>
+<line x1="340" y1="145" x2="417" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="430,145 417,140 417,150" fill="#4A4259"/>
+<text x="385.0" y="137.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">（A）用</text>
+<rect x="440" y="90" width="300" height="110" rx="12" fill="#FFD97D"/>
+<text x="590.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">先進国</text>
+<text x="590.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">原料や食料として使う</text>
+</svg>

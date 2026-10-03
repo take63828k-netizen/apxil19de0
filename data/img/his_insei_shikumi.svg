@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">院政のしくみ（模式）</text>
+<rect x="40" y="80" width="300" height="110" rx="12" fill="#FFD97D"/>
+<text x="190.0" y="129" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="190.0" y="156" text-anchor="middle" font-size="13" fill="#4A4259">位をゆずった後も、院で政治を動かす</text>
+<line x1="350" y1="135" x2="407" y2="135" stroke="#4A4259" stroke-width="3"/>
+<polygon points="420,135 407,130 407,140" fill="#4A4259"/>
+<text x="385.0" y="127.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">実権</text>
+<rect x="430" y="80" width="300" height="110" rx="12" fill="#B4ECE3"/>
+<text x="580.0" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">天皇</text>
+<text x="580.0" y="153" text-anchor="middle" font-size="13" fill="#4A4259">幼い天皇が位につく</text>
+<text x="385" y="240" text-anchor="middle" font-size="14" fill="#4A4259">1086年、白河上皇が始めた。政治の実権はAが握った</text>
+</svg>

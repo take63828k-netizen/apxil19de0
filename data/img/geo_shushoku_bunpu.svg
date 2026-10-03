@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="320" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">世界の主な主食（模式）</text>
+<rect x="30" y="80" width="340" height="100" rx="12" fill="#FFD97D"/>
+<text x="200.0" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">モンスーンアジア</text>
+<text x="200.0" y="147" text-anchor="middle" font-size="13" fill="#4A4259">主食：（A）</text>
+<rect x="400" y="80" width="340" height="100" rx="12" fill="#C9E4FF"/>
+<text x="570.0" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">ヨーロッパ・北アメリカなど</text>
+<text x="570.0" y="147" text-anchor="middle" font-size="13" fill="#4A4259">主食：小麦（パン・パスタ）</text>
+<rect x="30" y="200" width="340" height="100" rx="12" fill="#BEE3B4"/>
+<text x="200.0" y="245" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">中南米・アフリカなど</text>
+<text x="200.0" y="267" text-anchor="middle" font-size="13" fill="#4A4259">主食：とうもろこし・いも類</text>
+<rect x="400" y="200" width="340" height="100" rx="12" fill="#E8A0BF"/>
+<text x="570.0" y="245" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">西アジア・北アフリカ</text>
+<text x="570.0" y="267" text-anchor="middle" font-size="13" fill="#4A4259">主食：小麦・なつめやしなど</text>
+</svg>

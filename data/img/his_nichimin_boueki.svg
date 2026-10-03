@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 240" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="240" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">日明貿易（勘合貿易）の品物（模式）</text>
+<rect x="30" y="90" width="220" height="120" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="145" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本</text>
+<text x="140.0" y="168" text-anchor="middle" font-size="13" fill="#4A4259">足利義満が開始</text>
+<rect x="520" y="90" width="220" height="120" rx="12" fill="#FFD97D"/>
+<text x="630.0" y="145" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">明</text>
+<text x="630.0" y="168" text-anchor="middle" font-size="13" fill="#4A4259">中国の王朝</text>
+<line x1="260" y1="120" x2="497" y2="120" stroke="#4A4259" stroke-width="3"/>
+<polygon points="510,120 497,115 497,125" fill="#4A4259"/>
+<text x="385.0" y="112.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">刀剣・銅・硫黄</text>
+<line x1="510" y1="185" x2="273" y2="185" stroke="#4A4259" stroke-width="3"/>
+<polygon points="260,185 273,190 273,180" fill="#4A4259"/>
+<text x="385.0" y="177.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#8C4A2E">（A）・生糸・絹織物</text>
+</svg>

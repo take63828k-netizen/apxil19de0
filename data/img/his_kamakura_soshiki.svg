@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 390" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="390" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">鎌倉幕府のしくみ（模式）</text>
+<rect x="305" y="50" width="160" height="50" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="81" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">将軍</text>
+<rect x="305" y="120" width="160" height="50" rx="12" fill="#E8A0BF"/>
+<text x="385.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">執権</text>
+<text x="385.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">将軍を補佐</text>
+<rect x="40" y="200" width="220" height="80" rx="12" fill="#B4ECE3"/>
+<text x="150.0" y="234" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="150.0" y="260" text-anchor="middle" font-size="13" fill="#4A4259">御家人の統率・軍事と警察</text>
+<rect x="290" y="200" width="190" height="80" rx="12" fill="#B4ECE3"/>
+<text x="385.0" y="235" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">政所</text>
+<text x="385.0" y="258" text-anchor="middle" font-size="13" fill="#4A4259">政務・財政</text>
+<rect x="510" y="200" width="220" height="80" rx="12" fill="#B4ECE3"/>
+<text x="620.0" y="235" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">問注所</text>
+<text x="620.0" y="258" text-anchor="middle" font-size="13" fill="#4A4259">裁判</text>
+<line x1="385" y1="100" x2="385" y2="109" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,118 389,109 381,109" fill="#4A4259"/>
+<line x1="385" y1="170" x2="385" y2="189" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,198 389,189 381,189" fill="#4A4259"/>
+<rect x="40" y="310" width="330" height="60" rx="12" fill="#C9E4FF"/>
+<text x="205.0" y="336" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">守護・地頭</text>
+<text x="205.0" y="355" text-anchor="middle" font-size="13" fill="#4A4259">守護は国ごと、地頭は荘園・公領ごと</text>
+<rect x="400" y="310" width="330" height="60" rx="12" fill="#C9E4FF"/>
+<text x="565.0" y="336" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">六波羅探題</text>
+<text x="565.0" y="355" text-anchor="middle" font-size="13" fill="#4A4259">承久の乱の後、京都に設置</text>
+</svg>

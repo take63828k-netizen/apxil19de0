@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 360" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="360" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">鎌倉時代の新しい仏教（一部）</text>
+<rect x="40" y="60" width="150" height="40" rx="12" fill="#C9B6E4"/>
+<text x="115.0" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">開祖</text>
+<rect x="210" y="60" width="320" height="40" rx="12" fill="#C9B6E4"/>
+<text x="370.0" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">教え</text>
+<rect x="550" y="60" width="170" height="40" rx="12" fill="#C9B6E4"/>
+<text x="635.0" y="86" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">宗派</text>
+<rect x="40" y="110" width="150" height="50" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="141" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">法然</text>
+<rect x="210" y="110" width="320" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="370.0" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">念仏を唱える</text>
+<rect x="550" y="110" width="170" height="50" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="142" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">？</text>
+<rect x="40" y="170" width="150" height="50" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="201" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">親鸞</text>
+<rect x="210" y="170" width="320" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="370.0" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">阿弥陀仏の救いを信じる</text>
+<rect x="550" y="170" width="170" height="50" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="202" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">？</text>
+<rect x="40" y="230" width="150" height="50" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="261" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">日蓮</text>
+<rect x="210" y="230" width="320" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="370.0" y="260" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">題目を唱える</text>
+<rect x="550" y="230" width="170" height="50" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="262" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">？</text>
+<rect x="40" y="290" width="150" height="50" rx="12" fill="#B4ECE3"/>
+<text x="115.0" y="321" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">道元</text>
+<rect x="210" y="290" width="320" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="370.0" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">ひたすら座禅をする</text>
+<rect x="550" y="290" width="170" height="50" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="322" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">？</text>
+</svg>

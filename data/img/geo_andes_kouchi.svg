@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 370" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="370" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アンデス山脈の標高と暮らし（模式）</text>
+<rect x="40" y="290" width="330" height="60" rx="12" fill="#BEE3B4"/>
+<text x="205.0" y="316" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">低地</text>
+<text x="205.0" y="336" text-anchor="middle" font-size="13" fill="#4A4259">バナナなどを栽培（暑い）</text>
+<rect x="120" y="220" width="330" height="60" rx="12" fill="#BEE3B4"/>
+<text x="285.0" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">中間</text>
+<text x="285.0" y="266" text-anchor="middle" font-size="13" fill="#4A4259">とうもろこしなどを栽培</text>
+<rect x="200" y="150" width="330" height="60" rx="12" fill="#FFD97D"/>
+<text x="365.0" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">高い所</text>
+<text x="365.0" y="196" text-anchor="middle" font-size="13" fill="#4A4259">じゃがいもなどを栽培</text>
+<rect x="280" y="70" width="330" height="70" rx="12" fill="#FFC49B"/>
+<text x="445.0" y="101" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">さらに高い所</text>
+<text x="445.0" y="121" text-anchor="middle" font-size="13" fill="#4A4259">（A）・アルパカなどを放牧</text>
+<line x1="690" y1="330" x2="690" y2="102" stroke="#4A4259" stroke-width="3"/>
+<polygon points="690,90 685,102 695,102" fill="#4A4259"/>
+<text x="715" y="215" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">標高</text>
+</svg>

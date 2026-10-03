@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">元寇での戦い方（模式）</text>
+<rect x="40" y="80" width="320" height="120" rx="12" fill="#E8A0BF"/>
+<text x="200.0" y="135" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">元軍</text>
+<text x="200.0" y="158" text-anchor="middle" font-size="13" fill="#4A4259">（A）と火薬兵器「てつはう」</text>
+<text x="385" y="150" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">vs</text>
+<rect x="410" y="80" width="320" height="120" rx="12" fill="#B4ECE3"/>
+<text x="570.0" y="135" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">日本の武士</text>
+<text x="570.0" y="158" text-anchor="middle" font-size="13" fill="#4A4259">一騎打ちが中心</text>
+<text x="385" y="245" text-anchor="middle" font-size="14" fill="#4A4259">文永の役（1274年）・弘安の役（1281年）</text>
+</svg>

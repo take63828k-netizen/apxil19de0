@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 240" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="240" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">平清盛が進めた貿易（模式）</text>
+<rect x="30" y="80" width="250" height="130" rx="12" fill="#B4ECE3"/>
+<text x="155.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">日本（平氏）</text>
+<text x="155.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">兵庫の港を整備</text>
+<rect x="490" y="80" width="250" height="130" rx="12" fill="#FFD97D"/>
+<text x="615.0" y="139" text-anchor="middle" font-size="22" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="615.0" y="166" text-anchor="middle" font-size="13" fill="#4A4259">中国の王朝</text>
+<line x1="290" y1="115" x2="467" y2="115" stroke="#4A4259" stroke-width="3"/>
+<polygon points="480,115 467,110 467,120" fill="#4A4259"/>
+<text x="385.0" y="107.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">銅銭・絹織物・陶磁器</text>
+<line x1="480" y1="175" x2="303" y2="175" stroke="#4A4259" stroke-width="3"/>
+<polygon points="290,175 303,180 303,170" fill="#4A4259"/>
+<text x="385.0" y="167.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#8C4A2E">砂金・硫黄</text>
+</svg>

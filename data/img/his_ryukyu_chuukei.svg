@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="340" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">琉球王国の貿易（模式）</text>
+<rect x="280" y="130" width="210" height="100" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="175" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">琉球王国</text>
+<text x="385.0" y="198" text-anchor="middle" font-size="13" fill="#4A4259">（A）貿易で栄えた</text>
+<rect x="300" y="50" width="170" height="50" rx="12" fill="#B4ECE3"/>
+<text x="385.0" y="81" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">日本</text>
+<rect x="40" y="140" width="170" height="80" rx="12" fill="#B4ECE3"/>
+<text x="125.0" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">明</text>
+<rect x="560" y="140" width="170" height="80" rx="12" fill="#B4ECE3"/>
+<text x="645.0" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">朝鮮</text>
+<rect x="260" y="270" width="250" height="50" rx="12" fill="#B4ECE3"/>
+<text x="385.0" y="301" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">東南アジア</text>
+<line x1="385" y1="128" x2="385" y2="113" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,104 381,113 389,113" fill="#4A4259"/>
+<line x1="278" y1="180" x2="223" y2="180" stroke="#4A4259" stroke-width="2"/>
+<polygon points="214,180 223,184 223,176" fill="#4A4259"/>
+<line x1="492" y1="180" x2="547" y2="180" stroke="#4A4259" stroke-width="2"/>
+<polygon points="556,180 547,176 547,184" fill="#4A4259"/>
+<line x1="385" y1="232" x2="385" y2="257" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,266 389,257 381,257" fill="#4A4259"/>
+</svg>

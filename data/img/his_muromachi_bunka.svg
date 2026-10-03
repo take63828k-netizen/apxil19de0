@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">室町文化の2つの時期</text>
+<rect x="40" y="70" width="320" height="150" rx="12" fill="#FFD97D"/>
+<text x="200.0" y="140" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）文化</text>
+<text x="200.0" y="164" text-anchor="middle" font-size="13" fill="#4A4259">金閣：足利義満が京都の北山に建てた</text>
+<rect x="410" y="70" width="320" height="150" rx="12" fill="#E8A0BF"/>
+<text x="570.0" y="140" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（B）文化</text>
+<text x="570.0" y="164" text-anchor="middle" font-size="13" fill="#4A4259">銀閣：足利義政が京都の東山に建てた</text>
+<text x="385" y="255" text-anchor="middle" font-size="14" fill="#4A4259">銀閣のころ、書院造や水墨画などが発達した</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 240" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="240" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">将軍と御家人の関係（模式）</text>
+<rect x="30" y="100" width="190" height="100" rx="12" fill="#FFD97D"/>
+<text x="125.0" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">将軍</text>
+<rect x="550" y="100" width="190" height="100" rx="12" fill="#B4ECE3"/>
+<text x="645.0" y="156" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">御家人</text>
+<line x1="230" y1="125" x2="527" y2="125" stroke="#4A4259" stroke-width="3"/>
+<polygon points="540,125 527,120 527,130" fill="#4A4259"/>
+<text x="385" y="104" text-anchor="middle" font-size="15" font-weight="bold" fill="#2E6B8C">（A）</text>
+<text x="385" y="146" text-anchor="middle" font-size="13" fill="#4A4259">領地を保護・新しい領地を与える</text>
+<line x1="540" y1="190" x2="243" y2="190" stroke="#4A4259" stroke-width="3"/>
+<polygon points="230,190 243,195 243,185" fill="#4A4259"/>
+<text x="385" y="169" text-anchor="middle" font-size="15" font-weight="bold" fill="#8C4A2E">（B）</text>
+<text x="385" y="211" text-anchor="middle" font-size="13" fill="#4A4259">戦いに命がけで参加・京都や鎌倉の警備</text>
+</svg>

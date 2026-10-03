@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 410" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="410" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">赤道から北極に向かう気候帯の並び（模式）</text>
+<rect x="180" y="50" width="410" height="60" rx="12" fill="#C9E4FF"/>
+<text x="385.0" y="87" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">寒帯</text>
+<text x="170" y="86" text-anchor="end" font-size="13" fill="#4A4259">北極付近</text>
+<rect x="180" y="116" width="410" height="60" rx="12" fill="#C9B6E4"/>
+<text x="385.0" y="153" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">冷帯（亜寒帯）</text>
+<rect x="180" y="182" width="410" height="60" rx="12" fill="#BEE3B4"/>
+<text x="385.0" y="219" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">温帯</text>
+<rect x="180" y="248" width="410" height="60" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="285" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">乾燥帯</text>
+<text x="170" y="284" text-anchor="end" font-size="13" fill="#4A4259">回帰線付近</text>
+<rect x="180" y="314" width="410" height="60" rx="12" fill="#E8A0BF"/>
+<text x="385.0" y="351" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="170" y="350" text-anchor="end" font-size="13" fill="#4A4259">赤道付近</text>
+<text x="385" y="395" text-anchor="middle" font-size="12" fill="#4A4259">※南半球は省略した模式図</text>
+</svg>

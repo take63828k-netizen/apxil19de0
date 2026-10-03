@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 390" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="620" height="390" fill="#FFFFFF"/>
+<text x="310.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">雨温図（模式）</text>
+<text x="46" y="46" text-anchor="middle" font-size="12" font-weight="bold" fill="#4A4259">気温(℃)</text>
+<text x="580" y="46" text-anchor="middle" font-size="12" font-weight="bold" fill="#4A4259">降水量(mm)</text>
+<line x1="70" y1="310.0" x2="550" y2="310.0" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="314" text-anchor="end" font-size="12" fill="#4A4259">-30</text>
+<text x="558" y="314" text-anchor="start" font-size="12" fill="#4A4259">0</text>
+<line x1="70" y1="274.3" x2="550" y2="274.3" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="278" text-anchor="end" font-size="12" fill="#4A4259">-20</text>
+<text x="558" y="278" text-anchor="start" font-size="12" fill="#4A4259">50</text>
+<line x1="70" y1="238.6" x2="550" y2="238.6" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="243" text-anchor="end" font-size="12" fill="#4A4259">-10</text>
+<text x="558" y="243" text-anchor="start" font-size="12" fill="#4A4259">100</text>
+<line x1="70" y1="202.9" x2="550" y2="202.9" stroke="#4A4259" stroke-width="2"/>
+<text x="62" y="207" text-anchor="end" font-size="12" fill="#4A4259">0</text>
+<text x="558" y="207" text-anchor="start" font-size="12" fill="#4A4259">150</text>
+<line x1="70" y1="167.1" x2="550" y2="167.1" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="171" text-anchor="end" font-size="12" fill="#4A4259">10</text>
+<text x="558" y="171" text-anchor="start" font-size="12" fill="#4A4259">200</text>
+<line x1="70" y1="131.4" x2="550" y2="131.4" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="135" text-anchor="end" font-size="12" fill="#4A4259">20</text>
+<text x="558" y="135" text-anchor="start" font-size="12" fill="#4A4259">250</text>
+<line x1="70" y1="95.7" x2="550" y2="95.7" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="100" text-anchor="end" font-size="12" fill="#4A4259">30</text>
+<text x="558" y="100" text-anchor="start" font-size="12" fill="#4A4259">300</text>
+<line x1="70" y1="60.0" x2="550" y2="60.0" stroke="#C9C4D3" stroke-width="1"/>
+<text x="62" y="64" text-anchor="end" font-size="12" fill="#4A4259">40</text>
+<text x="558" y="64" text-anchor="start" font-size="12" fill="#4A4259">350</text>
+<rect x="78.0" y="308.6" width="24.0" height="1.4" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="90" y="332" text-anchor="middle" font-size="12" fill="#4A4259">1</text>
+<rect x="118.0" y="307.9" width="24.0" height="2.1" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="130" y="332" text-anchor="middle" font-size="12" fill="#4A4259">2</text>
+<rect x="158.0" y="307.9" width="24.0" height="2.1" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="170" y="332" text-anchor="middle" font-size="12" fill="#4A4259">3</text>
+<rect x="198.0" y="308.6" width="24.0" height="1.4" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="210" y="332" text-anchor="middle" font-size="12" fill="#4A4259">4</text>
+<rect x="238.0" y="309.3" width="24.0" height="0.7" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="250" y="332" text-anchor="middle" font-size="12" fill="#4A4259">5</text>
+<rect x="278.0" y="310.0" width="24.0" height="0.0" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="290" y="332" text-anchor="middle" font-size="12" fill="#4A4259">6</text>
+<rect x="318.0" y="310.0" width="24.0" height="0.0" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="330" y="332" text-anchor="middle" font-size="12" fill="#4A4259">7</text>
+<rect x="358.0" y="310.0" width="24.0" height="0.0" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="370" y="332" text-anchor="middle" font-size="12" fill="#4A4259">8</text>
+<rect x="398.0" y="309.3" width="24.0" height="0.7" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="410" y="332" text-anchor="middle" font-size="12" fill="#4A4259">9</text>
+<rect x="438.0" y="308.6" width="24.0" height="1.4" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="450" y="332" text-anchor="middle" font-size="12" fill="#4A4259">10</text>
+<rect x="478.0" y="308.6" width="24.0" height="1.4" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="490" y="332" text-anchor="middle" font-size="12" fill="#4A4259">11</text>
+<rect x="518.0" y="307.9" width="24.0" height="2.1" fill="#9CCBF0" stroke="#4A4259" stroke-width="1"/>
+<text x="530" y="332" text-anchor="middle" font-size="12" fill="#4A4259">12</text>
+<polyline points="90.0,160.0 130.0,149.3 170.0,135.0 210.0,117.1 250.0,99.3 290.0,88.6 330.0,81.4 370.0,85.0 410.0,95.7 450.0,113.6 490.0,138.6 530.0,156.4" fill="none" stroke="#E0566B" stroke-width="3"/>
+<circle cx="90.0" cy="160.0" r="4" fill="#E0566B"/>
+<circle cx="130.0" cy="149.3" r="4" fill="#E0566B"/>
+<circle cx="170.0" cy="135.0" r="4" fill="#E0566B"/>
+<circle cx="210.0" cy="117.1" r="4" fill="#E0566B"/>
+<circle cx="250.0" cy="99.3" r="4" fill="#E0566B"/>
+<circle cx="290.0" cy="88.6" r="4" fill="#E0566B"/>
+<circle cx="330.0" cy="81.4" r="4" fill="#E0566B"/>
+<circle cx="370.0" cy="85.0" r="4" fill="#E0566B"/>
+<circle cx="410.0" cy="95.7" r="4" fill="#E0566B"/>
+<circle cx="450.0" cy="113.6" r="4" fill="#E0566B"/>
+<circle cx="490.0" cy="138.6" r="4" fill="#E0566B"/>
+<circle cx="530.0" cy="156.4" r="4" fill="#E0566B"/>
+<text x="310.0" y="376" text-anchor="middle" font-size="12" fill="#4A4259">横軸は月　折れ線：気温　棒：降水量</text>
+</svg>
