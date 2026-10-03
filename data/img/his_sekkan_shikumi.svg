@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 315" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="315" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">藤原氏の政治のしくみ（模式）</text>
+<rect x="40" y="100" width="210" height="100" rx="12" fill="#E8A0BF"/>
+<text x="145.0" y="144" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">藤原氏</text>
+<text x="145.0" y="170" text-anchor="middle" font-size="13" fill="#4A4259">天皇の祖父（外戚）</text>
+<rect x="520" y="60" width="220" height="80" rx="12" fill="#FFD97D"/>
+<text x="630.0" y="94" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">天皇</text>
+<text x="630.0" y="120" text-anchor="middle" font-size="13" fill="#4A4259">藤原氏の娘が生んだ子</text>
+<line x1="255" y1="115" x2="502" y2="115" stroke="#4A4259" stroke-width="3"/>
+<polygon points="515,115 502,110 502,120" fill="#4A4259"/>
+<text x="385.0" y="107.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">娘を天皇のきさきにする</text>
+<rect x="280" y="220" width="210" height="70" rx="12" fill="#B4ECE3"/>
+<text x="385.0" y="250" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="385.0" y="274" text-anchor="middle" font-size="13" fill="#4A4259">天皇が幼いころ、政治を代行</text>
+<rect x="510" y="220" width="230" height="70" rx="12" fill="#B4ECE3"/>
+<text x="625.0" y="250" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">関白</text>
+<text x="625.0" y="274" text-anchor="middle" font-size="13" fill="#4A4259">天皇が成人した後、政治を補佐</text>
+<line x1="150" y1="202" x2="270" y2="247" stroke="#4A4259" stroke-width="2"/>
+<polygon points="278,250 271,243 268,250" fill="#4A4259"/>
+<line x1="492" y1="255" x2="500" y2="255" stroke="#4A4259" stroke-width="2"/>
+<polygon points="508,255 500,252 500,258" fill="#4A4259"/>
+</svg>

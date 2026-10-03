@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="350" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">律令国家の税（模式）</text>
+<rect x="30" y="100" width="200" height="130" rx="12" fill="#B4ECE3"/>
+<text x="130.0" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">農民</text>
+<text x="130.0" y="183" text-anchor="middle" font-size="13" fill="#4A4259">口分田を与えられる</text>
+<rect x="440" y="45" width="300" height="72" rx="12" fill="#FFD97D"/>
+<text x="590.0" y="76" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">租</text>
+<text x="590.0" y="99" text-anchor="middle" font-size="13" fill="#4A4259">稲の収穫の約3％を国へ</text>
+<rect x="440" y="135" width="300" height="72" rx="12" fill="#E8A0BF"/>
+<text x="590.0" y="166" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">調</text>
+<text x="590.0" y="189" text-anchor="middle" font-size="13" fill="#4A4259">特産物（絹・糸など）を都へ</text>
+<rect x="440" y="225" width="300" height="72" rx="12" fill="#FFC49B"/>
+<text x="590.0" y="256" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="590.0" y="279" text-anchor="middle" font-size="13" fill="#4A4259">労役のかわりに布を都へ</text>
+<line x1="232" y1="150" x2="428" y2="87" stroke="#4A4259" stroke-width="2"/>
+<polygon points="438,84 427,83 430,91" fill="#4A4259"/>
+<line x1="232" y1="165" x2="428" y2="171" stroke="#4A4259" stroke-width="2"/>
+<polygon points="438,171 428,167 428,175" fill="#4A4259"/>
+<line x1="232" y1="180" x2="429" y2="254" stroke="#4A4259" stroke-width="2"/>
+<polygon points="438,258 430,251 427,258" fill="#4A4259"/>
+<text x="385" y="330" text-anchor="middle" font-size="13" fill="#4A4259">調と庸は、農民が自分で都まで運んだ</text>
+</svg>

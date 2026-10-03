@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 275" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="275" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">ヨーロッパの農業の分布（模式）</text>
+<rect x="15" y="70" width="240" height="130" rx="12" fill="#C9E4FF"/>
+<text x="135.0" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">北部・山ぎわ</text>
+<text x="135.0" y="153" text-anchor="middle" font-size="13" fill="#4A4259">酪農</text>
+<rect x="265" y="70" width="240" height="130" rx="12" fill="#BEE3B4"/>
+<text x="385.0" y="130" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">中部・西部</text>
+<text x="385.0" y="153" text-anchor="middle" font-size="13" fill="#4A4259">混合農業</text>
+<rect x="515" y="70" width="240" height="130" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="120" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">南部</text>
+<text x="635.0" y="141" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="635.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">夏：オリーブ・ぶどう／冬：小麦</text>
+<line x1="255" y1="135" x2="256" y2="135" stroke="#4A4259" stroke-width="2"/>
+<polygon points="263,135 256,132 256,138" fill="#4A4259"/>
+<line x1="505" y1="135" x2="506" y2="135" stroke="#4A4259" stroke-width="2"/>
+<polygon points="513,135 506,132 506,138" fill="#4A4259"/>
+<text x="385" y="250" text-anchor="middle" font-size="13" fill="#4A4259">北から南へ、気候に合わせて農業がちがう</text>
+</svg>

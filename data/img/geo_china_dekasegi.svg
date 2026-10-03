@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 290" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="290" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">中国の内陸部と沿岸部（模式）</text>
+<rect x="40" y="90" width="260" height="120" rx="12" fill="#FFD97D"/>
+<text x="170.0" y="145" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">内陸部</text>
+<text x="170.0" y="169" text-anchor="middle" font-size="13" fill="#4A4259">農業が中心。収入が低い</text>
+<rect x="470" y="90" width="260" height="120" rx="12" fill="#B4ECE3"/>
+<text x="600.0" y="145" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">沿岸部</text>
+<text x="600.0" y="169" text-anchor="middle" font-size="13" fill="#4A4259">経済特区などで工業が発達</text>
+<line x1="305" y1="150" x2="452" y2="150" stroke="#4A4259" stroke-width="4"/>
+<polygon points="465,150 452,145 452,155" fill="#4A4259"/>
+<text x="385.0" y="142.0" text-anchor="middle" font-size="16" font-weight="bold" fill="#2E6B8C">（A）</text>
+<text x="385" y="255" text-anchor="middle" font-size="14" fill="#4A4259">内陸部から沿岸部へ、働き口を求めて移動する人の動き</text>
+</svg>

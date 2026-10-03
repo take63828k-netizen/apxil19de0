@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 315" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="315" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">航空機の国際分業（エアバス社の例）</text>
+<rect x="30" y="60" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="130.0" y="95" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">主翼</text>
+<text x="130.0" y="118" text-anchor="middle" font-size="13" fill="#4A4259">（A）</text>
+<rect x="540" y="60" width="200" height="80" rx="12" fill="#B4ECE3"/>
+<text x="640.0" y="95" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">胴体・尾翼など</text>
+<text x="640.0" y="117" text-anchor="middle" font-size="13" fill="#4A4259">ドイツ・フランス・スペイン</text>
+<rect x="285" y="160" width="200" height="90" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">最終組立</text>
+<text x="385.0" y="223" text-anchor="middle" font-size="13" fill="#4A4259">フランス（トゥールーズ）</text>
+<line x1="200" y1="142" x2="289" y2="167" stroke="#4A4259" stroke-width="3"/>
+<polygon points="300,170 291,163 288,171" fill="#4A4259"/>
+<line x1="570" y1="142" x2="481" y2="167" stroke="#4A4259" stroke-width="3"/>
+<polygon points="470,170 482,171 479,163" fill="#4A4259"/>
+<text x="385" y="295" text-anchor="middle" font-size="14" fill="#4A4259">各国で部品をつくり、1か所に集めて組み立てる</text>
+</svg>

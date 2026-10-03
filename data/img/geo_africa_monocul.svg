@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 365" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="365" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アフリカの国と代表的な輸出品</text>
+<rect x="60" y="50" width="280" height="40" rx="12" fill="#C9B6E4"/>
+<text x="200.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">国</text>
+<rect x="360" y="50" width="350" height="40" rx="12" fill="#C9B6E4"/>
+<text x="535.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">代表的な輸出品</text>
+<rect x="60" y="105" width="280" height="52" rx="12" fill="#B4ECE3"/>
+<text x="200.0" y="137" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">コートジボワール</text>
+<rect x="360" y="105" width="350" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="535.0" y="137" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">カカオ豆</text>
+<rect x="60" y="167" width="280" height="52" rx="12" fill="#B4ECE3"/>
+<text x="200.0" y="199" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ナイジェリア</text>
+<rect x="360" y="167" width="350" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="535.0" y="199" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">原油</text>
+<rect x="60" y="229" width="280" height="52" rx="12" fill="#B4ECE3"/>
+<text x="200.0" y="261" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ザンビア</text>
+<rect x="360" y="229" width="350" height="52" rx="12" fill="#FFD97D"/>
+<text x="535.0" y="261" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<rect x="60" y="291" width="280" height="52" rx="12" fill="#B4ECE3"/>
+<text x="200.0" y="323" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ボツワナ</text>
+<rect x="360" y="291" width="350" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="535.0" y="323" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ダイヤモンド</text>
+</svg>

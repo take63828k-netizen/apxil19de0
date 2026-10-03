@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">国風文化の作品</text>
+<rect x="30" y="50" width="230" height="40" rx="12" fill="#C9B6E4"/>
+<text x="145.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">作品</text>
+<rect x="280" y="50" width="170" height="40" rx="12" fill="#C9B6E4"/>
+<text x="365.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">種類</text>
+<rect x="470" y="50" width="270" height="40" rx="12" fill="#C9B6E4"/>
+<text x="605.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">作者</text>
+<rect x="30" y="110" width="230" height="50" rx="12" fill="#B4ECE3"/>
+<text x="145.0" y="141" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">源氏物語</text>
+<rect x="280" y="110" width="170" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="365.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">物語</text>
+<rect x="470" y="110" width="270" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="141" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">紫式部</text>
+<rect x="30" y="172" width="230" height="50" rx="12" fill="#B4ECE3"/>
+<text x="145.0" y="203" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">枕草子</text>
+<rect x="280" y="172" width="170" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="365.0" y="203" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">随筆</text>
+<rect x="470" y="172" width="270" height="50" rx="12" fill="#FFD97D"/>
+<text x="605.0" y="203" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<rect x="30" y="234" width="230" height="50" rx="12" fill="#B4ECE3"/>
+<text x="145.0" y="265" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">古今和歌集</text>
+<rect x="280" y="234" width="170" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="365.0" y="265" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">和歌集</text>
+<rect x="470" y="234" width="270" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="265" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">紀貫之ら</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">ヨーロッパの言語と宗教（おもな分布）</text>
+<rect x="15" y="70" width="240" height="130" rx="12" fill="#C9E4FF"/>
+<text x="135.0" y="130" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">北西部</text>
+<text x="135.0" y="154" text-anchor="middle" font-size="13" fill="#4A4259">ゲルマン系言語・プロテスタント</text>
+<text x="135" y="232" text-anchor="middle" font-size="13" fill="#4A4259">英語・ドイツ語など</text>
+<rect x="265" y="70" width="240" height="130" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="130" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">南部</text>
+<text x="385.0" y="154" text-anchor="middle" font-size="13" fill="#4A4259">ラテン系言語・（A）</text>
+<text x="385" y="232" text-anchor="middle" font-size="13" fill="#4A4259">フランス語・イタリア語など</text>
+<rect x="515" y="70" width="240" height="130" rx="12" fill="#BEE3B4"/>
+<text x="635.0" y="130" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">東部</text>
+<text x="635.0" y="154" text-anchor="middle" font-size="13" fill="#4A4259">スラブ系言語・正教会</text>
+<text x="635" y="232" text-anchor="middle" font-size="13" fill="#4A4259">ロシア語・セルビア語など</text>
+<text x="385" y="290" text-anchor="middle" font-size="13" fill="#4A4259">※おおまかな分布で、例外もある</text>
+</svg>

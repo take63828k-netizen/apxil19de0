@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 320" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="320" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">季節風の向き（模式）</text>
+<rect x="30" y="50" width="330" height="36" rx="12" fill="#E8A0BF"/>
+<text x="195.0" y="74" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">夏</text>
+<rect x="30" y="110" width="110" height="110" rx="12" fill="#C9E4FF"/>
+<text x="85.0" y="171" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">海洋</text>
+<rect x="250" y="110" width="110" height="110" rx="12" fill="#BEE3B4"/>
+<text x="305.0" y="171" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">大陸</text>
+<line x1="145" y1="165" x2="232" y2="165" stroke="#4A4259" stroke-width="4"/>
+<polygon points="245,165 232,160 232,170" fill="#4A4259"/>
+<text x="195.0" y="157.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">湿った風</text>
+<text x="195" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">大陸に（A）が降る</text>
+<rect x="410" y="50" width="330" height="36" rx="12" fill="#B4ECE3"/>
+<text x="575.0" y="74" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">冬</text>
+<rect x="410" y="110" width="110" height="110" rx="12" fill="#C9E4FF"/>
+<text x="465.0" y="171" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">海洋</text>
+<rect x="630" y="110" width="110" height="110" rx="12" fill="#BEE3B4"/>
+<text x="685.0" y="171" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">大陸</text>
+<line x1="625" y1="165" x2="538" y2="165" stroke="#4A4259" stroke-width="4"/>
+<polygon points="525,165 538,170 538,160" fill="#4A4259"/>
+<text x="575.0" y="157.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">乾いた風</text>
+<text x="575" y="255" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">雨は少ない</text>
+<text x="385" y="300" text-anchor="middle" font-size="13" fill="#4A4259">季節によって風向きが逆になる</text>
+</svg>

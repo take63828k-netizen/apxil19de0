@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 435" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="435" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アフリカの気候帯の並び（模式）</text>
+<rect x="180" y="50" width="410" height="44" rx="12" fill="#BEE3B4"/>
+<text x="385.0" y="78" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">地中海性気候</text>
+<rect x="180" y="100" width="410" height="44" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="128" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">砂漠気候（サハラ砂漠）</text>
+<rect x="180" y="150" width="410" height="44" rx="12" fill="#FFC49B"/>
+<text x="385.0" y="178" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">サバナ気候</text>
+<rect x="180" y="200" width="410" height="44" rx="12" fill="#E8A0BF"/>
+<text x="385.0" y="228" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">（A）</text>
+<rect x="180" y="250" width="410" height="44" rx="12" fill="#FFC49B"/>
+<text x="385.0" y="278" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">サバナ気候</text>
+<rect x="180" y="300" width="410" height="44" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="328" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">砂漠気候（ナミブ・カラハリ砂漠）</text>
+<rect x="180" y="350" width="410" height="44" rx="12" fill="#BEE3B4"/>
+<text x="385.0" y="378" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">温帯の気候</text>
+<text x="150" y="76" text-anchor="end" font-size="16" font-weight="bold" fill="#4A4259">北</text>
+<text x="150" y="376" text-anchor="end" font-size="16" font-weight="bold" fill="#4A4259">南</text>
+<line x1="592" y1="222" x2="640" y2="222" stroke="#4A4259" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="646" y="227" text-anchor="start" font-size="14" font-weight="bold" fill="#4A4259">赤道が通る</text>
+<text x="385" y="420" text-anchor="middle" font-size="12" fill="#4A4259">※模式図。実際の気候は標高や海流でも変わる</text>
+</svg>

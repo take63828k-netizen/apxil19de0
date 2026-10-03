@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">インドのICT産業のしくみ（模式）</text>
+<rect x="30" y="80" width="290" height="110" rx="12" fill="#C9E4FF"/>
+<text x="175.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">アメリカ合衆国</text>
+<text x="175.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">夜に作業を終え、データを送る</text>
+<rect x="450" y="80" width="290" height="110" rx="12" fill="#B4ECE3"/>
+<text x="595.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">インド</text>
+<text x="595.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">昼にその続きの作業を行う</text>
+<line x1="325" y1="135" x2="432" y2="135" stroke="#4A4259" stroke-width="3"/>
+<polygon points="445,135 432,130 432,140" fill="#4A4259"/>
+<text x="385.0" y="127.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">仕事を引きつぐ</text>
+<rect x="150" y="225" width="470" height="60" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="250" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">（A）が約半日ちがう</text>
+<text x="385.0" y="272" text-anchor="middle" font-size="13" fill="#4A4259">そのため、昼夜を通して開発を進められる</text>
+</svg>

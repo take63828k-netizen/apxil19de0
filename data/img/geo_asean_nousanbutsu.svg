@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 365" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="365" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">東南アジアの国と主な農産物</text>
+<rect x="60" y="50" width="240" height="40" rx="12" fill="#C9B6E4"/>
+<text x="180.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">国</text>
+<rect x="320" y="50" width="390" height="40" rx="12" fill="#C9B6E4"/>
+<text x="515.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">主な農産物</text>
+<rect x="60" y="105" width="240" height="52" rx="12" fill="#B4ECE3"/>
+<text x="180.0" y="137" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">タイ</text>
+<rect x="320" y="105" width="390" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="515.0" y="137" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">米・天然ゴム</text>
+<rect x="60" y="167" width="240" height="52" rx="12" fill="#B4ECE3"/>
+<text x="180.0" y="199" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">マレーシア</text>
+<rect x="320" y="167" width="390" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="515.0" y="199" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">油やし・天然ゴム</text>
+<rect x="60" y="229" width="240" height="52" rx="12" fill="#B4ECE3"/>
+<text x="180.0" y="261" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">フィリピン</text>
+<rect x="320" y="229" width="390" height="52" rx="12" fill="#FFD97D"/>
+<text x="515.0" y="261" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）・ココナッツ</text>
+<rect x="60" y="291" width="240" height="52" rx="12" fill="#B4ECE3"/>
+<text x="180.0" y="323" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ベトナム</text>
+<rect x="320" y="291" width="390" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="515.0" y="323" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">米・コーヒー</text>
+</svg>

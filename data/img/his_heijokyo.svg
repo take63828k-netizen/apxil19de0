@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 446" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="446" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">平城京（模式）</text>
+<rect x="200" y="48" width="370" height="330" fill="#F8F6FF" stroke="#4A4259" stroke-width="2"/>
+<line x1="230" y1="48" x2="230" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="260" y1="48" x2="260" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="290" y1="48" x2="290" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="320" y1="48" x2="320" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="350" y1="48" x2="350" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="380" y1="48" x2="380" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="410" y1="48" x2="410" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="440" y1="48" x2="440" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="470" y1="48" x2="470" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="500" y1="48" x2="500" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="530" y1="48" x2="530" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="560" y1="48" x2="560" y2="378" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="78" x2="570" y2="78" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="108" x2="570" y2="108" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="138" x2="570" y2="138" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="168" x2="570" y2="168" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="198" x2="570" y2="198" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="228" x2="570" y2="228" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="258" x2="570" y2="258" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="288" x2="570" y2="288" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="318" x2="570" y2="318" stroke="#C9C4D3" stroke-width="1"/>
+<line x1="200" y1="348" x2="570" y2="348" stroke="#C9C4D3" stroke-width="1"/>
+<rect x="355" y="126" width="60" height="252" fill="#E8A0BF" stroke="#4A4259" stroke-width="2"/>
+<text x="385" y="262" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">（A）</text>
+<rect x="330" y="56" width="110" height="70" rx="8" fill="#FFD97D" stroke="#4A4259" stroke-width="2"/>
+<text x="385" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">平城宮</text>
+<rect x="445" y="210" width="100" height="60" rx="8" fill="#B4ECE3" stroke="#4A4259" stroke-width="2"/>
+<text x="495" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">東市</text>
+<rect x="225" y="210" width="100" height="60" rx="8" fill="#B4ECE3" stroke="#4A4259" stroke-width="2"/>
+<text x="275" y="246" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">西市</text>
+<rect x="360" y="378" width="50" height="16" fill="#4A4259"/>
+<text x="385" y="414" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">羅城門</text>
+<line x1="110" y1="130" x2="110" y2="91" stroke="#4A4259" stroke-width="3"/>
+<polygon points="110,80 106,91 114,91" fill="#4A4259"/>
+<text x="110" y="68" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">北</text>
+<text x="188" y="215" text-anchor="end" font-size="14" font-weight="bold" fill="#4A4259">西</text>
+<text x="582" y="215" text-anchor="start" font-size="14" font-weight="bold" fill="#4A4259">東</text>
+<text x="385" y="436" text-anchor="middle" font-size="13" fill="#4A4259">唐の都・長安にならって、碁盤の目のように区画された</text>
+</svg>

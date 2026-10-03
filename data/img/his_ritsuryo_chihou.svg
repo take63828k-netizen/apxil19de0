@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 400" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="400" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">律令国家のしくみ（模式）</text>
+<rect x="285" y="50" width="200" height="50" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="81" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">天皇</text>
+<rect x="255" y="125" width="260" height="60" rx="12" fill="#E8A0BF"/>
+<text x="385.0" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">中央の役所</text>
+<text x="385.0" y="172" text-anchor="middle" font-size="13" fill="#4A4259">二官八省（太政官など）</text>
+<line x1="385" y1="100" x2="385" y2="114" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,123 389,114 381,114" fill="#4A4259"/>
+<rect x="40" y="225" width="330" height="62" rx="12" fill="#B4ECE3"/>
+<text x="205.0" y="251" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">国</text>
+<text x="205.0" y="273" text-anchor="middle" font-size="13" fill="#4A4259">中央から役人が派遣される</text>
+<rect x="400" y="225" width="330" height="62" rx="12" fill="#B4ECE3"/>
+<text x="565.0" y="251" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">郡</text>
+<text x="565.0" y="273" text-anchor="middle" font-size="13" fill="#4A4259">（A）：地方の豪族が任命される</text>
+<line x1="372" y1="256" x2="389" y2="256" stroke="#4A4259" stroke-width="2"/>
+<polygon points="398,256 389,252 389,260" fill="#4A4259"/>
+<line x1="385" y1="187" x2="214" y2="221" stroke="#4A4259" stroke-width="2"/>
+<polygon points="205,223 215,225 213,218" fill="#4A4259"/>
+<rect x="400" y="320" width="330" height="50" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="565.0" y="341" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">里</text>
+<text x="565.0" y="361" text-anchor="middle" font-size="13" fill="#4A4259">農民が50戸ほどで1つの里をつくる</text>
+<line x1="565" y1="289" x2="565" y2="309" stroke="#4A4259" stroke-width="2"/>
+<polygon points="565,318 569,309 561,309" fill="#4A4259"/>
+<rect x="40" y="320" width="330" height="60" rx="12" fill="#C9E4FF"/>
+<text x="205.0" y="345" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">大宰府</text>
+<text x="205.0" y="367" text-anchor="middle" font-size="13" fill="#4A4259">九州北部に置かれ、外交・防衛にあたる</text>
+</svg>

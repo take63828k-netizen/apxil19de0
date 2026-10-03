@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">平安時代の新しい仏教</text>
+<rect x="30" y="50" width="160" height="40" rx="12" fill="#C9B6E4"/>
+<text x="110.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">開祖</text>
+<rect x="210" y="50" width="300" height="40" rx="12" fill="#C9B6E4"/>
+<text x="360.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">寺（本山）</text>
+<rect x="530" y="50" width="210" height="40" rx="12" fill="#C9B6E4"/>
+<text x="635.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">宗派</text>
+<rect x="30" y="110" width="160" height="60" rx="12" fill="#B4ECE3"/>
+<text x="110.0" y="146" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">最澄</text>
+<rect x="210" y="110" width="300" height="60" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="360.0" y="146" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">比叡山の延暦寺</text>
+<rect x="530" y="110" width="210" height="60" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="147" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">天台宗</text>
+<rect x="30" y="190" width="160" height="60" rx="12" fill="#B4ECE3"/>
+<text x="110.0" y="226" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">空海</text>
+<rect x="210" y="190" width="300" height="60" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="360.0" y="226" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">高野山の金剛峯寺</text>
+<rect x="530" y="190" width="210" height="60" rx="12" fill="#FFD97D"/>
+<text x="635.0" y="227" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="385" y="290" text-anchor="middle" font-size="13" fill="#4A4259">2人とも遣唐使とともに唐へ渡り、帰国後に宗派を開いた</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 300" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="300" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">古代の文化（模式）</text>
+<rect x="15" y="60" width="240" height="90" rx="12" fill="#E8A0BF"/>
+<text x="135.0" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">飛鳥文化</text>
+<text x="135.0" y="124" text-anchor="middle" font-size="13" fill="#4A4259">7世紀前半</text>
+<rect x="15" y="175" width="240" height="100" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="135.0" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">法隆寺</text>
+<text x="135.0" y="241" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">釈迦三尊像</text>
+<line x1="135" y1="152" x2="135" y2="165" stroke="#4A4259" stroke-width="2"/>
+<polygon points="135,173 138,165 132,165" fill="#4A4259"/>
+<rect x="265" y="60" width="240" height="90" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="385.0" y="124" text-anchor="middle" font-size="13" fill="#4A4259">8世紀</text>
+<rect x="265" y="175" width="240" height="100" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="385.0" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">東大寺・正倉院</text>
+<text x="385.0" y="241" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">万葉集・古事記</text>
+<line x1="385" y1="152" x2="385" y2="165" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,173 388,165 382,165" fill="#4A4259"/>
+<rect x="515" y="60" width="240" height="90" rx="12" fill="#B4ECE3"/>
+<text x="635.0" y="100" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">国風文化</text>
+<text x="635.0" y="124" text-anchor="middle" font-size="13" fill="#4A4259">10〜11世紀</text>
+<rect x="515" y="175" width="240" height="100" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="635.0" y="221" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">源氏物語</text>
+<text x="635.0" y="241" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">寝殿造</text>
+<line x1="635" y1="152" x2="635" y2="165" stroke="#4A4259" stroke-width="2"/>
+<polygon points="635,173 638,165 632,165" fill="#4A4259"/>
+</svg>
