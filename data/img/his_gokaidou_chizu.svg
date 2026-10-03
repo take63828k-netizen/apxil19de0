@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 310" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="310" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">五街道（模式・江戸日本橋が起点）</text>
+<rect x="320" y="40" width="150" height="70" rx="12" fill="#FFD97D"/>
+<text x="395.0" y="71" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">江戸（日本橋）</text>
+<text x="395.0" y="90" text-anchor="middle" font-size="13" fill="#4A4259">五街道の起点</text>
+<rect x="80" y="160" width="170" height="80" rx="12" fill="#B4ECE3"/>
+<text x="165.0" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">東海道</text>
+<text x="165.0" y="216" text-anchor="middle" font-size="13" fill="#4A4259">江戸〜京都</text>
+<rect x="280" y="160" width="170" height="80" rx="12" fill="#B4ECE3"/>
+<text x="365.0" y="196" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">中山道</text>
+<text x="365.0" y="216" text-anchor="middle" font-size="13" fill="#4A4259">江戸〜京都（内陸）</text>
+<rect x="480" y="160" width="170" height="80" rx="12" fill="#E8A0BF"/>
+<text x="565.0" y="196" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">奥州道中</text>
+<text x="565.0" y="215" text-anchor="middle" font-size="13" fill="#4A4259">江戸〜奥州</text>
+<text x="370" y="280" text-anchor="middle" font-size="13" fill="#4A4259">ほかに甲州道中・日光道中を合わせて五街道という</text>
+</svg>

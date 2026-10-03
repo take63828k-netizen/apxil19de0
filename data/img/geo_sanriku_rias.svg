@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 280" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="280" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">三陸海岸のリアス海岸（模式）</text>
+<path d="M50,150 L150,80 L200,150 L300,70 L350,150 L450,90 L500,150 L600,80 L680,150 L680,220 L50,220 Z" fill="#B4ECE3"/>
+<text x="370" y="250" text-anchor="middle" font-size="14" fill="#4A4259">山地が海に沈んでできた、入り江の多い海岸地形</text>
+<rect x="500" y="40" width="220" height="60" rx="12" fill="#FFD97D"/>
+<text x="610.0" y="75" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">わかめ・かきの養殖</text>
+</svg>

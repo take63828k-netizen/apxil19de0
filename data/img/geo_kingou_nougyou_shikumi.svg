@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="230" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">近郊農業の仕組み</text>
+<rect x="60" y="90" width="280" height="110" rx="12" fill="#B4ECE3"/>
+<text x="200.0" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">大消費地の近く</text>
+<text x="200.0" y="160" text-anchor="middle" font-size="13" fill="#4A4259">千葉・茨城・埼玉など</text>
+<line x1="350" y1="145" x2="407" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="420,145 407,140 407,150" fill="#4A4259"/>
+<text x="385.0" y="137.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">短時間で出荷</text>
+<rect x="430" y="90" width="280" height="110" rx="12" fill="#FFD97D"/>
+<text x="570.0" y="141" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">大都市（東京など）</text>
+<text x="570.0" y="159" text-anchor="middle" font-size="13" fill="#4A4259">新鮮な野菜を販売</text>
+</svg>

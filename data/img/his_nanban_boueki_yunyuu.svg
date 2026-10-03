@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">南蛮貿易の主な輸入品の割合（模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 1 1 186.0,304.6 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="354.3256143209387" y="221.27508724547144" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">生糸（中国産）</text>
+<path d="M220,200 L186.0,304.6 A110,110 0 0 1 110.0,200.0 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="109.97368876500711" y="279.9387943117763" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">鉄砲・火薬</text>
+<path d="M220,200 L110.0,200.0 A110,110 0 0 1 220.0,90.0 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="123.83347775862951" y="103.83347775862954" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（南蛮貿易の内容にもとづくおおよその割合）</text>
+</svg>

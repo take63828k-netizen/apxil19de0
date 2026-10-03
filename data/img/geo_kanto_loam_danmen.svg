@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 300" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="300" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">関東ローム層の断面（模式）</text>
+<rect x="120" y="60" width="530" height="50" fill="#C9C4D3"/>
+<text x="370" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">表土</text>
+<rect x="120" y="110" width="530" height="90" fill="#FFC49B"/>
+<text x="370" y="160" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">関東ローム層（赤土）</text>
+<rect x="120" y="200" width="530" height="50" fill="#C9C4D3"/>
+<text x="370" y="230" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">基盤の地層</text>
+<text x="370" y="275" text-anchor="middle" font-size="14" fill="#4A4259">火山灰が積もってできた赤土の層</text>
+</svg>

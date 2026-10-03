@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 355" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="355" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">東京都の昼夜間人口の違い（模式）</text>
+<line x1="120" y1="280" x2="620" y2="280" stroke="#4A4259" stroke-width="2"/>
+<rect x="176" y="133" width="138" height="147" fill="#B4ECE3" stroke="#4A4259" stroke-width="1.5"/>
+<text x="245.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">夜間人口</text>
+<rect x="426" y="89" width="138" height="191" fill="#FFD97D" stroke="#4A4259" stroke-width="1.5"/>
+<text x="495.0" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">昼間人口</text>
+<text x="370" y="330" text-anchor="middle" font-size="13" fill="#4A4259">周辺の県から通勤・通学する人が多いため、昼間人口が夜間人口を上回る</text>
+</svg>

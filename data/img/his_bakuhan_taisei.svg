@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="780" height="230" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">幕藩体制における大名の区分</text>
+<rect x="30" y="90" width="220" height="110" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">親藩</text>
+<text x="140.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">徳川一族</text>
+<rect x="280" y="90" width="220" height="110" rx="12" fill="#FFD97D"/>
+<text x="390.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">譜代大名</text>
+<text x="390.0" y="161" text-anchor="middle" font-size="13" fill="#4A4259">関ヶ原の戦い以前からの家臣</text>
+<rect x="530" y="90" width="220" height="110" rx="12" fill="#E8A0BF"/>
+<text x="640.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">外様大名</text>
+<text x="640.0" y="161" text-anchor="middle" font-size="13" fill="#4A4259">関ヶ原の戦い前後に従った大名</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="600" height="380" fill="#FFFFFF"/>
+<text x="300" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">江戸時代の身分別人口の割合（模式）</text>
+<path d="M220,200 L220.0,90.0 A110,110 0 1 1 131.0,135.3 Z" fill="#B4ECE3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="281.74270796457836" y="321.17688728961804" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">百姓</text>
+<path d="M220,200 L131.0,135.3 A110,110 0 0 1 167.0,103.6 Z" fill="#FFD97D" stroke="#FFFFFF" stroke-width="2"/>
+<text x="130.06158631598333" y="97.9848945302575" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">武士</text>
+<path d="M220,200 L167.0,103.6 A110,110 0 0 1 199.4,91.9 Z" fill="#E8A0BF" stroke="#FFFFFF" stroke-width="2"/>
+<text x="173.9316428466404" y="72.04021542222534" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">町人</text>
+<path d="M220,200 L199.4,91.9 A110,110 0 0 1 220.0,90.0 Z" fill="#C9C4D3" stroke="#FFFFFF" stroke-width="2"/>
+<text x="207.2012693886821" y="64.60357281398112" text-anchor="middle" font-size="13" font-weight="bold" fill="#4A4259">その他</text>
+<text x="500" y="355" text-anchor="middle" font-size="12" fill="#4A4259">（江戸時代の身分構成にもとづくおおよその割合）</text>
+</svg>

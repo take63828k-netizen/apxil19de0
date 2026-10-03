@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 230" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="230" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">根釧台地の農業（模式）</text>
+<rect x="60" y="90" width="300" height="110" rx="12" fill="#C9C4D3"/>
+<text x="210.0" y="141" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">濃霧・冷涼な気候</text>
+<text x="210.0" y="160" text-anchor="middle" font-size="13" fill="#4A4259">稲作や畑作に不向き</text>
+<line x1="370" y1="145" x2="417" y2="145" stroke="#4A4259" stroke-width="3"/>
+<polygon points="430,145 417,140 417,150" fill="#4A4259"/>
+<text x="400.0" y="137.0" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">そのため</text>
+<rect x="440" y="90" width="290" height="110" rx="12" fill="#FFD97D"/>
+<text x="585.0" y="140" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">酪農</text>
+<text x="585.0" y="162" text-anchor="middle" font-size="13" fill="#4A4259">乳牛を飼育し生乳・乳製品を生産</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="370" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#4A4259">長篠の戦い（1575年）の戦法（模式）</text>
+<rect x="60" y="90" width="300" height="110" rx="12" fill="#B4ECE3"/>
+<text x="210.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">織田・徳川連合軍</text>
+<text x="210.0" y="161" text-anchor="middle" font-size="13" fill="#4A4259">足軽鉄砲隊を活用</text>
+<text x="370" y="155" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">vs</text>
+<rect x="410" y="90" width="300" height="110" rx="12" fill="#E8A0BF"/>
+<text x="560.0" y="141" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">武田軍</text>
+<text x="560.0" y="161" text-anchor="middle" font-size="13" fill="#4A4259">騎馬隊が中心</text>
+<text x="370" y="245" text-anchor="middle" font-size="14" fill="#4A4259">鉄砲を効果的に使った織田・徳川連合軍が勝利した</text>
+</svg>
