@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 365" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="365" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">縄文時代と弥生時代のくらし</text>
+<rect x="20" y="50" width="120" height="40" rx="12" fill="#C9B6E4"/>
+<text x="80.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">項目</text>
+<rect x="150" y="50" width="300" height="40" rx="12" fill="#C9B6E4"/>
+<text x="300.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">縄文時代</text>
+<rect x="460" y="50" width="290" height="40" rx="12" fill="#C9B6E4"/>
+<text x="605.0" y="76" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">弥生時代</text>
+<rect x="20" y="105" width="120" height="52" rx="12" fill="#B4ECE3"/>
+<text x="80.0" y="137" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">食料</text>
+<rect x="150" y="105" width="300" height="52" rx="12" fill="#FFD97D"/>
+<text x="300.0" y="137" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">（A）</text>
+<rect x="460" y="105" width="290" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="137" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">稲作が中心</text>
+<rect x="20" y="167" width="120" height="52" rx="12" fill="#B4ECE3"/>
+<text x="80.0" y="199" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">土器</text>
+<rect x="150" y="167" width="300" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="300.0" y="199" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">縄文土器</text>
+<rect x="460" y="167" width="290" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="199" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">弥生土器（薄くてかたい）</text>
+<rect x="20" y="229" width="120" height="52" rx="12" fill="#B4ECE3"/>
+<text x="80.0" y="261" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">住居</text>
+<rect x="150" y="229" width="300" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="300.0" y="261" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">たて穴住居</text>
+<rect x="460" y="229" width="290" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="261" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">たて穴住居と倉庫</text>
+<rect x="20" y="291" width="120" height="52" rx="12" fill="#B4ECE3"/>
+<text x="80.0" y="323" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">むら</text>
+<rect x="150" y="291" width="300" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="300.0" y="323" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">数軒ほどの小さなむら</text>
+<rect x="460" y="291" width="290" height="52" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<text x="605.0" y="323" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">濠や柵で囲んだむらも出現</text>
+</svg>

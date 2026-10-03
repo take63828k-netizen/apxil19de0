@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 350" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="350" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">渡来人が日本に伝えたもの（模式）</text>
+<rect x="30" y="110" width="220" height="110" rx="12" fill="#B4ECE3"/>
+<text x="140.0" y="160" text-anchor="middle" font-size="20" font-weight="bold" fill="#4A4259">渡来人</text>
+<text x="140.0" y="184" text-anchor="middle" font-size="13" fill="#4A4259">朝鮮半島や中国から移り住んだ人々</text>
+<rect x="340" y="40" width="400" height="76" rx="12" fill="#FFD97D"/>
+<text x="540.0" y="73" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">土器の技術</text>
+<text x="540.0" y="96" text-anchor="middle" font-size="13" fill="#4A4259">窯で焼く、かたい土器（A）</text>
+<rect x="340" y="130" width="400" height="76" rx="12" fill="#E8A0BF"/>
+<text x="540.0" y="163" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">文字・学問</text>
+<text x="540.0" y="186" text-anchor="middle" font-size="13" fill="#4A4259">漢字や儒学を伝える</text>
+<rect x="340" y="220" width="400" height="76" rx="12" fill="#C9E4FF"/>
+<text x="540.0" y="253" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">宗教</text>
+<text x="540.0" y="276" text-anchor="middle" font-size="13" fill="#4A4259">仏教を伝える</text>
+<line x1="254" y1="150" x2="328" y2="88" stroke="#4A4259" stroke-width="2"/>
+<polygon points="336,82 326,85 331,91" fill="#4A4259"/>
+<line x1="254" y1="165" x2="326" y2="168" stroke="#4A4259" stroke-width="2"/>
+<polygon points="336,168 326,164 326,172" fill="#4A4259"/>
+<line x1="254" y1="180" x2="329" y2="249" stroke="#4A4259" stroke-width="2"/>
+<polygon points="336,256 331,246 326,252" fill="#4A4259"/>
+<text x="385" y="330" text-anchor="middle" font-size="13" fill="#4A4259">ヤマト王権は、渡来人の技術や知識を取り入れて力を強めた</text>
+</svg>

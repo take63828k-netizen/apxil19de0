@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 295" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="295" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アメリカ合衆国の農業地域（模式）</text>
+<rect x="20" y="60" width="150" height="150" rx="12" fill="#C9E4FF"/>
+<text x="95.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">西部沿岸</text>
+<text x="95.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">果樹・野菜</text>
+<rect x="185" y="60" width="170" height="150" rx="12" fill="#FFD97D"/>
+<text x="270.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">西部の大平原</text>
+<text x="270.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">（A）の栽培と牛の放牧</text>
+<rect x="370" y="60" width="180" height="150" rx="12" fill="#BEE3B4"/>
+<text x="460.0" y="130" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">中央部</text>
+<text x="460.0" y="152" text-anchor="middle" font-size="13" fill="#4A4259">とうもろこし・大豆</text>
+<rect x="565" y="60" width="185" height="70" rx="12" fill="#B4ECE3"/>
+<text x="657.5" y="90" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">北部</text>
+<text x="657.5" y="112" text-anchor="middle" font-size="13" fill="#4A4259">酪農</text>
+<rect x="565" y="140" width="185" height="70" rx="12" fill="#E8A0BF"/>
+<text x="657.5" y="170" text-anchor="middle" font-size="17" font-weight="bold" fill="#4A4259">南部</text>
+<text x="657.5" y="192" text-anchor="middle" font-size="13" fill="#4A4259">綿花</text>
+<text x="385" y="250" text-anchor="middle" font-size="14" fill="#4A4259">地域の気候や土壌に合った作物を栽培している</text>
+<text x="385" y="276" text-anchor="middle" font-size="13" fill="#4A4259">※地域は、おおまかに分けたもの</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 275" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="275" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アメリカ合衆国の工業の中心の移り変わり（模式）</text>
+<rect x="20" y="70" width="220" height="120" rx="12" fill="#E8A0BF"/>
+<text x="130.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">北部</text>
+<text x="130.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">（A）が発達</text>
+<rect x="275" y="70" width="220" height="120" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">南部</text>
+<text x="385.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">航空宇宙・電子産業など</text>
+<rect x="530" y="70" width="220" height="120" rx="12" fill="#B4ECE3"/>
+<text x="640.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">西海岸</text>
+<text x="640.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">半導体・ICT産業など</text>
+<line x1="244" y1="130" x2="261" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="271,130 261,126 261,134" fill="#4A4259"/>
+<line x1="499" y1="130" x2="516" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="526,130 516,126 516,134" fill="#4A4259"/>
+<text x="385" y="232" text-anchor="middle" font-size="14" fill="#4A4259">1970年代以降、先端技術産業の中心が、</text>
+<text x="385" y="254" text-anchor="middle" font-size="14" fill="#4A4259">温暖な南部や西海岸へ広がっていった</text>
+</svg>

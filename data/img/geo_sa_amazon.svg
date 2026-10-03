@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 270" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="270" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">南アメリカの熱帯林の開発と環境（模式）</text>
+<rect x="20" y="70" width="160" height="110" rx="12" fill="#C9E4FF"/>
+<text x="100.0" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">道路の建設</text>
+<text x="100.0" y="143" text-anchor="middle" font-size="13" fill="#4A4259">奥地へ人が入る</text>
+<rect x="210" y="70" width="160" height="110" rx="12" fill="#FFD97D"/>
+<text x="290.0" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">開発</text>
+<text x="290.0" y="143" text-anchor="middle" font-size="13" fill="#4A4259">牧場・大豆畑・鉱山</text>
+<rect x="400" y="70" width="160" height="110" rx="12" fill="#E8A0BF"/>
+<text x="480.0" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">森林の減少</text>
+<text x="480.0" y="143" text-anchor="middle" font-size="13" fill="#4A4259">伐採・焼きはらい</text>
+<rect x="590" y="70" width="160" height="110" rx="12" fill="#B4ECE3"/>
+<text x="670.0" y="120" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="670.0" y="143" text-anchor="middle" font-size="13" fill="#4A4259">が心配されている</text>
+<line x1="182" y1="125" x2="198" y2="125" stroke="#4A4259" stroke-width="3"/>
+<polygon points="208,125 198,121 198,129" fill="#4A4259"/>
+<line x1="372" y1="125" x2="388" y2="125" stroke="#4A4259" stroke-width="3"/>
+<polygon points="398,125 388,121 388,129" fill="#4A4259"/>
+<line x1="562" y1="125" x2="578" y2="125" stroke="#4A4259" stroke-width="3"/>
+<polygon points="588,125 578,121 578,129" fill="#4A4259"/>
+<text x="385" y="225" text-anchor="middle" font-size="14" fill="#4A4259">森林は二酸化炭素を吸収するはたらきをもつ</text>
+<text x="385" y="250" text-anchor="middle" font-size="14" fill="#4A4259">開発による森林の減少が、世界的な問題になっている</text>
+</svg>

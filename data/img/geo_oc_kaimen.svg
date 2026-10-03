@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 255" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="255" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">太平洋の低い島国が直面する問題（模式）</text>
+<rect x="20" y="70" width="210" height="120" rx="12" fill="#FFC49B"/>
+<text x="125.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">地球温暖化</text>
+<text x="125.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">気温が上がる</text>
+<rect x="280" y="70" width="210" height="120" rx="12" fill="#C9E4FF"/>
+<text x="385.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">海面の（A）</text>
+<text x="385.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">氷がとけ、海水がふくらむ</text>
+<rect x="540" y="70" width="210" height="120" rx="12" fill="#E8A0BF"/>
+<text x="645.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">低い島国</text>
+<text x="645.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">国土が水没するおそれ</text>
+<line x1="233" y1="130" x2="267" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="277,130 267,126 267,134" fill="#4A4259"/>
+<line x1="493" y1="130" x2="527" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="537,130 527,126 527,134" fill="#4A4259"/>
+<text x="385" y="232" text-anchor="middle" font-size="14" fill="#4A4259">ツバルなど、標高の低い島々で心配されている</text>
+</svg>

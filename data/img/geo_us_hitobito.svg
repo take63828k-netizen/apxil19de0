@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 340" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="340" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">アメリカ合衆国の人々のなりたち（模式）</text>
+<rect x="275" y="50" width="220" height="70" rx="12" fill="#FFD97D"/>
+<text x="385.0" y="80" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<text x="385.0" y="103" text-anchor="middle" font-size="13" fill="#4A4259">ヨーロッパ人が来る前から暮らす</text>
+<rect x="20" y="150" width="220" height="70" rx="12" fill="#C9E4FF"/>
+<text x="130.0" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ヨーロッパ系</text>
+<text x="130.0" y="203" text-anchor="middle" font-size="13" fill="#4A4259">入植・移民としてきた人々</text>
+<rect x="275" y="150" width="220" height="70" rx="12" fill="#B4ECE3"/>
+<text x="385.0" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">アメリカ合衆国</text>
+<text x="385.0" y="203" text-anchor="middle" font-size="13" fill="#4A4259">多民族国家</text>
+<rect x="530" y="150" width="220" height="70" rx="12" fill="#E8A0BF"/>
+<text x="640.0" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">アフリカ系</text>
+<text x="640.0" y="203" text-anchor="middle" font-size="13" fill="#4A4259">奴隷にされた人々の子孫</text>
+<rect x="20" y="250" width="220" height="70" rx="12" fill="#BEE3B4"/>
+<text x="130.0" y="280" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">アジア系</text>
+<text x="130.0" y="303" text-anchor="middle" font-size="13" fill="#4A4259">近年も移民が増えている</text>
+<rect x="530" y="250" width="220" height="70" rx="12" fill="#FFC49B"/>
+<text x="640.0" y="280" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">ヒスパニック</text>
+<text x="640.0" y="303" text-anchor="middle" font-size="13" fill="#4A4259">中南米から移り住んだ人々</text>
+<line x1="385" y1="148" x2="385" y2="131" stroke="#4A4259" stroke-width="2"/>
+<polygon points="385,122 381,131 389,131" fill="#4A4259"/>
+<line x1="273" y1="185" x2="251" y2="185" stroke="#4A4259" stroke-width="2"/>
+<polygon points="242,185 251,189 251,181" fill="#4A4259"/>
+<line x1="497" y1="185" x2="519" y2="185" stroke="#4A4259" stroke-width="2"/>
+<polygon points="528,185 519,181 519,189" fill="#4A4259"/>
+<line x1="300" y1="222" x2="249" y2="257" stroke="#4A4259" stroke-width="2"/>
+<polygon points="242,262 251,260 247,254" fill="#4A4259"/>
+<line x1="470" y1="222" x2="521" y2="257" stroke="#4A4259" stroke-width="2"/>
+<polygon points="528,262 523,254 519,260" fill="#4A4259"/>
+</svg>

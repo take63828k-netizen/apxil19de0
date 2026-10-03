@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 255" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="255" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">オーストラリアの貿易相手国の変化（模式）</text>
+<rect x="30" y="70" width="330" height="120" rx="12" fill="#FFD97D"/>
+<text x="195.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">かつて</text>
+<text x="195.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">最大の貿易相手国は（A）</text>
+<rect x="430" y="70" width="310" height="120" rx="12" fill="#B4ECE3"/>
+<text x="585.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">現在</text>
+<text x="585.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">アジアの国々との結びつきが強い</text>
+<line x1="364" y1="130" x2="416" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="426,130 416,126 416,134" fill="#4A4259"/>
+<text x="385" y="232" text-anchor="middle" font-size="14" fill="#4A4259">中国・日本・韓国など、アジアとの貿易が増えた</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 275" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="275" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">ブラジルの輸出品の変化（模式）</text>
+<rect x="30" y="70" width="300" height="120" rx="12" fill="#FFD97D"/>
+<text x="180.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">かつて</text>
+<text x="180.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">輸出の中心は（A）</text>
+<rect x="440" y="70" width="300" height="120" rx="12" fill="#B4ECE3"/>
+<text x="590.0" y="125" text-anchor="middle" font-size="19" font-weight="bold" fill="#4A4259">現在</text>
+<text x="590.0" y="149" text-anchor="middle" font-size="13" fill="#4A4259">鉄鉱石・大豆・肉類・自動車など</text>
+<line x1="335" y1="130" x2="422" y2="130" stroke="#4A4259" stroke-width="3"/>
+<polygon points="435,130 422,125 422,135" fill="#4A4259"/>
+<text x="385.0" y="122.0" text-anchor="middle" font-size="14" font-weight="bold" fill="#2E6B8C">多様に</text>
+<text x="385" y="232" text-anchor="middle" font-size="14" fill="#4A4259">特定の産物に頼る経済から、</text>
+<text x="385" y="254" text-anchor="middle" font-size="14" fill="#4A4259">多くの産物を輸出する経済へ変わってきた</text>
+</svg>

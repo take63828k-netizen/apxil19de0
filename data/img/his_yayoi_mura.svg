@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 405" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="770" height="405" fill="#FFFFFF"/>
+<text x="385" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">弥生時代のむら（模式）</text>
+<rect x="20" y="50" width="730" height="330" rx="12" fill="#F8F6FF" stroke="#C9C4D3" stroke-width="2"/>
+<rect x="50" y="70" width="670" height="290" rx="40" fill="none" stroke="#9FD3F0" stroke-width="16"/>
+<text x="385" y="76" text-anchor="middle" font-size="13" font-weight="bold" fill="#2E6B8C">濠</text>
+<rect x="80" y="102" width="610" height="228" rx="8" fill="none" stroke="#8B6B4A" stroke-width="3" stroke-dasharray="10 4"/>
+<text x="100" y="124" text-anchor="start" font-size="13" font-weight="bold" fill="#8B6B4A">柵</text>
+<polygon points="150,262 190,205 230,262" fill="#FFC49B" stroke="#4A4259" stroke-width="2"/>
+<line x1="144" y1="262" x2="236" y2="262" stroke="#4A4259" stroke-width="3"/>
+<polygon points="250,262 290,205 330,262" fill="#FFC49B" stroke="#4A4259" stroke-width="2"/>
+<line x1="244" y1="262" x2="336" y2="262" stroke="#4A4259" stroke-width="3"/>
+<text x="240" y="298" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">たて穴住居</text>
+<polygon points="420,190 480,145 540,190" fill="#FFD97D" stroke="#4A4259" stroke-width="2"/>
+<rect x="435" y="190" width="90" height="28" fill="#E8D5B7" stroke="#4A4259" stroke-width="2"/>
+<line x1="445" y1="218" x2="445" y2="268" stroke="#4A4259" stroke-width="4"/>
+<line x1="480" y1="218" x2="480" y2="268" stroke="#4A4259" stroke-width="4"/>
+<line x1="515" y1="218" x2="515" y2="268" stroke="#4A4259" stroke-width="4"/>
+<text x="480" y="298" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">（A）</text>
+<line x1="600" y1="160" x2="590" y2="270" stroke="#8B6B4A" stroke-width="4"/>
+<line x1="640" y1="160" x2="650" y2="270" stroke="#8B6B4A" stroke-width="4"/>
+<rect x="585" y="150" width="70" height="10" fill="#E8D5B7" stroke="#4A4259" stroke-width="2"/>
+<polygon points="580,150 620,115 660,150" fill="#E8A0BF" stroke="#4A4259" stroke-width="2"/>
+<text x="620" y="298" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">物見やぐら</text>
+<text x="385" y="396" text-anchor="middle" font-size="13" fill="#4A4259">周りを濠や柵で囲み、争いに備えた</text>
+</svg>
