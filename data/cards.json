@@ -1,6 +1,6 @@
 {
- "version": "89f0e84ca206",
- "generated": "2026-10-04T17:28:51",
+ "version": "59498e5ec644",
+ "generated": "2026-10-04T18:34:12",
  "count": 1220,
  "cards": [
   {
@@ -1533,20 +1533,6 @@
    "unit_no": 44
   },
   {
-   "card_id": "civ_033",
-   "subject": "公民",
-   "category_large": "個人の尊重と日本国憲法",
-   "category_small": "人権と日本国憲法",
-   "card_type": "一問一答",
-   "priority": 2,
-   "question": "1789年、フランス革命の中で出された、人は生まれながらに自由で平等な権利を持つと宣言した文書は？",
-   "answer": "人権宣言",
-   "explanation": "1776年のアメリカ独立宣言、1689年のイギリスの権利章典と並ぶ人権の歴史の重要な文書。",
-   "source": "教科書（東京書籍・公民）人権の歴史の単元",
-   "unit_order": 10,
-   "unit_no": 44
-  },
-  {
    "card_id": "civ_034",
    "subject": "公民",
    "category_large": "個人の尊重と日本国憲法",
@@ -2898,6 +2884,24 @@
    "answer": "正",
    "explanation": "国会法第10条。会期の延長は、常会では1回までできる。",
    "source": "教科書（東京書籍・公民）国会の単元（照合元：e-Gov法令検索 国会法 第10条・第12条）",
+   "unit_order": 14,
+   "unit_no": 48
+  },
+  {
+   "card_id": "civ_121",
+   "subject": "公民",
+   "category_large": "現代の民主政治と社会",
+   "category_small": "国の政治の仕組み",
+   "card_type": "正誤",
+   "priority": 1,
+   "question": "正しいか誤りか：参議院議員の定数は465人である。",
+   "options": [
+    "正",
+    "誤"
+   ],
+   "answer": "誤",
+   "explanation": "465人は衆議院議員の定数。参議院議員の定数は248人。",
+   "source": "教科書（東京書籍・公民）国会の単元（照合元：e-Gov法令検索 公職選挙法 第4条）",
    "unit_order": 14,
    "unit_no": 48
   },
@@ -5567,20 +5571,6 @@
    "unit_no": 50
   },
   {
-   "card_id": "civ_222",
-   "subject": "公民",
-   "category_large": "私たちの暮らしと経済",
-   "category_small": "消費生活と経済",
-   "card_type": "一問一答",
-   "priority": 2,
-   "question": "現金を使わず、電子マネーやスマートフォンなどで代金を支払う方法をまとめて何というか。",
-   "answer": "キャッシュレス決済",
-   "explanation": "クレジットカード・電子マネー・QRコード決済などがある。お金の動きが記録に残るという特徴もある。",
-   "source": "教科書（東京書籍・公民）消費生活の単元",
-   "unit_order": 30,
-   "unit_no": 50
-  },
-  {
    "card_id": "civ_223",
    "subject": "公民",
    "category_large": "私たちの暮らしと経済",
@@ -7409,24 +7399,6 @@
    "unit_no": 51
   },
   {
-   "card_id": "civ_262",
-   "subject": "公民",
-   "category_large": "私たちの暮らしと経済",
-   "category_small": "生産と労働",
-   "card_type": "正誤",
-   "priority": 2,
-   "question": "正しいか誤りか：公企業は、利潤の追求を主な目的として活動する企業である。",
-   "options": [
-    "正",
-    "誤"
-   ],
-   "answer": "誤",
-   "explanation": "公企業は、利潤の追求ではなく公共の利益のために活動する企業である。",
-   "source": "教科書（東京書籍・公民）企業の種類の単元",
-   "unit_order": 36,
-   "unit_no": 51
-  },
-  {
    "card_id": "civ_263",
    "subject": "公民",
    "category_large": "私たちの暮らしと経済",
@@ -7711,24 +7683,6 @@
    "answer": "八幡製鉄所",
    "explanation": "福岡県に建設され、重工業（鉄鋼業）の発展の基礎となった。",
    "source": "教科書（東京書籍・歴史）産業革命の単元",
-   "unit_order": 38,
-   "unit_no": 33
-  },
-  {
-   "card_id": "his_125",
-   "subject": "歴史",
-   "category_large": "開国と近代日本の歩み",
-   "category_small": "日清・日露戦争と近代産業",
-   "card_type": "正誤",
-   "priority": 2,
-   "question": "正しいか誤りか：下関条約で日本が獲得した遼東半島は、三国干渉により清に返還された。",
-   "options": [
-    "正",
-    "誤"
-   ],
-   "answer": "正",
-   "explanation": "ロシア・フランス・ドイツの三国干渉に応じ、日本は遼東半島を清に返還した。",
-   "source": "教科書（東京書籍・歴史）三国干渉の単元",
    "unit_order": 38,
    "unit_no": 33
   },
@@ -11681,6 +11635,24 @@
    "unit_no": 13
   },
   {
+   "card_id": "geo_184",
+   "subject": "地理",
+   "category_large": "日本の諸地域",
+   "category_small": "中国・四国地方",
+   "card_type": "正誤",
+   "priority": 2,
+   "question": "正しいか誤りか：瀬戸内工業地域は、塩田や軍用地の跡地を利用して発展した。",
+   "options": [
+    "正",
+    "誤"
+   ],
+   "answer": "正",
+   "explanation": "かつての塩田や軍用地の広い跡地が、工場用地として利用された。",
+   "source": "教科書（東京書籍・地理）中国・四国地方の単元",
+   "unit_order": 56,
+   "unit_no": 13
+  },
+  {
    "card_id": "geo_185",
    "subject": "地理",
    "category_large": "日本の諸地域",
@@ -12134,6 +12106,20 @@
    "unit_no": 55
   },
   {
+   "card_id": "civ_362",
+   "subject": "公民",
+   "category_large": "地球社会と私たち",
+   "category_small": "国際社会の仕組み",
+   "card_type": "一問一答",
+   "priority": 2,
+   "question": "教育・科学・文化の面での国際協力を進める国連の専門機関を何というか。",
+   "answer": "ユネスコ（UNESCO）",
+   "explanation": "世界遺産の登録などでも知られる、教育科学文化機関である。",
+   "source": "教科書（東京書籍・公民）国際社会の仕組みの単元",
+   "unit_order": 60,
+   "unit_no": 55
+  },
+  {
    "card_id": "civ_363",
    "subject": "公民",
    "category_large": "地球社会と私たち",
@@ -12354,6 +12340,20 @@
    "unit_no": 56
   },
   {
+   "card_id": "civ_376",
+   "subject": "公民",
+   "category_large": "地球社会と私たち",
+   "category_small": "さまざまな国際問題",
+   "card_type": "一問一答",
+   "priority": 2,
+   "question": "紛争や迫害などにより自国を離れざるを得なくなった人々を支援する国連の機関を何というか。",
+   "answer": "UNHCR（国連難民高等弁務官事務所）",
+   "explanation": "難民の保護や支援を行う国際連合の機関である。",
+   "source": "教科書（東京書籍・公民）さまざまな国際問題の単元",
+   "unit_order": 62,
+   "unit_no": 56
+  },
+  {
    "card_id": "civ_377",
    "subject": "公民",
    "category_large": "地球社会と私たち",
@@ -12473,6 +12473,24 @@
    "unit_no": 57
   },
   {
+   "card_id": "civ_384",
+   "subject": "公民",
+   "category_large": "地球社会と私たち",
+   "category_small": "これからの地球社会と日本",
+   "card_type": "正誤",
+   "priority": 2,
+   "question": "正しいか誤りか：日本の自衛隊は、PKOに参加したことは一度もない。",
+   "options": [
+    "正",
+    "誤"
+   ],
+   "answer": "誤",
+   "explanation": "1992年にPKO協力法が制定されて以降、日本の自衛隊はカンボジアなどのPKOに参加してきた。",
+   "source": "教科書（東京書籍・公民）これからの地球社会と日本の単元",
+   "unit_order": 64,
+   "unit_no": 57
+  },
+  {
    "card_id": "civ_385",
    "subject": "公民",
    "category_large": "地球社会と私たち",
@@ -12533,6 +12551,20 @@
    "question": "稲の脱穀に使われるようになった、能率のよい農具を何というか。",
    "answer": "千歯こき",
    "explanation": "歯の間に稲穂を通してしごくことで、従来より効率よく脱穀できるようになった農具である。",
+   "source": "教科書（東京書籍・歴史）産業の発達と幕府政治の推移の単元",
+   "unit_order": 66,
+   "unit_no": 29
+  },
+  {
+   "card_id": "his_184",
+   "subject": "歴史",
+   "category_large": "近世の日本",
+   "category_small": "産業の発達と幕府政治の推移",
+   "card_type": "一問一答",
+   "priority": 2,
+   "question": "もみ殻と米粒を選別するために使われた農具を何というか。",
+   "answer": "唐箕",
+   "explanation": "風を送ることで軽いもみ殻を飛ばし、重い米粒を選別する農具である。",
    "source": "教科書（東京書籍・歴史）産業の発達と幕府政治の推移の単元",
    "unit_order": 66,
    "unit_no": 29
@@ -12608,6 +12640,20 @@
    "unit_no": 29
   },
   {
+   "card_id": "his_190",
+   "subject": "歴史",
+   "category_large": "近世の日本",
+   "category_small": "産業の発達と幕府政治の推移",
+   "card_type": "一問一答",
+   "priority": 2,
+   "question": "享保の改革で定められた、裁判の基準となる法律を何というか。",
+   "answer": "公事方御定書",
+   "explanation": "裁判の判例や基準をまとめた法律で、公正な裁判を行うために江戸幕府が制定した。",
+   "source": "教科書（東京書籍・歴史）産業の発達と幕府政治の推移の単元",
+   "unit_order": 66,
+   "unit_no": 29
+  },
+  {
    "card_id": "his_191",
    "subject": "歴史",
    "category_large": "近世の日本",
@@ -12659,6 +12705,20 @@
    "question": "老中水野忠邦が行った、幕府の権威回復を目指した改革を何というか。",
    "answer": "天保の改革",
    "explanation": "1841年に始まり、倹約令や株仲間の解散などの政策を行ったが、厳しすぎて失敗に終わった。",
+   "source": "教科書（東京書籍・歴史）産業の発達と幕府政治の推移の単元",
+   "unit_order": 66,
+   "unit_no": 29
+  },
+  {
+   "card_id": "his_195",
+   "subject": "歴史",
+   "category_large": "近世の日本",
+   "category_small": "産業の発達と幕府政治の推移",
+   "card_type": "一問一答",
+   "priority": 2,
+   "question": "天保の改革で、江戸に出てきていた農民を故郷の村へ帰らせた政策を何というか。",
+   "answer": "人返し令",
+   "explanation": "農村の人口減少と年貢の減少を防ぐため、江戸へ出稼ぎに来た農民を村へ帰らせた政策である。",
    "source": "教科書（東京書籍・歴史）産業の発達と幕府政治の推移の単元",
    "unit_order": 66,
    "unit_no": 29
@@ -13434,26 +13494,6 @@
    ],
    "answer": "日米修好通商条約より後",
    "explanation": "日米修好通商条約は1858年に結ばれ、桜田門外の変はその2年後の1860年に起きた。",
-   "source": "教科書（東京書籍・歴史）欧米の進出と日本の開国の単元",
-   "unit_order": 70,
-   "unit_no": 31
-  },
-  {
-   "card_id": "his_241",
-   "subject": "歴史",
-   "category_large": "開国と近代日本の歩み",
-   "category_small": "欧米の進出と日本の開国",
-   "card_type": "並べ替え",
-   "priority": 2,
-   "question": "次のできごとを、古い順に並べると？　ア：日米修好通商条約　イ：ペリー来航　ウ：日米和親条約",
-   "options": [
-    "イ→ウ→ア",
-    "ア→イ→ウ",
-    "イ→ア→ウ",
-    "ウ→イ→ア"
-   ],
-   "answer": "イ→ウ→ア",
-   "explanation": "ペリー来航（1853年）→日米和親条約（1854年）→日米修好通商条約（1858年）の順である。",
    "source": "教科書（東京書籍・歴史）欧米の進出と日本の開国の単元",
    "unit_order": 70,
    "unit_no": 31
@@ -15264,20 +15304,6 @@
    "question": "東北地方の太平洋側に主に夏吹く、冷たく湿った北東の風を何というか。",
    "answer": "やませ",
    "explanation": "やませが長く吹くと日照不足や気温低下が起こり、稲の生育が悪くなる冷害が発生しやすい。",
-   "source": "教科書（東京書籍・地理）東北地方の単元",
-   "unit_order": 82,
-   "unit_no": 17
-  },
-  {
-   "card_id": "geo_237",
-   "subject": "地理",
-   "category_large": "日本の諸地域",
-   "category_small": "東北地方",
-   "card_type": "一問一答",
-   "priority": 2,
-   "question": "三陸海岸に見られる、山地が海に沈んでできた入り組んだ海岸地形を何というか。",
-   "answer": "リアス海岸",
-   "explanation": "湾内は波がおだやかで、わかめやかきの養殖に利用されている。",
    "source": "教科書（東京書籍・地理）東北地方の単元",
    "unit_order": 82,
    "unit_no": 17
@@ -19519,20 +19545,6 @@
    "unit_no": 7
   },
   {
-   "card_id": "geo_360",
-   "subject": "地理",
-   "category_large": "世界の諸地域",
-   "category_small": "北アメリカ州",
-   "card_type": "一問一答",
-   "priority": 2,
-   "question": "アメリカ合衆国の北緯37度より南の温暖な地域で、1970年代以降、先端技術産業などが発達してきた地域を何というか。",
-   "answer": "サンベルト",
-   "explanation": "サンベルトでは、航空宇宙産業やコンピューター関連産業が成長し、北部から人口や工場が移ってきた。",
-   "source": "教科書（東京書籍・地理）北アメリカ州の単元",
-   "unit_order": 102,
-   "unit_no": 7
-  },
-  {
    "card_id": "geo_361",
    "subject": "地理",
    "category_large": "世界の諸地域",
@@ -19836,20 +19848,6 @@
    "question": "ブラジルの公用語になっている言語は何か。",
    "answer": "ポルトガル語",
    "explanation": "ブラジルは、植民地時代にポルトガルの支配を受けた。ほかの多くの国では、スペイン語が使われている。",
-   "source": "教科書（東京書籍・地理）南アメリカ州の単元",
-   "unit_order": 104,
-   "unit_no": 8
-  },
-  {
-   "card_id": "geo_378",
-   "subject": "地理",
-   "category_large": "世界の諸地域",
-   "category_small": "南アメリカ州",
-   "card_type": "一問一答",
-   "priority": 2,
-   "question": "サトウキビやとうもろこしなどの植物を原料にしてつくられ、ガソリンの代わりに自動車の燃料などに使われる燃料を何というか。",
-   "answer": "バイオエタノール",
-   "explanation": "ブラジルでは、サトウキビを原料にしたバイオエタノールの生産がさかんで、自動車の燃料に使われている。",
    "source": "教科書（東京書籍・地理）南アメリカ州の単元",
    "unit_order": 104,
    "unit_no": 8
