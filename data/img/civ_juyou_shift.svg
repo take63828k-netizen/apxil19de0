@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="560" height="360" fill="#FFFFFF"/>
+<text x="280.0" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">需要曲線の移動と価格・数量</text>
+<line x1="80" y1="310" x2="480" y2="310" stroke="#4A4259" stroke-width="3"/>
+<line x1="80" y1="310" x2="80" y2="44" stroke="#4A4259" stroke-width="3"/>
+<text x="80" y="38" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">価格</text>
+<text x="500" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">数量</text>
+<line x1="110" y1="270" x2="440" y2="64" stroke="#2E6B8C" stroke-width="4"/>
+<text x="452" y="64" text-anchor="start" font-size="18" font-weight="bold" fill="#2E6B8C">S</text>
+<line x1="110" y1="80" x2="420" y2="270" stroke="#B23A48" stroke-width="4"/>
+<text x="430" y="282" text-anchor="start" font-size="18" font-weight="bold" fill="#B23A48">D</text>
+<line x1="180" y1="80" x2="440" y2="239" stroke="#B23A48" stroke-width="4" stroke-dasharray="9 6"/>
+<text x="452" y="246" text-anchor="start" font-size="18" font-weight="bold" fill="#B23A48">D'</text>
+<line x1="300" y1="118" x2="340" y2="118" stroke="#4A4259" stroke-width="3"/>
+<polygon points="350,118 338,112 338,124" fill="#4A4259"/>
+<circle cx="261" cy="173" r="6" fill="#FFD97D" stroke="#4A4259" stroke-width="2"/>
+<circle cx="295" cy="151" r="6" fill="#FFD97D" stroke="#4A4259" stroke-width="2"/>
+<text x="246" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">E</text>
+<text x="312" y="146" text-anchor="start" font-size="16" font-weight="bold" fill="#4A4259">E'</text>
+<text x="280.0" y="352" text-anchor="middle" font-size="12" fill="#7A7488">S：供給曲線　D・D’：需要曲線　E・E’：2つの曲線が交わる点</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" font-family="'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic',sans-serif">
+<rect width="640" height="450" fill="#FFFFFF"/>
+<text x="320.0" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#4A4259">地形図（架空の地域・縮尺2万5千分の1）</text>
+<rect x="20" y="40" width="600" height="380" fill="#FFFDF3" stroke="#4A4259" stroke-width="2"/>
+<path d="M92,42 C70,120 120,200 88,280 C70,340 100,380 90,418" fill="none" stroke="#4B9CD3" stroke-width="5"/>
+<circle cx="116" cy="70" r="2.5" fill="#4A4259"/>
+<text x="138" y="74" text-anchor="middle" font-size="12" fill="#4A4259">45</text>
+<circle cx="112" cy="395" r="2.5" fill="#4A4259"/>
+<text x="134" y="399" text-anchor="middle" font-size="12" fill="#4A4259">38</text>
+<ellipse cx="300" cy="205" rx="40" ry="30" fill="none" stroke="#B5651D" stroke-width="1.4"/>
+<ellipse cx="310" cy="212" rx="64" ry="48" fill="none" stroke="#B5651D" stroke-width="1.4"/>
+<ellipse cx="320" cy="219" rx="88" ry="66" fill="none" stroke="#B5651D" stroke-width="3"/>
+<rect x="303" y="145" width="34" height="16" fill="#FFFDF3"/>
+<text x="320" y="158" text-anchor="middle" font-size="13" fill="#B5651D">100</text>
+<ellipse cx="330" cy="226" rx="112" ry="84" fill="none" stroke="#B5651D" stroke-width="1.4"/>
+<ellipse cx="340" cy="233" rx="136" ry="102" fill="none" stroke="#B5651D" stroke-width="1.4"/>
+<ellipse cx="350" cy="240" rx="160" ry="120" fill="none" stroke="#B5651D" stroke-width="1.4"/>
+<polygon points="300,196 292,210 308,210" fill="none" stroke="#4A4259" stroke-width="2"/>
+<text x="326" y="213" text-anchor="middle" font-size="12" fill="#4A4259">126</text>
+<g stroke="#4A4259" stroke-width="3" fill="none"><line x1="411" y1="310" x2="411" y2="292"/><line x1="429" y1="310" x2="429" y2="292"/><line x1="407" y1="292" x2="433" y2="292"/><line x1="409" y1="298" x2="431" y2="298"/></g>
+<circle cx="548" cy="262" r="15" fill="none" stroke="#4A4259" stroke-width="2.5"/>
+<text x="548" y="269" text-anchor="middle" font-size="18" font-weight="bold" fill="#4A4259">文</text>
+<g transform="translate(580,70)"><line x1="0" y1="26" x2="0" y2="-14" stroke="#4A4259" stroke-width="3"/><polygon points="0,-24 -7,-8 7,-8" fill="#4A4259"/></g>
+<text x="580" y="106" text-anchor="middle" font-size="14" font-weight="bold" fill="#4A4259">北</text>
+<text x="320.0" y="440" text-anchor="middle" font-size="12" fill="#7A7488">等高線は10mごと（太い線は100m）。川の上にある数字は標高（m）。自作の架空の地形図</text>
+</svg>
